@@ -322,11 +322,11 @@
   position: absolute;
   left: 34px;
   transition: all 0.3s ease;
-  border: 2px solid #fbd36f;
+  border: 1px solid #fbd36f;
 }
 
 .disabled {
   background-color: #fff;
-  border: 2px solid #fbd36f;
+  border: 1px solid #fbd36f;
   left: 2px;
 }
