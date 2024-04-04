@@ -8,6 +8,7 @@ const MultiStepForm = () => {
   const [formData, setFormData] = useState([]);
   const [postal_code, setPostalcode] = useState("");
   const [localtion, setLocation] = useState("");
+  const [loader, setPreloader] = useState(false);
   const [street, setStreet] = useState("");
   const [lastStep, setlastStep] = useState("");
   const [streetno, setstreetno] = useState("");
@@ -121,6 +122,7 @@ const MultiStepForm = () => {
         )}`
       );
     } else {
+      setPreloader(true);
       const info = {
         salutation: salutation,
         first_name: first_name,
@@ -135,16 +137,19 @@ const MultiStepForm = () => {
             info,
           })
           .then((response) => {
+            setPreloader(false);
             if (response.data.success == true) {
               setlastStep(`${t("stepform.laststep")}`);
+              setStep(step + 1);
             } else {
               setlastStep(`${t("stepform.laststep_error")}`);
+              setStep(step + 1);
             }
           });
       } catch (error) {
         setlastStep(`${t("stepform.laststep_error")}`);
+        setStep(step + 1);
       }
-      setStep(step + 1);
     }
   };
   return (
@@ -1164,6 +1169,13 @@ const MultiStepForm = () => {
 
               <div>
                 <button className="nextbtn" onClick={handleSendRequest}>
+                  {loader ? (
+                    <div
+                      className="spinner-border spinner-border-sm mr-2"
+                      role="status"
+                      aria-hidden="true"
+                    ></div>
+                  ) : null}
                   {t("button.btnsendRequest")}
                 </button>
                 <button
