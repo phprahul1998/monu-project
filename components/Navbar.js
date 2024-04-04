@@ -48,22 +48,22 @@ export default function Navbar() {
                 <ul>
                   <li>
                     <a href="#">
-                      <FaLocationDot /> House-4,2/3 avenew,Dubai
+                      <FaLocationDot /> 16-18 13585 Berlin Deutschland
                     </a>
                   </li>
                   <li className="hidden-sm">
                     <a href="#">
-                      <FaRegClock /> Mon - Fri: 10:00 - 18:00
+                      <FaRegClock /> Mon - Fri: 9:00 - 6:00
                     </a>
                   </li>
                   <li>
                     <a href="#">
-                      <FaEnvelope /> info@tionscall3.com
+                      <FaEnvelope /> info@renevatec.de
                     </a>
                   </li>
                   <li>
                     <a href="#">
-                      <FaPhone /> +2112-6546654
+                      <FaPhone /> +49 30 20654716
                     </a>
                   </li>
                 </ul>
