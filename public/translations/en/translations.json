@@ -166,6 +166,8 @@
     "sendmessage": "Send Message"
   },
   "validation_msg": {
-    "error_msg": "Please Enter "
+    "error_msg": "Please Enter ",
+    "Something_wrong": "Oops! Something went wrong. Please try again later.",
+    "thankYou": "Success! Your form has been submitted successfully. Our representative will call you shortly. Thank you!"
   }
 }

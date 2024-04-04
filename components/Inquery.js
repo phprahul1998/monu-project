@@ -7,12 +7,13 @@ import { useTranslation } from "react-i18next";
 export default function Inquery() {
   const { t, i18n } = useTranslation("en", { useSuspense: false });
   const [error, setError] = useState("");
+  const [loader, setPreloader] = useState(false);
   const [formData, setFormData] = useState({
-    firstName: "",
-    lastName: "",
-    user_email: "",
-    telephone: "",
-    message: "",
+    firstname: "",
+    lastname: "",
+    email: "",
+    phone: "",
+    address: "",
   });
 
   const handleChange = (e) => {
@@ -25,29 +26,30 @@ export default function Inquery() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    if (formData.firstName == "") {
+    if (formData.firstname == "") {
       setError(
         `${t("validation_msg.error_msg")} ${t("person_details.firstname")}`
       );
-    } else if (formData.lastName == "") {
+    } else if (formData.lastname == "") {
       setError(
         `${t("validation_msg.error_msg")} ${t("person_details.lastname")}`
       );
-    } else if (formData.user_email == "") {
+    } else if (formData.email == "") {
       setError(`${t("validation_msg.error_msg")} ${t("person_details.email")}`);
-    } else if (formData.telephone == "") {
+    } else if (formData.phone == "") {
       setError(
         `${t("validation_msg.error_msg")} ${t("person_details.telephone")}`
       );
-    } else if (formData.telephone.length < 11) {
+    } else if (formData.phone.length < 11) {
       setError(`${t("person_details.telephone_error")}`);
-    } else if (formData.message == "") {
+    } else if (formData.address == "") {
       setError(
         `${t("validation_msg.error_msg")} ${t("person_details.yourmessage")}`
       );
     } else {
       setError("");
       try {
+        setPreloader(true);
         const response = await fetch("/api/savecontact", {
           method: "POST",
           headers: {
@@ -55,14 +57,16 @@ export default function Inquery() {
           },
           body: JSON.stringify(formData),
         });
-
         if (response.ok) {
-          console.log("Form data sent successfully");
+          setPreloader(false);
+          setError(`${t("validation_msg.thankYou")}`);
         } else {
-          console.error("Failed to send form data");
+          setPreloader(false);
+          setError(`${t("validation_msg.Something_wrong")}`);
         }
       } catch (error) {
-        console.error("Error:", error);
+        setPreloader(false);
+        setError(`${t("validation_msg.Something_wrong")}`);
       }
     }
   };
@@ -89,9 +93,9 @@ export default function Inquery() {
                 <input
                   className="w-full bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
                   type="text"
-                  name="firstName"
+                  name="firstname"
                   placeholder={t("person_details.firstname")}
-                  value={formData.firstName}
+                  value={formData.firstname}
                   onChange={handleChange}
                 />
               </div>
@@ -99,9 +103,9 @@ export default function Inquery() {
                 <input
                   className="w-full bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
                   type="text"
-                  name="lastName"
+                  name="lastname"
                   placeholder={t("person_details.lastname")}
-                  value={formData.lastName}
+                  value={formData.lastname}
                   onChange={handleChange}
                 />
               </div>
@@ -109,9 +113,9 @@ export default function Inquery() {
                 <input
                   className="w-full bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
                   type="email"
-                  name="user_email"
+                  name="email"
                   placeholder={t("person_details.email")}
-                  value={formData.user_email}
+                  value={formData.email}
                   onChange={handleChange}
                 />
               </div>
@@ -119,18 +123,18 @@ export default function Inquery() {
                 <input
                   className="w-full bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
                   type="number"
-                  name="telephone"
+                  name="phone"
                   placeholder={t("person_details.telephone")}
-                  value={formData.telephone}
+                  value={formData.phone}
                   onChange={handleChange}
                 />
               </div>
               <div className="mt-8">
                 <textarea
                   className="w-full h-32 bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
-                  name="message"
+                  name="address"
                   placeholder={t("person_details.yourmessage")}
-                  value={formData.message}
+                  value={formData.address}
                   onChange={handleChange}
                 ></textarea>
               </div>
@@ -145,6 +149,13 @@ export default function Inquery() {
                   type="submit"
                   className="uppercase text-sm font-bold tracking-wide contactbtn text-gray-100 p-3 rounded-lg w-full focus:outline-none focus:shadow-outline"
                 >
+                  {loader ? (
+                    <div
+                      className="spinner-border spinner-border-sm mr-2"
+                      role="status"
+                      aria-hidden="true"
+                    ></div>
+                  ) : null}
                   {t("person_details.sendmessage")}
                 </button>
               </div>
