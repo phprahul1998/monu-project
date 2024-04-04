@@ -48,7 +48,8 @@ export default function Navbar() {
                 <ul>
                   <li>
                     <a href="#">
-                      <FaLocationDot /> 16-18 13585 Berlin Deutschland
+                      <FaLocationDot /> Eiswerderstr. 16-18 13585 Berlin
+                      Deutschland
                     </a>
                   </li>
                   <li className="hidden-sm">
