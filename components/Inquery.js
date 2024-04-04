@@ -60,6 +60,13 @@ export default function Inquery() {
         if (response.ok) {
           setPreloader(false);
           setError(`${t("validation_msg.thankYou")}`);
+          setFormData({
+            firstname: "",
+            lastname: "",
+            email: "",
+            phone: "",
+            address: "",
+          });
         } else {
           setPreloader(false);
           setError(`${t("validation_msg.Something_wrong")}`);
