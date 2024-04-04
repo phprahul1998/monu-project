@@ -1,177 +1,171 @@
 {
-    "menu": {
-        "home": "Home",
-        "about": "About Us",
-        "service": "Services",
-        "contact_us": "Contact Us"
-    },
-    "home": {
-        "main_heading": "Welcome to the free PV provider check!",
-        "main_desc": "We will help you find the best photovoltaic offer for your needs - completely free of charge and without obligation! With our special tool, customers and the right providers can get in touch directly.",
-        "welcome": "Do you want to launch your project?",
-        "description": "The development of reliable and scalable software solutions for any operating system, browser and device. We bring together deep industry expertise and the latest IT advancements to deliver customized solutions and products that perfectly match the needs and behavior of their users.",
-        "learn": "Learn more"
-    },
-    "about": {
-        "title": "A strong team",
-        "description": "Founded in 2000, our company is a provider of IT consulting and software development services. Starting as a small AI product company, we transitioned into IT services and since then have helped non-IT organizations and software product companies improve their business performance and quickly win new customers.",
-        "expertise": {
-            "title": "Our expertise",
-            "mobile-dev": "Mobile Development",
-            "web-dev": "Web Development",
-            "it": "IT consulting"
-        }
-    },
-    "step1": {
-        "heading": "Your PV provider check in 10 steps -  ",
-        "subheading": "Where Should the photovoltaic system be installed ?"
-    },
+  "menu": {
+    "home": "Home",
+    "about": "About Us",
+    "service": "Services",
+    "contact_us": "Contact Us"
+  },
+  "home": {
+    "main_heading": "Welcome to the free PV provider check!",
+    "main_desc": "We will help you find the best photovoltaic offer for your needs - completely free of charge and without obligation! With our special tool, customers and the right providers can get in touch directly.",
+    "welcome": "Do you want to launch your project?",
+    "description": "The development of reliable and scalable software solutions for any operating system, browser and device. We bring together deep industry expertise and the latest IT advancements to deliver customized solutions and products that perfectly match the needs and behavior of their users.",
+    "learn": "Learn more"
+  },
+  "about": {
+    "title": "A strong team",
+    "description": "Founded in 2000, our company is a provider of IT consulting and software development services. Starting as a small AI product company, we transitioned into IT services and since then have helped non-IT organizations and software product companies improve their business performance and quickly win new customers.",
+    "expertise": {
+      "title": "Our expertise",
+      "mobile-dev": "Mobile Development",
+      "web-dev": "Web Development",
+      "it": "IT consulting"
+    }
+  },
+  "step1": {
+    "heading": "Your PV provider check in 10 steps -  ",
+    "subheading": "Where Should the photovoltaic system be installed ?"
+  },
 
-    "rethinkenergy": {
-        "rethinkheading": "<span class='coloredtext'>Rethink</span> energy!",
-        "subheading": "We compare all available providers and find the best solution for you!",
-        "para": "By installing a photovoltaic system, you can not only reduce your electricity costs, but also independently design your energy supply and secure it in the long term. <br/> It doesn't matter whether you want to equip a private household or a commercial business. We compare all available providers <br/> and find the optimal solution for you."
-    },
-    "advantages": {
-        "heading": "<span class='coloredtext'>Your advantages through</span> one Own PV system: ",
-        "box": [{
-                "heading": "Independence A PV",
-                "image": "img/13_Unabhangigkeit.png",
-                "thumbnail": "img/13_Unabhangigkeit.png",
-                "videlink": "https://www.youtube.com/watch?v=O33uuBh6nXA",
-                "para": "System makes you <br/> independent of rising <br/> electricity costs."
-            },
-            {
-                "heading": "Increase in Value",
-                "image": "img/13_Werterhohung.png",
-                "thumbnail": "img/13_Werterhohung.png",
-                "videlink": "https://www.youtube.com/watch?v=O33uuBh6nXA",
-                "para": "You increase the value <br/> with a PV system your property <br/> significantly."
-            },
-            {
-                "heading": "Economic efficiency",
-                "image": "img/13_Wirtschaftlichkeit.png",
-                "thumbnail": "img/13_Wirtschaftlichkeit.png",
-                "videlink": "https://www.youtube.com/watch?v=O33uuBh6nXA",
-                "para": "With a PV system you <br/> have control over your electricity and can even <br/> generate profits."
-            }
-        ],
-        "ourtip": "<span class='coloredtext'>Our tip:</span>",
-        "para": "Another tip: The electricity provider TIBBER offers dynamic electricity tariffs and is therefore ideal for PV operators with electricity storage. More information at: https://tibber.com/de"
-    },
-    "inquery": {
-        "heading": "<span class='coloredtext'>Do you have</span> questions?",
-        "para": "We would be happy to answer any questions you may have about the topic of “photovoltaics” free of charge and without obligation.Simply fill out the contact form and we willget in touch immediately!"
-    },
+  "rethinkenergy": {
+    "rethinkheading": "<span class='coloredtext'>Rethink</span> energy!",
+    "subheading": "We compare all available providers and find the best solution for you!",
+    "para": "By installing a photovoltaic system, you can not only reduce your electricity costs, but also independently design your energy supply and secure it in the long term. <br/> It doesn't matter whether you want to equip a private household or a commercial business. We compare all available providers <br/> and find the optimal solution for you."
+  },
+  "advantages": {
+    "heading": "<span class='coloredtext'>Your advantages through</span> one Own PV system: ",
+    "box": [
+      {
+        "heading": "Independence A PV",
+        "image": "img/13_Unabhangigkeit.png",
+        "thumbnail": "img/13_Unabhangigkeit.png",
+        "videlink": "https://www.youtube.com/watch?v=O33uuBh6nXA",
+        "para": "System makes you <br/> independent of rising <br/> electricity costs."
+      },
+      {
+        "heading": "Increase in Value",
+        "image": "img/13_Werterhohung.png",
+        "thumbnail": "img/13_Werterhohung.png",
+        "videlink": "https://www.youtube.com/watch?v=O33uuBh6nXA",
+        "para": "You increase the value <br/> with a PV system your property <br/> significantly."
+      },
+      {
+        "heading": "Economic efficiency",
+        "image": "img/13_Wirtschaftlichkeit.png",
+        "thumbnail": "img/13_Wirtschaftlichkeit.png",
+        "videlink": "https://www.youtube.com/watch?v=O33uuBh6nXA",
+        "para": "With a PV system you <br/> have control over your electricity and can even <br/> generate profits."
+      }
+    ],
+    "ourtip": "<span class='coloredtext'>Our tip:</span>",
+    "para": "Another tip: The electricity provider TIBBER offers dynamic electricity tariffs and is therefore ideal for PV operators with electricity storage. More information at: https://tibber.com/de"
+  },
+  "inquery": {
+    "heading": "<span class='coloredtext'>Do you have</span> questions?",
+    "para": "We would be happy to answer any questions you may have about the topic of “photovoltaics” free of charge and without obligation.Simply fill out the contact form and we willget in touch immediately!"
+  },
 
-    "footer": {
-        "para": "© Copyright Renevatec All Rights Reserved."
-    },
-    "stepform": {
-        "main_heading1": "<span class='coloredtext'>Your PV provider</span> check in 10 steps:",
-        "laststep": "<h2>Done !</h2><p>Thank you very much for your inquiry and your trust! We look forward to finding the right provider for you and willget back to you as soon as possible! <br/> <br/> Would you like to make further inquiries ? To do this, simply click on the“ Further inquiry” button. </p>",
-        "formdata": {
-            "step1": {
-                "heading": "Where should the PV system be installed?",
-                "option1": "Detached house",
-                "option2": "Apartment building",
-                "option3": "Commercial buildings",
-                "option4": "Other"
-            },
-            "step2": {
-                "heading": "How much space do you have available?",
-                "option1": "25 m2",
-                "option2": "25 - 40 m2",
-                "option3": "40 - 100 m2",
-                "option4": "over 100 m2"
-            },
-            "step3": {
-                "heading": "What type of roof is it?",
-                "option1": "Flat roof",
-                "option2": "Gable roof",
-                "option3": "Hip roof",
-                "option4": "Other"
-            },
-            "step4": {
-                "heading": "In which direction is your subject facing?",
-                "option1": "South",
-                "option2": "East",
-                "option3": "West",
-                "option4": "Southwest/Southeast"
-
-            },
-            "step5": {
-                "heading": "What is your expected electricity consumption?"
-            },
-            "step6": {
-                "heading": "When would you like to implement the project?",
-                "option1": "Immediately",
-                "option2": "In 1 - 3 Months",
-                "option3": "In 3 - 6  Months",
-                "option4": "Indefinite"
-
-            },
-            "step7": {
-                "heading": "Which photovoltaic system do you want?",
-                "option1": "PV system <br/> Power storage  <br/> including installation ",
-                "option2": " PV system  <br/>  Electricity storage <br/> Self - assembly ",
-                "option3": " inclusive .  <br/>Smart Energy  Management",
-                "option4": "Expansion of  <br/>  existing ones  <br/>  PV system "
-
-            },
-            "step8": {
-                "heading": "How would you like to finance the project?",
-                "option1": "Equity capital",
-                "option2": "Financing",
-                "option3": "Both",
-                "option4": "Hire purchase"
-
-            },
-            "step9": {
-                "heading": "Where is your project located?",
-                "postal_code": "PLZ",
-                "location": "Location",
-                "street": "Street",
-                "no": "No."
-            },
-            "step10": {
-                "heading": "Who is the offer intended for?",
-                "Salutation": "Salutation",
-                "firstname": "First Name",
-                "lastname": "Last Name",
-                "telephone": "Telephone",
-                "email": "E-mail",
-                "whatsapp": "WhatsApp"
-            }
-        }
-    },
-    "button": {
-        "btnNext": "Next",
-        "btnBack": "Back",
-        "btnsendRequest": "Send Request",
-        "btninquiry": "Further inquiry"
-    },
-    "person_details": {
+  "footer": {
+    "para": "© Copyright Renevatec All Rights Reserved."
+  },
+  "stepform": {
+    "main_heading1": "<span class='coloredtext'>Your PV provider</span> check in 10 steps:",
+    "laststep": "<h2>Done !</h2><p>Thank you very much for your inquiry and your trust! We look forward to finding the right provider for you and willget back to you as soon as possible! <br/> <br/> Would you like to make further inquiries ? To do this, simply click on the“ Further inquiry” button. </p>",
+    "laststep_error": "<h2> Oops! Something Went Wrong</h2><p>We're sorry, but it seems that there was an issue processing your request. Please try submitting the form again later. If the problem persists, feel free to contact our support team for further assistance.<br/><br/>Thank you for your patience.<br/><br/><hr/><br/><br/>Feel free to customize this message as needed for your specific context or platform.</p>",
+    "formdata": {
+      "step1": {
+        "heading": "Where should the PV system be installed?",
+        "option1": "Detached house",
+        "option2": "Apartment building",
+        "option3": "Commercial buildings",
+        "option4": "Other"
+      },
+      "step2": {
+        "heading": "How much space do you have available?",
+        "option1": "25 m2",
+        "option2": "25 - 40 m2",
+        "option3": "40 - 100 m2",
+        "option4": "over 100 m2"
+      },
+      "step3": {
+        "heading": "What type of roof is it?",
+        "option1": "Flat roof",
+        "option2": "Gable roof",
+        "option3": "Hip roof",
+        "option4": "Other"
+      },
+      "step4": {
+        "heading": "In which direction is your subject facing?",
+        "option1": "South",
+        "option2": "East",
+        "option3": "West",
+        "option4": "Southwest/Southeast"
+      },
+      "step5": {
+        "heading": "What is your expected electricity consumption?"
+      },
+      "step6": {
+        "heading": "When would you like to implement the project?",
+        "option1": "Immediately",
+        "option2": "In 1 - 3 Months",
+        "option3": "In 3 - 6  Months",
+        "option4": "Indefinite"
+      },
+      "step7": {
+        "heading": "Which photovoltaic system do you want?",
+        "option1": "PV system <br/> Power storage  <br/> including installation ",
+        "option2": " PV system  <br/>  Electricity storage <br/> Self - assembly ",
+        "option3": " inclusive .  <br/>Smart Energy  Management",
+        "option4": "Expansion of  <br/>  existing ones  <br/>  PV system "
+      },
+      "step8": {
+        "heading": "How would you like to finance the project?",
+        "option1": "Equity capital",
+        "option2": "Financing",
+        "option3": "Both",
+        "option4": "Hire purchase"
+      },
+      "step9": {
+        "heading": "Where is your project located?",
+        "postal_code": "PLZ",
+        "location": "Location",
+        "street": "Street",
+        "no": "No."
+      },
+      "step10": {
+        "heading": "Who is the offer intended for?",
         "Salutation": "Salutation",
         "firstname": "First Name",
         "lastname": "Last Name",
         "telephone": "Telephone",
         "email": "E-mail",
-        "whatsapp": "WhatsApp",
-        "postal_code": "PLZ",
-        "location": "Location",
-        "street": "Street",
-        "no": "No.",
-        "regarding": "Regarding",
-        "yourmessage": "Your Message",
-        "sendmessage": "Send Message"
-    },
-    "validation_msg": {
-        "error_msg": "Please Enter "
+        "whatsapp": "WhatsApp"
+      }
     }
-
-
-
-
-
+  },
+  "button": {
+    "btnNext": "Next",
+    "btnBack": "Back",
+    "btnsendRequest": "Send Request",
+    "btninquiry": "Further inquiry"
+  },
+  "person_details": {
+    "Salutation": "Salutation",
+    "firstname": "First Name",
+    "lastname": "Last Name",
+    "telephone": "Telephone",
+    "email": "E-mail",
+    "whatsapp": "WhatsApp",
+    "telephone_error": "Telephone number must be 11 digits.",
+    "postal_code": "PLZ",
+    "location": "Location",
+    "street": "Street",
+    "no": "No.",
+    "regarding": "Regarding",
+    "yourmessage": "Your Message",
+    "sendmessage": "Send Message"
+  },
+  "validation_msg": {
+    "error_msg": "Please Enter "
+  }
 }

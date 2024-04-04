@@ -1,168 +1,170 @@
 {
-    "menu": {
-        "home": "Startseite",
-        "about": "Über uns",
-        "service": "Dienstleistungen",
-        "contact_us": "Kontaktiere uns"
+  "menu": {
+    "home": "Startseite",
+    "about": "Über uns",
+    "service": "Dienstleistungen",
+    "contact_us": "Kontaktiere uns"
+  },
+  "home": {
+    "main_heading": "<span class='coloredtext'>Willkommen beim kostenlosen </span> PV-Anbieter-Check!",
+    "main_desc": "Wir helfen Ihnen gerne dabei, das beste Photovoltaik-Angebot für Ihre Bedürfnisse zu finden - komplett kostenlos und unverbindlich! Mit unserem speziellen Tool können Kunden und die richtigen Anbieter direkt in Kontakt treten.",
+    "welcome": "Möchten Sie Ihr Projekt starten?",
+    "description": "Die Entwicklung zuverlässiger und skalierbarer Softwarelösungen für jedes Betriebssystem, jeden Browser und jedes Gerät. Wir vereinen tiefgreifendes Branchenwissen und die neuesten IT-Entwicklungen, um maßgeschneiderte Lösungen und Produkte zu liefern, die perfekt zu den Bedürfnissen und dem Verhalten ihrer Benutzer passen.",
+    "learn": "Erfahren Sie mehr"
+  },
+  "about": {
+    "title": "Ein starkes Team",
+    "description": "Gegründet im Jahr 2000 ist unser Unternehmen Anbieter von IT-Beratungs- und Softwareentwicklungsdienstleistungen. Als kleines KI-Produktunternehmen gestartet, haben wir uns zu IT-Dienstleistungen entwickelt und seitdem non-IT-Organisationen und Softwareproduktunternehmen geholfen, ihre Geschäftsleistung zu verbessern und schnell neue Kunden zu gewinnen.",
+    "expertise": {
+      "title": "Unsere Expertise",
+      "mobile-dev": "Mobile Entwicklung",
+      "web-dev": "Webentwicklung",
+      "it": "IT-Beratung"
+    }
+  },
+  "step1": {
+    "heading": "<span class='coloredtext'>Ihre PV-Anbieterprüfung </span> in 10 Schritten -",
+    "subheading": "Wo soll das Photovoltaik-System installiert werden?"
+  },
 
-    },
-    "home": {
-        "main_heading": "<span class='coloredtext'>Willkommen beim kostenlosen </span> PV-Anbieter-Check!",
-        "main_desc": "Wir helfen Ihnen gerne dabei, das beste Photovoltaik-Angebot für Ihre Bedürfnisse zu finden - komplett kostenlos und unverbindlich! Mit unserem speziellen Tool können Kunden und die richtigen Anbieter direkt in Kontakt treten.",
-        "welcome": "Möchten Sie Ihr Projekt starten?",
-        "description": "Die Entwicklung zuverlässiger und skalierbarer Softwarelösungen für jedes Betriebssystem, jeden Browser und jedes Gerät. Wir vereinen tiefgreifendes Branchenwissen und die neuesten IT-Entwicklungen, um maßgeschneiderte Lösungen und Produkte zu liefern, die perfekt zu den Bedürfnissen und dem Verhalten ihrer Benutzer passen.",
-        "learn": "Erfahren Sie mehr"
-    },
-    "about": {
-        "title": "Ein starkes Team",
-        "description": "Gegründet im Jahr 2000 ist unser Unternehmen Anbieter von IT-Beratungs- und Softwareentwicklungsdienstleistungen. Als kleines KI-Produktunternehmen gestartet, haben wir uns zu IT-Dienstleistungen entwickelt und seitdem non-IT-Organisationen und Softwareproduktunternehmen geholfen, ihre Geschäftsleistung zu verbessern und schnell neue Kunden zu gewinnen.",
-        "expertise": {
-            "title": "Unsere Expertise",
-            "mobile-dev": "Mobile Entwicklung",
-            "web-dev": "Webentwicklung",
-            "it": "IT-Beratung"
-        }
-    },
-    "step1": {
-        "heading": "<span class='coloredtext'>Ihre PV-Anbieterprüfung </span> in 10 Schritten -",
-        "subheading": "Wo soll das Photovoltaik-System installiert werden?"
-    },
-
-    "rethinkenergy": {
-        "rethinkheading": "<span class='coloredtext'>Energie neu </span> denken!",
-        "subheading": "Wir vergleichen alle verfügbaren Anbieter und finden die beste Lösung für Sie!",
-        "para": "Indem Sie eine Photovoltaikanlage installieren, können Sie nicht nur Ihre Stromkosten senken, sondern auch Ihre Energieversorgung unabhängig gestalten und langfristig sichern. <br/> Dabei spielt es keine Rolle, ob Sie ein privates Haushalt oder ein kommerzielles Unternehmen ausstatten möchten. Wir vergleichen alle verfügbaren Anbieter <br/> und finden die optimale Lösung für Sie."
-    },
-    "advantages": {
-        "heading": "<span class='coloredtext'>Ihre Vorteile durch </span> ein  PV-System:",
-        "box": [{
-                "heading": "Unabhängigkeit durch PV",
-                "image": "img/13_Unabhangigkeit.png",
-                "thumbnail": "img/13_Unabhangigkeit.png",
-                "videlink": "https://www.youtube.com/watch?v=O33uuBh6nXA",
-                "para": "Das System macht <br/> Sie unabhängig von steigenden <br/> Stromkosten."
-            },
-            {
-                "heading": "Wertsteigerung",
-                "image": "img/13_Werterhohung.png",
-                "thumbnail": "img/13_Werterhohung.png",
-                "videlink": "https://www.youtube.com/watch?v=O33uuBh6nXA",
-                "para": "Sie steigern den Wert <br/> Ihrer Immobilie erheblich mit <br/> einer PV-Anlage."
-            },
-            {
-                "heading": "Wirtschaftlichkeit",
-                "image": "img/13_Wirtschaftlichkeit.png",
-                "thumbnail": "img/13_Wirtschaftlichkeit.png",
-                "videlink": "https://www.youtube.com/watch?v=O33uuBh6nXA",
-                "para": "Mit einer PV-Anlage haben Sie <br/> die Kontrolle über Ihren Strom und können <br/> sogar Gewinne erwirtschaften."
-            }
-        ],
-        "ourtip": "<span class='coloredtext'>Unser Tipp:</span>",
-        "para": "Weiterer Tipp: Der Stromanbieter TIBBER bietet dynamische Stromtarife und ist daher ideal für PV-Betreiber mit Stromspeicher. Weitere Informationen unter: https://tibber.com/de"
-    },
-    "inquery": {
-        "heading": "Haben Sie Fragen?",
-        "para": "Wir beantworten gerne kostenlos und unverbindlich alle Fragen zum Thema Photovoltaik. Füllen Sie einfach das Kontaktformular aus, und wir melden uns umgehend!"
-    },
-    "footer": {
-        "para": "© Copyright Renevatec. Alle Rechte vorbehalten."
-    },
-    "stepform": {
-        "main_heading1": "<span class='coloredtext'>Ihr PV-Anbieter-Check </span>  in 10 Schritten:",
-        "laststep": "<h2>Fertig!</h2><p>Vielen Dank für Ihre Anfrage und Ihr Vertrauen! Wir freuen uns darauf, den richtigen Anbieter für Sie zu finden, und werden uns so schnell wie möglich bei Ihnen melden! <br/> <br/> Möchten Sie weitere Anfragen stellen? Klicken Sie einfach auf die Schaltfläche „Weitere Anfrage“. </p>",
-        "formdata": {
-            "step1": {
-                "heading": "Wo soll das PV-System installiert werden?",
-                "option1": "Einfamilienhaus",
-                "option2": "Mehrfamilienhaus",
-                "option3": "Gewerbegebäude",
-                "option4": "Sonstiges"
-            },
-            "step2": {
-                "heading": "Wie viel Platz steht Ihnen zur Verfügung?",
-                "option1": "25 m2",
-                "option2": "25 - 40 m2",
-                "option3": "40 - 100 m2",
-                "option4": "über 100 m2"
-            },
-            "step3": {
-                "heading": "Um welche Art von Dach handelt es sich?",
-                "option1": "Flachdach",
-                "option2": "Satteldach",
-                "option3": "Walmdach",
-                "option4": "Sonstiges"
-            },
-            "step4": {
-                "heading": "In welche Richtung zeigt Ihr Objekt?",
-                "option1": "Süden",
-                "option2": "Osten",
-                "option3": "Westen",
-                "option4": "Südwesten/Südosten"
-            },
-            "step5": {
-                "heading": "Was ist Ihr erwarteter Stromverbrauch?"
-            },
-            "step6": {
-                "heading": "Wann möchten Sie das Projekt umsetzen?",
-                "option1": "Sofort",
-                "option2": "In 1 - 3 Monaten",
-                "option3": "In 3 - 6 Monaten",
-                "option4": "Unbestimmt"
-            },
-            "step7": {
-                "heading": "Welches Photovoltaiksystem möchten Sie?",
-                "Option1": "PV-System <br/> Stromspeicher <br/> inklusive Installation",
-                "Option2": "PV-System <br/> Stromspeicher <br/> Selbstmontage",
-                "Option3": "Inklusiv. <br/> Smart Energy Management",
-                "Option4": "Erweiterung eines vorhandenen <br/> PV-Systems"
-            },
-            "step8": {
-                "heading": "Wie möchten Sie das Projekt finanzieren?",
-                "option1": "Eigenkapital",
-                "option2": "Finanzierung",
-                "option3": "Beides",
-                "option4": "Ratenkauf"
-            },
-            "step9": {
-                "heading": "Wo befindet sich Ihr Projekt?",
-                "postal_code": "PLZ",
-                "location": "Ort",
-                "street": "Straße",
-                "no": "Nr."
-            },
-            "step10": {
-                "heading": "Für wen ist das Angebot gedacht?",
-                "Salutation": "Anrede",
-                "firstname": "Vorname",
-                "lastname": "Nachname",
-                "telephone": "Telefon",
-                "email": "E-Mail",
-                "whatsapp": "WhatsApp"
-            }
-        }
-    },
-    "button": {
-        "btnNext": "Weiter",
-        "btnBack": "Zurück",
-        "btnsendRequest": "Anfrage senden",
-        "btninquiry": "Weitere Anfrage"
-    },
-    "person_details": {
-        "firstname": "Vorname",
-        "lastname": "Nachname",
+  "rethinkenergy": {
+    "rethinkheading": "<span class='coloredtext'>Energie neu </span> denken!",
+    "subheading": "Wir vergleichen alle verfügbaren Anbieter und finden die beste Lösung für Sie!",
+    "para": "Indem Sie eine Photovoltaikanlage installieren, können Sie nicht nur Ihre Stromkosten senken, sondern auch Ihre Energieversorgung unabhängig gestalten und langfristig sichern. <br/> Dabei spielt es keine Rolle, ob Sie ein privates Haushalt oder ein kommerzielles Unternehmen ausstatten möchten. Wir vergleichen alle verfügbaren Anbieter <br/> und finden die optimale Lösung für Sie."
+  },
+  "advantages": {
+    "heading": "<span class='coloredtext'>Ihre Vorteile durch </span> ein  PV-System:",
+    "box": [
+      {
+        "heading": "Unabhängigkeit durch PV",
+        "image": "img/13_Unabhangigkeit.png",
+        "thumbnail": "img/13_Unabhangigkeit.png",
+        "videlink": "https://www.youtube.com/watch?v=O33uuBh6nXA",
+        "para": "Das System macht <br/> Sie unabhängig von steigenden <br/> Stromkosten."
+      },
+      {
+        "heading": "Wertsteigerung",
+        "image": "img/13_Werterhohung.png",
+        "thumbnail": "img/13_Werterhohung.png",
+        "videlink": "https://www.youtube.com/watch?v=O33uuBh6nXA",
+        "para": "Sie steigern den Wert <br/> Ihrer Immobilie erheblich mit <br/> einer PV-Anlage."
+      },
+      {
+        "heading": "Wirtschaftlichkeit",
+        "image": "img/13_Wirtschaftlichkeit.png",
+        "thumbnail": "img/13_Wirtschaftlichkeit.png",
+        "videlink": "https://www.youtube.com/watch?v=O33uuBh6nXA",
+        "para": "Mit einer PV-Anlage haben Sie <br/> die Kontrolle über Ihren Strom und können <br/> sogar Gewinne erwirtschaften."
+      }
+    ],
+    "ourtip": "<span class='coloredtext'>Unser Tipp:</span>",
+    "para": "Weiterer Tipp: Der Stromanbieter TIBBER bietet dynamische Stromtarife und ist daher ideal für PV-Betreiber mit Stromspeicher. Weitere Informationen unter: https://tibber.com/de"
+  },
+  "inquery": {
+    "heading": "Haben Sie Fragen?",
+    "para": "Wir beantworten gerne kostenlos und unverbindlich alle Fragen zum Thema Photovoltaik. Füllen Sie einfach das Kontaktformular aus, und wir melden uns umgehend!"
+  },
+  "footer": {
+    "para": "© Copyright Renevatec. Alle Rechte vorbehalten."
+  },
+  "stepform": {
+    "main_heading1": "<span class='coloredtext'>Ihr PV-Anbieter-Check </span>  in 10 Schritten:",
+    "laststep": "<h2 class='mt-2'>Fertig!</h2><p>Vielen Dank für Ihre Anfrage und Ihr Vertrauen! Wir freuen uns darauf, den richtigen Anbieter für Sie zu finden, und werden uns so schnell wie möglich bei Ihnen melden! <br/> <br/> Möchten Sie weitere Anfragen stellen? Klicken Sie einfach auf die Schaltfläche „Weitere Anfrage“. </p>",
+    "laststep_error": "<h2 class='mt-2'> Ups! Etwas ist schiefgelaufen</h2><p>Es tut uns leid, aber es scheint, dass bei der Verarbeitung Ihrer Anfrage ein Problem aufgetreten ist. Bitte versuchen Sie es später erneut. Wenn das Problem weiterhin besteht, kontaktieren Sie gerne unser Support-Team für weitere Unterstützung.<br/><br/>Vielen Dank für Ihre Geduld.<br/><br/><hr/><br/><br/>Passen Sie diese Nachricht bei Bedarf gerne für Ihren spezifischen Kontext oder Ihre Plattform an.</p>",
+    "formdata": {
+      "step1": {
+        "heading": "Wo soll das PV-System installiert werden?",
+        "option1": "Einfamilienhaus",
+        "option2": "Mehrfamilienhaus",
+        "option3": "Gewerbegebäude",
+        "option4": "Sonstiges"
+      },
+      "step2": {
+        "heading": "Wie viel Platz steht Ihnen zur Verfügung?",
+        "option1": "25 m2",
+        "option2": "25 - 40 m2",
+        "option3": "40 - 100 m2",
+        "option4": "über 100 m2"
+      },
+      "step3": {
+        "heading": "Um welche Art von Dach handelt es sich?",
+        "option1": "Flachdach",
+        "option2": "Satteldach",
+        "option3": "Walmdach",
+        "option4": "Sonstiges"
+      },
+      "step4": {
+        "heading": "In welche Richtung zeigt Ihr Objekt?",
+        "option1": "Süden",
+        "option2": "Osten",
+        "option3": "Westen",
+        "option4": "Südwesten/Südosten"
+      },
+      "step5": {
+        "heading": "Was ist Ihr erwarteter Stromverbrauch?"
+      },
+      "step6": {
+        "heading": "Wann möchten Sie das Projekt umsetzen?",
+        "option1": "Sofort",
+        "option2": "In 1 - 3 Monaten",
+        "option3": "In 3 - 6 Monaten",
+        "option4": "Unbestimmt"
+      },
+      "step7": {
+        "heading": "Welches Photovoltaiksystem möchten Sie?",
+        "Option1": "PV-System <br/> Stromspeicher <br/> inklusive Installation",
+        "Option2": "PV-System <br/> Stromspeicher <br/> Selbstmontage",
+        "Option3": "Inklusiv. <br/> Smart Energy Management",
+        "Option4": "Erweiterung eines vorhandenen <br/> PV-Systems"
+      },
+      "step8": {
+        "heading": "Wie möchten Sie das Projekt finanzieren?",
+        "option1": "Eigenkapital",
+        "option2": "Finanzierung",
+        "option3": "Beides",
+        "option4": "Ratenkauf"
+      },
+      "step9": {
+        "heading": "Wo befindet sich Ihr Projekt?",
         "postal_code": "PLZ",
         "location": "Ort",
         "street": "Straße",
-        "no": "Nr.",
+        "no": "Nr."
+      },
+      "step10": {
+        "heading": "Für wen ist das Angebot gedacht?",
         "Salutation": "Anrede",
+        "firstname": "Vorname",
+        "lastname": "Nachname",
         "telephone": "Telefon",
         "email": "E-Mail",
-        "whatsapp": "WhatsApp",
-        "regarding": "Betreffend",
-        "yourmessage": "Ihre Nachricht",
-        "sendmessage": "Nachricht senden"
-    },
-    "validation_msg": {
-        "error_msg": "Bitte eingeben "
+        "whatsapp": "WhatsApp"
+      }
     }
+  },
+  "button": {
+    "btnNext": "Weiter",
+    "btnBack": "Zurück",
+    "btnsendRequest": "Anfrage senden",
+    "btninquiry": "Weitere Anfrage"
+  },
+  "person_details": {
+    "firstname": "Vorname",
+    "lastname": "Nachname",
+    "postal_code": "PLZ",
+    "location": "Ort",
+    "street": "Straße",
+    "no": "Nr.",
+    "Salutation": "Anrede",
+    "telephone": "Telefon",
+    "email": "Email",
+    "telephone_error": "Die Telefonnummer muss 11-stellig sein.",
+    "whatsapp": "WhatsApp",
+    "regarding": "Betreffend",
+    "yourmessage": "Ihre Nachricht",
+    "sendmessage": "Nachricht senden"
+  },
+  "validation_msg": {
+    "error_msg": "Bitte eingeben "
+  }
 }

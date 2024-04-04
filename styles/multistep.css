@@ -1,251 +1,261 @@
 .MultiStepForm {
-    text-align: center;
-    margin-bottom: 50px;
+  position: relative;
+  top: 40px;
+  margin-bottom: 50px;
 }
 
 .MultiStepForm h2 {
-    color: #fff !important;
-    text-align: left;
-    margin-bottom: 30px;
+  color: #fff !important;
+  text-align: left;
+  margin-bottom: 30px;
+}
+.MultiStepForm p {
+  color: #fff !important;
 }
 
 .multistep-form form h2 {
-    color: #fff !important;
-    font-size: 18px !important;
-    text-align: left;
-    margin-top: 30px;
-    font-weight: 600 !important
+  color: #fff !important;
+  font-size: 18px !important;
+  text-align: left;
+  margin-top: 30px;
+  font-weight: 600 !important;
 }
 
 .multistep-form form span {
-    position: absolute;
-    right: 20px;
-    top: 105px;
-    font-size: 28px;
-    color: #41A634;
+  position: absolute;
+  right: 20px;
+  top: 105px;
+  font-size: 28px;
+  color: #41a634;
 }
 
 .commonbtn {
-    display: inline-block;
-    width: 160px;
-    background-color: #fff;
-    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2), 0 3px 4px 0 rgba(0, 0, 0, 0.2);
-    margin: 10px;
-    font-size: 12px;
-    color: #000;
-    text-align: center;
-    height: 140px;
-    align-items: center;
-    overflow: hidden;
-    justify-content: center;
-    text-align: center;
-    border-radius: 20px;
-    transition: background-color 0.3s, border 0.3s;
+  display: inline-block;
+  width: 160px;
+  background-color: #fff;
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2), 0 3px 4px 0 rgba(0, 0, 0, 0.2);
+  margin: 10px;
+  font-size: 12px;
+  color: #000;
+  text-align: center;
+  height: 140px;
+  align-items: center;
+  overflow: hidden;
+  justify-content: center;
+  text-align: center;
+  border-radius: 20px;
+  transition: background-color 0.3s, border 0.3s;
 }
 
 .commonbtn:hover {
-    background-color: #41A634;
-    border: 3px solid #fff;
-    /* Change the border style and color as desired */
+  background-color: #41a634;
+  border: 3px solid #fff;
+  /* Change the border style and color as desired */
 }
 
 .commonbtn p {
-    color: #000 !important;
+  color: #000 !important;
+  font-size: 12px !important;
 }
 
 .setp7 p {
-    font-size: 12px !important;
-    margin: 10px 0px 5px 0px
+  font-size: 12px !important;
+  margin: 10px 0px 5px 0px;
 }
 
 .commonbtn img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 60px !important;
-    height: 45px !important;
-    object-fit: scale-down;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60px !important;
+  height: 45px !important;
+  object-fit: scale-down;
 }
 
 .dotted-line {
-    display: flex;
-    font-size: 0;
-    /* To remove white space between inline-block elements */
+  display: flex;
+  font-size: 0;
+  /* To remove white space between inline-block elements */
 }
 
 .dotted-line span {
-    display: inline-block;
-    border-bottom: 15px solid #d9d9d9;
-    width: 61px;
-    margin-right: 6px;
-    border-radius: 33px;
+  display: inline-block;
+  border-bottom: 15px solid #d9d9d9;
+  width: 61px;
+  margin-right: 6px;
+  border-radius: 33px;
 }
 
 .dotted-line span.completed {
-    border-bottom-color: #41A634;
+  border-bottom-color: #41a634;
 }
-
 
 /* Media query for screens smaller than 768px (typical tablet size) */
 
 @media (max-width: 768px) {
-    .commonbtn {
-        display: inline-block;
-        width: 40%;
-        margin: 1% 1%;
-        font-size: 12px;
-        height: 115px
-    }
+  .commonbtn {
+    display: inline-block;
+    width: 40%;
+    margin: 1% 1%;
+    font-size: 12px;
+    height: 115px;
+  }
+  .MultiStepForm {
+    position: relative;
+    top: 20px;
+  }
+  .multistep-form form h2 {
+    font-size: 13px !important;
+  }
 }
 
 @media (max-width: 480px) {
-    .commonbtn {
-        display: inline-block;
-        width: 45%;
-        margin: 1% 1%;
-        font-size: 12px;
-        height: 115px
-    }
+  .commonbtn {
+    display: inline-block;
+    width: 45%;
+    margin: 1% 1%;
+    font-size: 12px;
+    height: 115px;
+  }
 }
 
 .error-message {
-    color: red;
+  color: red;
 }
 
 .backbtn {
-    background: #d9d9d9;
-    padding: 10px;
-    width: 100px;
-    margin: 5px;
-    color: #000;
-    transition: all 0.5s;
-    cursor: pointer;
-    border-radius: 8px;
-    text-align: center;
-    float: right;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+  background: #d9d9d9;
+  padding: 10px;
+  width: 100px;
+  margin: 5px;
+  color: #000;
+  transition: all 0.5s;
+  cursor: pointer;
+  border-radius: 8px;
+  text-align: center;
+  float: right;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+    rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
 }
 
 .nextbtn {
-    background: #41A634;
-    padding: 10px;
-    width: 135px;
-    margin: 5px;
-    color: #fff;
-    transition: all 0.5s;
-    cursor: pointer;
-    /* border: 1px solid #000; */
-    border-radius: 8px;
-    text-align: center;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
-    float: inline-end;
+  background: #41a634;
+  padding: 10px;
+  width: 135px;
+  margin: 5px;
+  color: #fff;
+  transition: all 0.5s;
+  cursor: pointer;
+  /* border: 1px solid #000; */
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+    rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+  float: inline-end;
 }
-
 
 /* CSS */
 
 .slider-container {
-    width: 300px;
-    /* Adjust as needed */
-    margin: 20px;
+  width: 300px;
+  /* Adjust as needed */
+  margin: 20px;
 }
 
 .slider {
-    -webkit-appearance: none;
-    width: 50%;
-    height: 15px;
-    background: #d9d9d9;
-    outline: none;
-    opacity: 0.7;
-    -webkit-transition: .2s;
-    transition: opacity .2s;
-    border-radius: 5px;
-    margin-bottom: 50px;
-    margin-top: 50px;
+  -webkit-appearance: none;
+  width: 50%;
+  height: 15px;
+  background: #d9d9d9;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
+  border-radius: 5px;
+  margin-bottom: 50px;
+  margin-top: 50px;
 }
 
 .slider::-webkit-slider-thumb {
-    -webkit-appearance: none;
-    appearance: none;
-    width: 30px;
-    height: 30px;
-    background: #41A634;
-    cursor: pointer;
-    border-radius: 50%;
+  -webkit-appearance: none;
+  appearance: none;
+  width: 30px;
+  height: 30px;
+  background: #41a634;
+  cursor: pointer;
+  border-radius: 50%;
 }
 
 .slider::-moz-range-thumb {
-    width: 20px;
-    /* Adjust thumb width */
-    height: 20px;
-    /* Adjust thumb height */
-    background: #4CAF50;
-    /* Adjust thumb color */
-    cursor: pointer;
-    border-radius: 50%;
+  width: 20px;
+  /* Adjust thumb width */
+  height: 20px;
+  /* Adjust thumb height */
+  background: #4caf50;
+  /* Adjust thumb color */
+  cursor: pointer;
+  border-radius: 50%;
 }
-
 
 /* Styling for radio buttons */
 
 .salutation[type="radio"] {
-    display: inline-block;
-    /* Display inline */
-    appearance: none;
-    /* Remove default appearance */
-    -webkit-appearance: none;
-    /* For older versions of WebKit browsers */
-    -moz-appearance: none;
-    /* For older versions of Firefox */
-    width: 1.5em;
-    /* Increase size */
-    height: 1.5em;
-    /* Increase size */
-    border: 2px solid #41A634;
-    border-radius: 50%;
-    /* Make it round */
-    outline: none;
-    /* Remove outline */
-    cursor: pointer;
-    /* Change cursor on hover */
-    vertical-align: middle;
-    /* Align vertically */
+  display: inline-block;
+  /* Display inline */
+  appearance: none;
+  /* Remove default appearance */
+  -webkit-appearance: none;
+  /* For older versions of WebKit browsers */
+  -moz-appearance: none;
+  /* For older versions of Firefox */
+  width: 1.5em;
+  /* Increase size */
+  height: 1.5em;
+  /* Increase size */
+  border: 2px solid #41a634;
+  border-radius: 50%;
+  /* Make it round */
+  outline: none;
+  /* Remove outline */
+  cursor: pointer;
+  /* Change cursor on hover */
+  vertical-align: middle;
+  /* Align vertically */
 }
-
 
 /* Styling for checked state of radio buttons */
 
 .salutation[type="radio"]:checked {
-    background-color: #41A634;
-    /* Change background color */
+  background-color: #41a634;
+  /* Change background color */
 }
 
 .salutation label {
-    display: inline-block;
-    /* Display inline */
-    margin-right: 1em;
-    /* Add space between radio button and label */
-    cursor: pointer;
-    /* Change cursor on hover */
-    vertical-align: middle;
-    /* Align vertically */
+  display: inline-block;
+  /* Display inline */
+  margin-right: 1em;
+  /* Add space between radio button and label */
+  cursor: pointer;
+  /* Change cursor on hover */
+  vertical-align: middle;
+  /* Align vertically */
 }
 
 .error_msg {
-    margin: 15px 0 10px 0;
-    font-size: .70rem;
-    padding: .5rem;
-    line-height: 1rem;
-    border-width: 1px;
-    border-radius: 0.375rem;
-    background-color: rgba(239, 68, 68, .1);
-    word-wrap: break-word;
-    white-space: pre-wrap;
-    border-color: rgba(239, 68, 68, 1);
+  margin: 15px 0 10px 0;
+  font-size: 0.7rem;
+  padding: 0.5rem;
+  line-height: 1rem;
+  border-width: 1px;
+  border-radius: 0.375rem;
+  background-color: rgba(239, 68, 68, 0.1);
+  word-wrap: break-word;
+  white-space: pre-wrap;
+  border-color: rgba(239, 68, 68, 1);
 }
 
 .error_msg p {
-    margin-bottom: 0 !important;
-    font-size: 12x !important;
-    color: #41A634 !important;
+  margin-bottom: 0 !important;
+  font-size: 12x !important;
+  color: #41a634 !important;
 }

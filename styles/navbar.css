@@ -1,297 +1,296 @@
 .navbar {
-    background-color: #fff;
-    height: 80px;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.2rem;
-    position: relative;
-    top: 0;
-    z-index: 20;
+  background-color: #fff;
+  height: 80px;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  position: relative;
+  top: 0;
+  z-index: 20;
 }
 
 .nav-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 80px;
-    max-width: 1500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 80px;
+  max-width: 1500px;
 }
 
 .main-container {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
 .nav-logo {
-    color: #41A634;
-    align-items: center;
-    margin-left: 20px;
-    cursor: pointer;
-    text-decoration: none;
-    font-size: 2rem;
-    flex-grow: 1;
+  color: #41a634;
+  align-items: center;
+  margin-left: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 2rem;
+  flex-grow: 1;
 }
 
 .nav-menu {
-    display: flex;
-    list-style: none;
-    text-align: center;
-    margin-right: 4rem;
-    margin-top: 0rem
+  display: flex;
+  list-style: none;
+  text-align: center;
+  margin-right: 4rem;
+  margin-top: 0rem;
 }
 
 .nav-links {
-    color: #000;
-    text-decoration: none;
-    padding: 0.5rem 1rem;
-    height: 100%;
-    border-bottom: 3px solid transparent;
+  color: #000;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  height: 100%;
+  border-bottom: 3px solid transparent;
 }
 
 .nav-item a {
-    text-decoration: none;
-    color: #000
+  text-decoration: none;
+  color: #000;
 }
 
 .fa-code {
-    margin-left: 1rem;
+  margin-left: 1rem;
 }
 
 .nav-item {
-    line-height: 40px;
-    margin-right: 1rem;
+  line-height: 40px;
+  margin-right: 1rem;
 }
 
 .nav-item:after {
-    content: "";
-    display: block;
-    height: 3px;
-    width: 0;
-    background: transparent;
-    transition: width 0.7s ease, background-color 0.5s ease;
+  content: "";
+  display: block;
+  height: 3px;
+  width: 0;
+  background: transparent;
+  transition: width 0.7s ease, background-color 0.5s ease;
 }
 
 .nav-item:hover:after {
-    width: 100%;
-    border-bottom: 1px solid #41A634;
+  width: 100%;
+  border-bottom: 1px solid #41a634;
 }
 
 .nav-item.active {
-    border-bottom: 2px solid #41A634;
+  border-bottom: 2px solid #41a634;
 }
 
 .nav-icon {
-    display: none;
+  display: none;
 }
 
 @media screen and (max-width: 960px) {
-    .nav-menu {
-        display: flex;
-        flex-direction: column;
-        width: 70%;
-        height: 100dvh;
-        position: absolute;
-        top: 80px;
-        left: -110%;
-        opacity: 1;
-        transition: all 0.5s ease;
-    }
-    .nav-menu.active {
-        background: #fff;
-        left: 0px;
-        opacity: 1;
-        transition: all 0.5s ease;
-        z-index: 1;
-    }
-    .nav-item .active {
-        color: #41A634;
-        border: none;
-    }
-    .nav-links {
-        padding: 1.5rem;
-        width: 100%;
-        display: table;
-    }
-    .nav-icon {
-        display: block;
-        position: absolute;
-        top: 6px;
-        right: -10px;
-        transform: translate(-100%, 60%);
-        font-size: 1.8rem;
-        cursor: pointer;
-        color: #6B6B6B;
-    }
-    .nav-logo img {
-        width: 120px !important;
-        height: 35px !important;
-        object-fit: contain !important;
-    }
+  .nav-menu {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 100dvh;
+    position: absolute;
+    top: 80px;
+    left: -110%;
+    opacity: 1;
+    transition: all 0.5s ease;
+  }
+  .nav-menu.active {
+    background: #fff;
+    left: 0px;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 1;
+  }
+  .nav-item .active {
+    color: #41a634;
+    border: none;
+  }
+  .nav-links {
+    padding: 1.5rem;
+    width: 100%;
+    display: table;
+  }
+  .nav-icon {
+    display: block;
+    position: absolute;
+    top: 6px;
+    right: -10px;
+    transform: translate(-100%, 60%);
+    font-size: 1.8rem;
+    cursor: pointer;
+    color: #6b6b6b;
+  }
+  .nav-logo img {
+    width: 120px !important;
+    height: 35px !important;
+    object-fit: contain !important;
+  }
 }
 
 .langbtn {
-    position: absolute;
-    right: 50px;
-    top: 13px;
+  position: absolute;
+  right: 50px;
+  top: 13px;
 }
 
 .toggleContainer {
-    position: relative;
-    display: grid;
-    top: 10px;
-    right: 20px;
-    grid-template-columns: repeat(2, 1fr);
-    width: 100px;
-    border: 2px solid #41A634;
-    border-radius: 20px;
-    background: #41A634;
-    color: #343434;
-    cursor: pointer;
-    font-size: 12px;
+  position: relative;
+  display: grid;
+  top: 10px;
+  right: 20px;
+  grid-template-columns: repeat(2, 1fr);
+  width: 100px;
+  border: 2px solid #41a634;
+  border-radius: 20px;
+  background: #41a634;
+  color: #343434;
+  cursor: pointer;
+  font-size: 12px;
 }
 
 .toggleContainer::before {
-    content: '';
-    position: absolute;
-    width: 50%;
-    height: 100%;
-    left: 0%;
-    border-radius: 20px;
-    background: white;
-    transition: all 0.3s;
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  left: 0%;
+  border-radius: 20px;
+  background: white;
+  transition: all 0.3s;
 }
 
-.toggleCheckbox:checked+.toggleContainer::before {
-    left: 50%;
+.toggleCheckbox:checked + .toggleContainer::before {
+  left: 50%;
 }
 
 .toggleContainer div {
-    padding: 4px;
-    text-align: center;
-    z-index: 1;
+  padding: 4px;
+  text-align: center;
+  z-index: 1;
 }
 
 .toggleCheckbox {
-    display: none;
+  display: none;
 }
 
-.toggleCheckbox:checked+.toggleContainer div:first-child {
-    color: white;
-    transition: color 0.3s;
+.toggleCheckbox:checked + .toggleContainer div:first-child {
+  color: white;
+  transition: color 0.3s;
 }
 
-.toggleCheckbox:checked+.toggleContainer div:last-child {
-    color: #343434;
-    transition: color 0.3s;
+.toggleCheckbox:checked + .toggleContainer div:last-child {
+  color: #343434;
+  transition: color 0.3s;
 }
 
-.toggleCheckbox+.toggleContainer div:first-child {
-    color: #343434;
-    transition: color 0.3s;
+.toggleCheckbox + .toggleContainer div:first-child {
+  color: #343434;
+  transition: color 0.3s;
 }
 
-.toggleCheckbox+.toggleContainer div:last-child {
-    color: white;
-    transition: color 0.3s;
+.toggleCheckbox + .toggleContainer div:last-child {
+  color: white;
+  transition: color 0.3s;
 }
 
 .topbar-left ul li {
-    display: inline-block;
+  display: inline-block;
 }
 
 .topbar-area {
-    background: #020e29;
+  background: #020e29;
 }
 
 .topbar-area ul {
-    padding-top: 15px;
+  padding-top: 15px;
 }
 
 .topbar-left ul li a {
-    color: #d5d5d5;
-    display: block;
-    margin-right: 20px;
-    padding: 5px 0;
-    text-decoration: none;
-    font-size: 15px;
+  color: #d5d5d5;
+  display: block;
+  margin-right: 20px;
+  padding: 5px 0;
+  text-decoration: none;
+  font-size: 15px;
 }
 
 .topbar-left ul li a svg {
-    color: #41A634;
-    font-size: 16px;
-    padding-right: 7px;
-    display: inline-flex;
+  color: #41a634;
+  font-size: 16px;
+  padding-right: 7px;
+  display: inline-flex;
 }
 
 @media only screen and (max-width: 600px) {
-    .topbar-area {
-        display: none;
-    }
+  .topbar-area {
+    display: none;
+  }
 }
 
 .quote-button {
-    float: right;
+  float: right;
 }
 
 .quote-button .quote-btn {
-    text-transform: uppercase;
-    font-size: 14px;
-    font-weight: 800;
-    color: #fff;
-    background: #41A634;
-    display: inline-block;
-    border: 1px solid #41A634;
-    padding: 7px 10px;
-    margin-top: 10px;
-    transition: 0.4s;
-    text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 800;
+  color: #fff;
+  background: #41a634;
+  display: inline-block;
+  border: 1px solid #41a634;
+  padding: 7px 10px;
+  margin-top: 10px;
+  transition: 0.4s;
+  text-decoration: none;
 }
 
 .quote-button .quote-btn:hover {
-    background: transparent;
-    color: #41A634;
-    transition: 0.4s;
+  background: transparent;
+  color: #41a634;
+  transition: 0.4s;
 }
 
 .slogan {
-    margin-bottom: 0px;
-    padding: 16px 0px;
-    color: #fff;
-    font-size: 16px;
+  margin-bottom: 0px;
+  padding: 16px 0px;
+  color: #fff;
+  font-size: 16px;
 }
 
 .logo-bg:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    background: #41A634;
-    z-index: 10;
-    width: 90px;
-    height: 100%;
+  content: "";
+  position: absolute;
+  top: 0;
+  background: #41a634;
+  z-index: 10;
+  width: 90px;
+  height: 100%;
 }
 
 .logo-bg:after {
-    content: "";
-    position: absolute;
-    right: -100px;
-    top: 0;
-    border-top: 100px solid transparent;
-    border-bottom: 0 solid transparent;
-    border-left: 100px solid #41A634;
-    z-index: 10;
+  content: "";
+  position: absolute;
+  right: -100px;
+  top: 0;
+  border-top: 100px solid transparent;
+  border-bottom: 0 solid transparent;
+  border-left: 100px solid #41a634;
+  z-index: 10;
 }
 
 .toggle-container {
   width: 70px;
   position: relative;
   border-radius: 20px;
-  border: 2px solid #fbd36f;
-    background: #41a634;
+  background: #41a634;
 
   cursor: pointer;
   user-select: none;
@@ -309,7 +308,7 @@
   border-radius: 20px;
   background: #fff;
   transition: all 0.3s;
-  padding: 8px 12px;
+  padding: 12px 12px;
   display: flex;
   justify-content: center;
   align-items: center;
