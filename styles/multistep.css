@@ -31,9 +31,9 @@
 
 .commonbtn {
   display: inline-block;
-  width: 160px;
+  width: 20%;
   background-color: #fff;
-  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2), 0 3px 4px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin: 10px;
   font-size: 12px;
   color: #000;
@@ -48,7 +48,10 @@
 }
 
 .commonbtn:hover {
-  background-color: #41a634;
+  background: linear-gradient(90deg, #5aa236, #a6dc6d 51%, #5aa236) var(--x, 0) /
+    200%;
+
+  text-transform: capitalize;
   border: 3px solid #fff;
   /* Change the border style and color as desired */
 }
@@ -139,7 +142,10 @@
 }
 
 .nextbtn {
-  background: #41a634;
+  background: linear-gradient(90deg, #5aa236, #a6dc6d 51%, #5aa236) var(--x, 0) /
+    200%;
+
+  text-transform: capitalize;
   padding: 10px;
   width: 135px;
   margin: 5px;
@@ -181,7 +187,10 @@
   appearance: none;
   width: 30px;
   height: 30px;
-  background: #41a634;
+  background: linear-gradient(90deg, #5aa236, #a6dc6d 51%, #5aa236) var(--x, 0) /
+    200%;
+
+  text-transform: capitalize;
   cursor: pointer;
   border-radius: 50%;
 }
@@ -191,7 +200,10 @@
   /* Adjust thumb width */
   height: 20px;
   /* Adjust thumb height */
-  background: #4caf50;
+  background: linear-gradient(90deg, #5aa236, #a6dc6d 51%, #5aa236) var(--x, 0) /
+    200%;
+
+  text-transform: capitalize;
   /* Adjust thumb color */
   cursor: pointer;
   border-radius: 50%;

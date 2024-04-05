@@ -186,12 +186,13 @@ p {
 }
 
 .imageSlider {
-  background-image: url("/img/slider.jpg");
+  background-image: url("/img/bg.jpeg");
   max-height: 700px;
   min-height: 650px;
   background-size: cover;
   background-repeat: no-repeat;
   margin-bottom: 30px;
+  background-position: center;
 }
 
 .overlay {
@@ -520,4 +521,8 @@ p {
   margin-bottom: 0 !important;
   font-size: 12x !important;
   color: #41a634 !important;
+}
+.calculator img {
+  width: 40%;
+  object-fit: contain;
 }
