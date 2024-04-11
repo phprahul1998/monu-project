@@ -138,7 +138,9 @@
         "lastname": "Nachname",
         "telephone": "Telefon",
         "email": "E-Mail",
-        "whatsapp": "WhatsApp"
+        "whatsapp": "WhatsApp",
+        "mr": "Herr.",
+        "mrs": "Frau."
       }
     }
   },

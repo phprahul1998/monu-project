@@ -1097,7 +1097,10 @@ const MultiStepForm = () => {
                   checked={salutation === "Mr."}
                   onChange={() => setSalutation("Mr.")}
                 />
-                <label htmlFor="mr">&nbsp;&nbsp;Mr.&nbsp;&nbsp;&nbsp;</label>
+                <label htmlFor="mr">
+                  &nbsp;&nbsp;{t("stepform.formdata.step10.mr")}
+                  &nbsp;&nbsp;&nbsp;
+                </label>
                 <input
                   className="salutation"
                   type="radio"
@@ -1109,7 +1112,9 @@ const MultiStepForm = () => {
                     setSalutation("mrs"), handleInputChange();
                   }}
                 />
-                <label htmlFor="Mrs.">&nbsp;Mrs.</label>
+                <label htmlFor="Mrs.">
+                  &nbsp;{t("stepform.formdata.step10.mrs")}
+                </label>
               </div>
             </div>
             <div className="row">
