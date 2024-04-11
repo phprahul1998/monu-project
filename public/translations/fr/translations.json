@@ -94,14 +94,14 @@
         "option4": "Sonstiges"
       },
       "step4": {
-        "heading": "In welche Richtung zeigt Ihr Objekt?",
+        "heading": "In welche Richtung zeigen Ihr Dach und Ihre Dachseiten?",
         "option1": "Süden",
         "option2": "Osten",
         "option3": "Westen",
         "option4": "Südwesten/Südosten"
       },
       "step5": {
-        "heading": "Was ist Ihr erwarteter Stromverbrauch?"
+        "heading": "Wie hoch ist Ihr Stromverbrauch?"
       },
       "step6": {
         "heading": "Wann möchten Sie das Projekt umsetzen?",
@@ -111,11 +111,11 @@
         "option4": "Unbestimmt"
       },
       "step7": {
-        "heading": "Welches Photovoltaiksystem möchten Sie?",
-        "Option1": "PV-System <br/> Stromspeicher <br/> inklusive Installation",
-        "Option2": "PV-System <br/> Stromspeicher <br/> Selbstmontage",
-        "Option3": "Inklusiv. <br/> Smart Energy Management",
-        "Option4": "Erweiterung eines vorhandenen <br/> PV-Systems"
+        "heading": "Für welche Photovoltaikanlage interessieren Sie sich?",
+        "option1": "PV-System <br/> Stromspeicher <br/> inklusive Installation",
+        "option2": "PV-System <br/> Stromspeicher <br/> Selbstmontage",
+        "option3": "Inklusiv. <br/> Smart Energy Management",
+        "option4": "Erweiterung eines vorhandenen <br/> PV-Systems"
       },
       "step8": {
         "heading": "Wie möchten Sie das Projekt finanzieren?",
@@ -125,14 +125,14 @@
         "option4": "Ratenkauf"
       },
       "step9": {
-        "heading": "Wo befindet sich Ihr Projekt?",
+        "heading": "Wo befindet sich das Objekt?",
         "postal_code": "PLZ",
         "location": "Ort",
         "street": "Straße",
         "no": "Nr."
       },
       "step10": {
-        "heading": "Für wen ist das Angebot gedacht?",
+        "heading": "Wen können wir mit diesem Angebot ansprechen?",
         "Salutation": "Anrede",
         "firstname": "Vorname",
         "lastname": "Nachname",

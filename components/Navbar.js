@@ -54,7 +54,7 @@ export default function Navbar() {
                   </li>
                   <li className="hidden-sm">
                     <a href="#">
-                      <FaRegClock /> Mon - Fri: 9:00 - 18:00
+                      <FaRegClock /> Mon - Fri: 9:00 - 19:00
                     </a>
                   </li>
                   <li>

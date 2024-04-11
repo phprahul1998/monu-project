@@ -95,14 +95,14 @@
         "option4": "Other"
       },
       "step4": {
-        "heading": "In which direction is your subject facing?",
+        "heading": "In which direction does your roof and roof sides face?",
         "option1": "South",
         "option2": "East",
         "option3": "West",
         "option4": "Southwest/Southeast"
       },
       "step5": {
-        "heading": "What is your expected electricity consumption?"
+        "heading": "How much is your electricity consumption?"
       },
       "step6": {
         "heading": "When would you like to implement the project?",
@@ -112,7 +112,7 @@
         "option4": "Indefinite"
       },
       "step7": {
-        "heading": "Which photovoltaic system do you want?",
+        "heading": "Which photovoltaic system are you interested in?",
         "option1": "PV system <br/> Power storage  <br/> including installation ",
         "option2": " PV system  <br/>  Electricity storage <br/> Self - assembly ",
         "option3": " inclusive .  <br/>Smart Energy  Management",
@@ -126,14 +126,14 @@
         "option4": "Hire purchase"
       },
       "step9": {
-        "heading": "Where is your project located?",
+        "heading": "Where is the object located ?",
         "postal_code": "PLZ",
         "location": "Location",
         "street": "Street",
         "no": "No."
       },
       "step10": {
-        "heading": "Who is the offer intended for?",
+        "heading": "Who can we address with this offer?",
         "Salutation": "Salutation",
         "firstname": "First Name",
         "lastname": "Last Name",

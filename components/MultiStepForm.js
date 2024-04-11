@@ -612,7 +612,8 @@ const MultiStepForm = () => {
               <input
                 type="range"
                 min="0"
-                max="30000"
+                step="100"
+                max="10000"
                 value={electricityUse}
                 onChange={handleSliderChange}
                 className="slider"
