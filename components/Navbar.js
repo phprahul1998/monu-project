@@ -141,20 +141,32 @@ export default function Navbar() {
                 {t("menu.contact_us")}
               </Link>
             </li>
-          </ul>
-          <div className="langbtn">
-            <div className="grid place-items-center float-right">
-              <div className="toggle-container" onClick={toggleSelected}>
-                <div
-                  className={`dialog-button ${
-                    selected === "fr" ? " " : "disabled"
-                  }`}
-                >
-                  {selected === "fr" ? "DE" : "EN"}
+            <li className={`nav-item ${pathname === "/contact" && "active"}`}>
+              <Link
+                href="/contact"
+                className={`nav-links ${click && "active"}`}
+                onClick={click ? handleClick : null}
+              >
+                {t("menu.contact_us")}
+              </Link>
+            </li>
+            <li className="langbtn">
+              <Link href="#">
+                <div className="grid place-items-center float-right">
+                  <div className="toggle-container" onClick={toggleSelected}>
+                    <div
+                      className={`dialog-button ${
+                        selected === "fr" ? " " : "disabled"
+                      }`}
+                    >
+                      {selected === "fr" ? "DE" : "EN"}
+                    </div>
+                  </div>
                 </div>
-              </div>
-            </div>
-          </div>
+              </Link>
+            </li>
+          </ul>
+
           <div className="nav-icon">
             <div onClick={handleClick}>
               <i className={click ? "FaTimes" : "FaBars"}>

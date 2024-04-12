@@ -774,7 +774,7 @@ const MultiStepForm = () => {
             >
               <img
                 className=""
-                src="/img/7_Check.png"
+                src="/img/7_PV-Speicher.png"
                 alt=""
                 width={60}
                 height={60}
@@ -804,7 +804,7 @@ const MultiStepForm = () => {
             >
               <img
                 className=""
-                src="/img/7_Check.png"
+                src="/img/7_PV-Speicher-EMS.png"
                 alt=""
                 width={60}
                 height={60}
@@ -834,7 +834,7 @@ const MultiStepForm = () => {
             >
               <img
                 className=""
-                src="/img/7_Plus.png"
+                src="/img/7_PV-Erweiterung.png"
                 alt=""
                 width={60}
                 height={60}
@@ -863,7 +863,7 @@ const MultiStepForm = () => {
             >
               <img
                 className=""
-                src="/img/7_Check.png"
+                src="/img/7_PV-Selbstaufbau.png"
                 alt=""
                 width={60}
                 height={60}
