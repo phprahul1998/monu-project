@@ -135,7 +135,7 @@ export default function Navbar() {
                 {t("menu.contact_us")}
               </Link>
             </li> */}
-            <li className={`nav-item ${pathname === "/contact" && "active"}`}>
+            {/* <li className={`nav-item ${pathname === "/contact" && "active"}`}>
               <Link
                 href="/contact"
                 className={`nav-links ${click && "active"}`}
@@ -143,7 +143,7 @@ export default function Navbar() {
               >
                 {t("menu.contact_us")}
               </Link>
-            </li>
+            </li> */}
             <li className="langbtn">
               <Link href="#">
                 <div className="grid place-items-center float-right">
