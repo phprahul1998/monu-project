@@ -7,6 +7,7 @@ import Advantage from "../components/Advantage";
 import Inquery from "../components/Inquery";
 import Footer from "../components/Footer";
 import Slider from "../components/Slider";
+import About from "../components/About";
 // import Calculator from "../components/Calculator";
 import Ourservice from "../components/Ourservice";
 import AOS from "aos";
@@ -22,7 +23,7 @@ export default function Home() {
   return (
     <div className="sectionData">
       <Slider />
-      {/* <Calculator /> */}
+      <About />
       <Rethinkenergy />
       <Advantage />
       <Inquery />

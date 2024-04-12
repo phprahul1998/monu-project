@@ -48,11 +48,11 @@
 }
 
 .commonbtn:hover {
-  background: linear-gradient(90deg, #5aa236, #a6dc6d 51%, #5aa236) var(--x, 0) /
-    200%;
+  background: linear-gradient(to right, #002a4c, #6abd45);
 
   text-transform: capitalize;
   border: 3px solid #fff;
+  color: #fff;
   /* Change the border style and color as desired */
 }
 
@@ -127,7 +127,8 @@
 }
 
 .backbtn {
-  background: #d9d9d9;
+  background: linear-gradient(to right, #002a4c, #6abd45);
+  color: #fff;
   padding: 10px;
   width: 100px;
   margin: 5px;
@@ -142,9 +143,7 @@
 }
 
 .nextbtn {
-  background: linear-gradient(90deg, #5aa236, #a6dc6d 51%, #5aa236) var(--x, 0) /
-    200%;
-
+  background: linear-gradient(to right, #002a4c, #6abd45);
   text-transform: capitalize;
   padding: 10px;
   width: 135px;

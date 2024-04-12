@@ -42,7 +42,7 @@
   display: flex;
   list-style: none;
   text-align: center;
-  margin-right: 2rem;
+  margin-right: 0rem !important;
   margin-top: 0rem;
 }
 
@@ -248,8 +248,7 @@ ul {
   font-size: 14px;
   font-weight: 800;
   color: #fff;
-  background: linear-gradient(90deg, #5aa236, #a6dc6d 51%, #5aa236) var(--x, 0) /
-    200%;
+  background: linear-gradient(to right, #002a4c, #6abd45);
   border-radius: 20px;
   text-transform: capitalize;
   display: inline-block;
@@ -298,9 +297,7 @@ ul {
   width: 70px;
   position: relative;
   border-radius: 20px;
-  background: linear-gradient(90deg, #5aa236, #a6dc6d 51%, #5aa236) var(--x, 0) /
-    200%;
-
+  background: linear-gradient(to right, #002a4c, #6abd45);
   text-transform: capitalize;
   cursor: pointer;
   user-select: none;

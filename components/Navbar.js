@@ -72,15 +72,9 @@ export default function Navbar() {
             </div>
             <div className="col-md-2 col-sm-3">
               <div className="quote-button">
-                <a
-                  href="contact.html"
-                  className="quote-btn"
-                  title="Quick view"
-                  data-toggle="modal"
-                  data-target="#quoteModal"
-                >
-                  Get a quote
-                </a>
+                <Link href="/contact">
+                  <span className="quote-btn"> {t("heading.quote")}</span>
+                </Link>
               </div>
             </div>
           </div>

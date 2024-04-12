@@ -3,7 +3,17 @@
     "home": "PV-Check",
     "about": "Über uns",
     "service": "Dienstleistungen",
-    "contact_us": "Kontaktiere uns"
+    "contact_us": "Kontaktiere uns",
+    "term_and_condition": "Geschäftsbedingungen",
+    "data_protection": "Datenschutz",
+    "imprint": "Impressum",
+    "call_now": "Jetzt anrufen"
+  },
+  "heading": {
+    "use_ful_link": "Nützliche Links",
+    "contact_us": "Kontaktieren Sie uns",
+    "quote": "Erhalten Sie Zitat",
+    "readMeMore": "Mehr lesen"
   },
   "home": {
     "main_heading": "<span class='coloredtext'>Willkommen beim kostenlosen </span> PV-Anbieter-Check!",
