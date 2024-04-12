@@ -140,6 +140,12 @@
   position: relative;
   top: 5px;
 }
+@media screen and (max-width: 960px) {
+  .langbtn {
+    display: none;
+  }
+}
+
 ol,
 ul {
   padding-left: 0rem !important;

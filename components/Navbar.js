@@ -162,6 +162,20 @@ export default function Navbar() {
           </ul>
 
           <div className="nav-icon">
+            <div className="grid place-items-center float-right">
+              <div className="toggle-container" onClick={toggleSelected}>
+                <div
+                  className={`dialog-button ${
+                    selected === "fr" ? " " : "disabled"
+                  }`}
+                >
+                  {selected === "fr" ? "DE" : "EN"}
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="nav-icon">
             <div onClick={handleClick}>
               <i className={click ? "FaTimes" : "FaBars"}>
                 {click ? <FaTimes /> : <FaBars />}
