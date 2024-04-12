@@ -11,9 +11,10 @@
   },
   "heading": {
     "use_ful_link": "Nützliche Links",
-    "contact_us": "Kontaktieren Sie uns",
+    "contact_us": "Kontakt",
     "quote": "Erhalten Sie Zitat",
-    "readMeMore": "Mehr lesen"
+    "readMeMore": "Mehr lesen",
+    "timing": "Mo - Sa: 9:00 - 19:00"
   },
   "home": {
     "main_heading": "<span class='coloredtext'>Willkommen beim kostenlosen </span> PV-Anbieter-Check!",
@@ -104,7 +105,7 @@
         "option4": "Sonstiges"
       },
       "step4": {
-        "heading": "In welche Richtung zeigen Ihr Dach und Ihre Dachseiten?",
+        "heading": "In welche Richtung zeigt Ihr Dach, Ihre  Dachseiten ?",
         "option1": "Süden",
         "option2": "Osten",
         "option3": "Westen",

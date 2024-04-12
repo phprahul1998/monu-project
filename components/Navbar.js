@@ -54,7 +54,7 @@ export default function Navbar() {
                   </li>
                   <li className="hidden-sm">
                     <a href="#">
-                      <FaRegClock /> Mon - Fri: 9:00 - 19:00
+                      <FaRegClock /> {t("heading.timing")}
                     </a>
                   </li>
                   <li>
@@ -72,7 +72,7 @@ export default function Navbar() {
             </div>
             <div className="col-md-2 col-sm-3">
               <div className="quote-button">
-                <Link href="/contact">
+                <Link href="#inquery">
                   <span className="quote-btn"> {t("heading.quote")}</span>
                 </Link>
               </div>
@@ -126,7 +126,7 @@ export default function Navbar() {
               </Link>
             </li>
 
-            <li className={`nav-item ${pathname === "/contact" && "active"}`}>
+            {/* <li className={`nav-item ${pathname === "/contact" && "active"}`}>
               <Link
                 href="/contact"
                 className={`nav-links ${click && "active"}`}
@@ -134,7 +134,7 @@ export default function Navbar() {
               >
                 {t("menu.contact_us")}
               </Link>
-            </li>
+            </li> */}
             <li className={`nav-item ${pathname === "/contact" && "active"}`}>
               <Link
                 href="/contact"
