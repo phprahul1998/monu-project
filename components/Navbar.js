@@ -40,7 +40,7 @@ export default function Navbar() {
 
   return (
     <div>
-      <div className="topbar-area fix hidden-xs">
+      <div className="topbar-area fix ">
         <div className="container">
           <div className="row">
             <div className=" col-md-10 col-sm-9">
