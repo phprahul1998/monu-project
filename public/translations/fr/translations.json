@@ -123,10 +123,10 @@
       },
       "step7": {
         "heading": "Für welche Photovoltaikanlage interessieren Sie sich?",
-        "option1": "PV-System <br/> Stromspeicher <br/> inklusive Installation",
-        "option2": "PV-System <br/> Stromspeicher <br/> Selbstmontage",
-        "option3": "Inklusiv. <br/> Smart Energy Management",
-        "option4": "Erweiterung eines vorhandenen <br/> PV-Systems"
+        "option1": "PV + Speicher",
+        "option2": "PV + Speicher + Energiemanagement",
+        "option3": "PV-Erweiterung",
+        "option4": "PV-Selbstaufbau"
       },
       "step8": {
         "heading": "Wie möchten Sie das Projekt finanzieren?",
