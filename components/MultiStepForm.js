@@ -1087,7 +1087,7 @@ const MultiStepForm = () => {
           </h2>{" "}
           <div className="row">
             <div className="col-md-6 col-sm-12 col-xl-6 col-lg-6 col-xs-12">
-              <div className="float-left">
+              <div className="float-left step10form">
                 <input
                   className="salutation"
                   type="radio"
@@ -1114,6 +1114,34 @@ const MultiStepForm = () => {
                 />
                 <label htmlFor="Mrs.">
                   &nbsp;{t("stepform.formdata.step10.mrs")}
+                </label>
+
+                <input
+                  className="salutation"
+                  type="radio"
+                  id="firma"
+                  name="salutation"
+                  value="firma"
+                  checked={salutation === "Firma."}
+                  onChange={() => setSalutation("Firma.")}
+                />
+                <label htmlFor="firma">
+                  &nbsp;&nbsp;{t("stepform.formdata.step10.firma")}
+                  &nbsp;&nbsp;&nbsp;
+                </label>
+
+                <input
+                  className="salutation"
+                  type="radio"
+                  id="mr"
+                  name="salutation"
+                  value="organisation."
+                  checked={salutation === "organisation."}
+                  onChange={() => setSalutation("organisation.")}
+                />
+                <label htmlFor="organisation">
+                  &nbsp;&nbsp;{t("stepform.formdata.step10.organisation")}
+                  &nbsp;&nbsp;&nbsp;
                 </label>
               </div>
             </div>

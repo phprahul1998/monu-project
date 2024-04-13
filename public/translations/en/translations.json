@@ -152,7 +152,9 @@
         "email": "E-mail",
         "whatsapp": "WhatsApp",
         "mr": "Mr.",
-        "mrs": "Mrs."
+        "mrs": "Mrs.",
+        "firma": "Company",
+        "organisation": "Organisation"
       }
     }
   },

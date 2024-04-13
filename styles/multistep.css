@@ -110,6 +110,13 @@
   .multistep-form form h2 {
     font-size: 13px !important;
   }
+  .step10form label {
+    font-size: 12px;
+  }
+  .salutation[type="radio"] {
+    width: 1.3em;
+    height: 1.3em;
+  }
 }
 
 @media (max-width: 480px) {
@@ -119,6 +126,13 @@
     margin: 1% 1%;
     font-size: 12px;
     height: 115px;
+  }
+  .step10form label {
+    font-size: 12px;
+  }
+  .salutation[type="radio"] {
+    width: 1.3em;
+    height: 1.3em;
   }
 }
 
@@ -132,7 +146,6 @@
   padding: 10px;
   width: 100px;
   margin: 5px;
-  color: #000;
   transition: all 0.5s;
   cursor: pointer;
   border-radius: 8px;
