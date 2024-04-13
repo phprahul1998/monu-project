@@ -283,3 +283,7 @@
   font-size: 12x !important;
   color: #41a634 !important;
 }
+.step10form label {
+  font-size: 12px;
+  margin-left: 2px;
+}
