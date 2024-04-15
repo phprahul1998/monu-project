@@ -54,7 +54,7 @@ export default function Footer() {
                     </li>
                     <li>
                       <a
-                        href="whatsapp://send?abid=+4916090386234&text=Hallo!"
+                        href="https://api.whatsapp.com/send?phone=919854098540&text=Hallo!"
                         target="_blank"
                         rel="noreferrer"
                       >
