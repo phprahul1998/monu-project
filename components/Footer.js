@@ -38,6 +38,7 @@ export default function Footer() {
                       <a
                         href="https://www.linkedin.com/company/renevatec/"
                         target="_blank"
+                        rel="noreferrer"
                       >
                         <FaLinkedinIn />
                       </a>
@@ -46,6 +47,7 @@ export default function Footer() {
                       <a
                         href="https://www.facebook.com/profile.php?id=61558347182647"
                         target="_blank"
+                        rel="noreferrer"
                       >
                         <FaFacebook />
                       </a>
@@ -54,6 +56,7 @@ export default function Footer() {
                       <a
                         href="whatsapp://send?abid=+4916090386234&text=Hallo!"
                         target="_blank"
+                        rel="noreferrer"
                       >
                         <FaWhatsapp />
                       </a>
