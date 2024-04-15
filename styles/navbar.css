@@ -238,12 +238,11 @@ ul {
   padding-right: 7px;
   display: inline-flex;
 }
-
-@media only screen and (max-width: 600px) {
-  .topbar-area {
+/* @media (max-width: 768px) {
+  .hidden-mobile {
     display: none;
   }
-}
+} */
 
 .quote-button {
   float: right;
@@ -343,4 +342,24 @@ ul {
   background-color: #fff;
   border: 1px solid #fbd36f;
   left: 2px;
+}
+
+@media only screen and (max-width: 700px) {
+  .hidden-mobile {
+    display: none !important;
+  }
+  .quote-button .quote-btn {
+    font-weight: 300;
+    border: 1px solid #41a634;
+    padding: 4px 7px;
+    margin-top: 14px;
+    transition: 0.4s;
+    font-size: 10px;
+  }
+  .topbar-left ul li a {
+    font-size: 14px;
+  }
+  .topbar-area ul {
+    padding-top: 10px;
+  }
 }

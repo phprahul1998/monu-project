@@ -185,7 +185,6 @@ const MultiStepForm = () => {
                     backgroundColor: "#41A634",
                     border: "3px solid #fff",
                     color: "#fff",
-                    border: "3px solid #fff",
                   }
                 : {}
             }
@@ -358,7 +357,6 @@ const MultiStepForm = () => {
                   ? {
                       backgroundColor: "#41A634",
                       border: "3px solid #fff",
-                      color: "#fff",
                       color: "#fff",
                     }
                   : {}
@@ -577,7 +575,6 @@ const MultiStepForm = () => {
                       backgroundColor: "#41A634",
                       border: "3px solid #fff",
                       color: "#fff",
-                      Color: "#fff",
                     }
                   : {}
               }
@@ -756,14 +753,9 @@ const MultiStepForm = () => {
             <button
               className="commonbtn"
               type="button"
-              onClick={() =>
-                handleButtonClick(
-                  "PV system Power storage  including installation"
-                )
-              }
+              onClick={() => handleButtonClick("PV + Speicher")}
               style={
-                formData[`step${step}`] ===
-                "PV system Power storage  including installation"
+                formData[`step${step}`] === "PV + Speicher"
                   ? {
                       backgroundColor: "#41A634",
                       border: "3px solid #fff",
@@ -789,11 +781,10 @@ const MultiStepForm = () => {
               className="commonbtn"
               type="button"
               onClick={() =>
-                handleButtonClick("PV system Electricity storage Self-assembly")
+                handleButtonClick("PV + Speicher + Energiemanagement")
               }
               style={
-                formData[`step${step}`] ===
-                "PV system  Electricity storage Self-assembly"
+                formData[`step${step}`] === "PV + Speicher + Energiemanagement"
                   ? {
                       backgroundColor: "#41A634",
                       border: "3px solid #fff",
@@ -818,12 +809,9 @@ const MultiStepForm = () => {
             <button
               className="commonbtn"
               type="button"
-              onClick={() =>
-                handleButtonClick("inclusive Smart Energy  Management ")
-              }
+              onClick={() => handleButtonClick("PV-Erweiterung")}
               style={
-                formData[`step${step}`] ===
-                " inclusive Smart Energy  Management "
+                formData[`step${step}`] === "PV-Erweiterung"
                   ? {
                       backgroundColor: "#41A634",
                       border: "3px solid #fff",
@@ -848,11 +836,9 @@ const MultiStepForm = () => {
             <button
               className="commonbtn"
               type="button"
-              onClick={() =>
-                handleButtonClick("extension  existing PV system ")
-              }
+              onClick={() => handleButtonClick("PV-Selbstaufbau")}
               style={
-                formData[`step${step}`] === "Extension  existing PV system "
+                formData[`step${step}`] === "PV-Selbstaufbau"
                   ? {
                       backgroundColor: "#41A634",
                       border: "3px solid #fff",

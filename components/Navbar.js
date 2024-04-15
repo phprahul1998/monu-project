@@ -43,21 +43,21 @@ export default function Navbar() {
       <div className="topbar-area fix ">
         <div className="container">
           <div className="row">
-            <div className=" col-md-10 col-sm-9">
+            <div className="col-9 ">
               <div className="topbar-left">
                 <ul>
-                  <li>
+                  <li className="hidden-mobile">
                     <a href="#">
                       <FaLocationDot /> Eiswerderstr. 16-18 13585 Berlin
                       Deutschland
                     </a>
                   </li>
-                  <li className="hidden-sm">
+                  <li className="hidden-mobile">
                     <a href="#">
                       <FaRegClock /> {t("heading.timing")}
                     </a>
                   </li>
-                  <li>
+                  <li className="hidden-mobile">
                     <a href="#">
                       <FaEnvelope /> info@renevatec.de
                     </a>
@@ -70,7 +70,7 @@ export default function Navbar() {
                 </ul>
               </div>
             </div>
-            <div className="col-md-2 col-sm-3">
+            <div className="col-3">
               <div className="quote-button">
                 <Link href="#inquery">
                   <span className="quote-btn"> {t("heading.quote")}</span>

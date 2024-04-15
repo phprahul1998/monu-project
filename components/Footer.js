@@ -2,6 +2,7 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
+import { FaLinkedinIn, FaFacebook, FaWhatsapp } from "react-icons/fa";
 import { useTranslation } from "react-i18next";
 import {
   FaAngleDoubleRight,
@@ -31,6 +32,34 @@ export default function Footer() {
                   dangerouslySetInnerHTML={{ __html: t("home.main_heading") }}
                 />
                 <p className="">{t("home.main_desc", "Default Heading")}</p>
+                <div className="top_solar_btn">
+                  <ul>
+                    <li>
+                      <a
+                        href="https://www.linkedin.com/company/renevatec/"
+                        target="_blank"
+                      >
+                        <FaLinkedinIn />
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://www.facebook.com/profile.php?id=61558347182647"
+                        target="_blank"
+                      >
+                        <FaFacebook />
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="whatsapp://send?abid=+4916090386234&text=Hallo!"
+                        target="_blank"
+                      >
+                        <FaWhatsapp />
+                      </a>
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
             <div className="col-lg-4 col-md-12">
