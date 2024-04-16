@@ -344,7 +344,7 @@ ul {
   left: 2px;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 800px) {
   .hidden-mobile {
     display: none !important;
   }
@@ -357,7 +357,7 @@ ul {
     font-size: 10px;
   }
   .topbar-left ul li a {
-    font-size: 14px;
+    font-size: 12px;
   }
   .topbar-area ul {
     padding-top: 10px;

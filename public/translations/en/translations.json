@@ -41,7 +41,7 @@
   "rethinkenergy": {
     "rethinkheading": "<span class='coloredtext'>Rethink</span> energy!",
     "subheading": "We compare all available providers and find the best solution for you!",
-    "para": "By installing a photovoltaic system, you can not only reduce your electricity costs, but also independently design your energy supply and secure it in the long term. <br/> It doesn't matter whether you want to equip a private household or a commercial business. We compare all available providers <br/> and find the optimal solution for you."
+    "para": "Become independent with your own photovoltaic system and design one sustainable and clean future."
   },
   "advantages": {
     "heading": "<span class='coloredtext'>Your advantages through</span> one Own PV system: ",
@@ -77,6 +77,7 @@
   },
 
   "footer": {
+    "para1": "Renevatec is a Berlin-based company committed to making solar energy accessible and effective for everyone. We combine innovative technology with deep industry knowledge to connect customers with the best solar energy solutions available. Our vision is a world in which renewable energy is the standard and is effortlessly integrated into everyday life.",
     "para": "© Copyright Renevatec All Rights Reserved."
   },
   "stepform": {
@@ -184,5 +185,17 @@
     "error_msg": "Please Enter ",
     "Something_wrong": "Oops! Something went wrong. Please try again later.",
     "thankYou": "Success! Your form has been submitted successfully. Our representative will call you shortly. Thank you!"
-  }
+  },
+  "about_us_page": {
+    "heading": "<span class='coloredtext'>About  </span> us!",
+    "para": "At renevatec, we are committed to helping both private households and companies find the ideal photovoltaic solution. Through our free and non-binding solar check, we identify tailor-made offers that perfectly suit your needs. We are your experts for photovoltaic solutions! Would you like to find out more? Arrange a consultation appointment with us now or use our free PV check."
+  },
+  "service_page": {
+    "heading": "<span class='coloredtext'>Renevatec-  </span>  Our Approach!",
+    "para": "Our goal is to not only present you with offers, but to offer tailor-made solutions that are precisely tailored to your individual requirements.",
+    "list": "<ul className='list-group'> <li className='list-group-item d-flex justify-content-between align-items-center'> <strong>- Data Protection:</strong> Your data will be treated confidentially and will not be passed on to third parties indiscriminately. </li> <li className='list-group-item d-flex justify-content-between align-items-center'> <strong>- Experience:</strong> Benefit from our many years of extensive industry knowledge. </li> <li className='list-group-item d-flex justify-content-between align-items-center'> <strong>- Personal Service:</strong> Our experts are available to answer all your questions and work with you to develop the best possible solution. </li> <li className='list-group-item d-flex justify-content-between align-items-center'> <strong>- Independence:</strong> Achieve independence from rising electricity prices and secure an independent energy supply. </li> <li className='list-group-item d-flex justify-content-between align-items-center'> <strong>- Increased Value:</strong> Investing in photovoltaics not only increases your independence. We guarantee that every PV system with storage will pay for itself as the only building technology system. </li> </ul>",
+
+    "experties": "<strong>OUR EXPERTISE</strong> <p> We know that every project is unique, which is why we offer personalized advice by our experienced experts. Feel free to contact us! </p> <strong>Customized Solutions! </strong> <br/> <p>IT Consulting & Solutions <br/> Web Development<br/> Digitalization <br/> Future Management <p/>"
+  },
+  "imprint": "<p> Imprint renevatec - a brand of: <br /> GTSports GmbH <br /> Eiswerderstr. 18, Building 129 <br /> 13585 Berlin, Germany <br /> Tel. 030 20 654716 <br /> <br /> Email: info@grandtoursports.com <br /> Managing Director: <br /> Thomas Richter <br /> Commercial Register: Local Court Charlottenburg, HRB 204961 B <br /> VAT identification number: DE 297945960 <br /> <br /> Responsible according to § 55 RStV: <br /> Thomas Richter <br /> Eiswerderstr. 18, Building 129 | 13585 Berlin <br /> The European Commission provides a platform for online dispute resolution (OS), which you can find here: https://ec.europa.eu/consumers/odr/. <br /> We are willing to participate in out-of-court dispute resolution proceedings before a consumer arbitration board. <br /> The responsible body is the Universal Arbitration Board of the Federal Center for Arbitration e.V., <br /> Straßburger Straße 8, 77694 Kehl am Rhein, www.universalschlichtungsstelle.de. </p>"
 }

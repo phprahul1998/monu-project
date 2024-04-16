@@ -43,7 +43,7 @@ export default function Navbar() {
       <div className="topbar-area fix ">
         <div className="container">
           <div className="row">
-            <div className="col-9 ">
+            <div className="col-10">
               <div className="topbar-left">
                 <ul>
                   <li className="hidden-mobile">
@@ -70,7 +70,7 @@ export default function Navbar() {
                 </ul>
               </div>
             </div>
-            <div className="col-3">
+            <div className="col-2">
               <div className="quote-button">
                 <Link href="#inquery">
                   <span className="quote-btn"> {t("heading.quote")}</span>

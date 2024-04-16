@@ -27,11 +27,8 @@ export default function Footer() {
                     alt="solar-installation-footer-logo"
                   />
                 </a>
-                <h1
-                  className="text-white"
-                  dangerouslySetInnerHTML={{ __html: t("home.main_heading") }}
-                />
-                <p className="">{t("home.main_desc", "Default Heading")}</p>
+
+                <p className="">{t("footer.para1", "Default Heading")}</p>
                 <div className="top_solar_btn">
                   <ul>
                     <li>

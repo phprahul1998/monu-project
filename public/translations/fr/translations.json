@@ -41,7 +41,7 @@
   "rethinkenergy": {
     "rethinkheading": "<span class='coloredtext'>Energie neu </span> denken!",
     "subheading": "Wir vergleichen alle verfügbaren Anbieter und finden die beste Lösung für Sie!",
-    "para": "Indem Sie eine Photovoltaikanlage installieren, können Sie nicht nur Ihre Stromkosten senken, sondern auch Ihre Energieversorgung unabhängig gestalten und langfristig sichern. <br/> Dabei spielt es keine Rolle, ob Sie ein privates Haushalt oder ein kommerzielles Unternehmen ausstatten möchten. Wir vergleichen alle verfügbaren Anbieter <br/> und finden die optimale Lösung für Sie."
+    "para": "Machen Sie sich mit Ihrer eigenen Photovoltaikanlage unabhängig und gestalten Sie eine nachhaltige und saubere Zukunft."
   },
   "advantages": {
     "heading": "<span class='coloredtext'>Ihre Vorteile durch </span> ein  PV-System:",
@@ -76,6 +76,7 @@
     "para": "Wir beantworten gerne kostenlos und unverbindlich alle Fragen zum Thema Photovoltaik. Füllen Sie einfach das Kontaktformular aus, und wir melden uns umgehend!"
   },
   "footer": {
+    "para1": "Renevatec ist ein in Berlin ansässiges Unternehmen, das sich der Zugänglichkeit und Effektivität von Solarenergie für alle verschrieben hat. Wir verbinden innovative Technologie mit tiefgreifendem Branchenwissen, um Kunden mit den besten verfügbaren Solarenergielösungen zu verbinden. Unsere Vision ist eine Welt, in der erneuerbare Energien der Standard sind und mühelos in den Alltag integriert werden.",
     "para": "© Copyright Renevatec. Alle Rechte vorbehalten."
   },
   "stepform": {
@@ -183,5 +184,16 @@
     "error_msg": "Bitte eingeben ",
     "Something_wrong": "Hoppla! Etwas ist schief gelaufen. Bitte versuchen Sie es später erneut.",
     "thankYou": "Erfolg! Ihr Formular wurde erfolgreich übermittelt. Unser Vertreter wird sich in Kürze bei Ihnen melden. Vielen Dank!"
-  }
+  },
+  "about_us_page": {
+    "heading": "<span class='coloredtext'>Über  </span> uns!",
+    "para": "Bei renevatec verpflichten wir uns, sowohl privaten Haushalten als auch Unternehmen zu helfen, die ideale Photovoltaik-Lösung zu finden. Durch unseren kostenlosen und unverbindlichen Solar-Check identifizieren wir maßgeschneiderte Angebote, die perfekt zu Ihren Bedürfnissen passen. Wir sind Ihre Experten für Photovoltaik-Lösungen! Möchten Sie mehr erfahren? Vereinbaren Sie jetzt einen Beratungstermin mit uns oder nutzen Sie unseren kostenlosen PV-Check."
+  },
+  "service_page": {
+    "heading": "<span class='coloredtext'>Renevatec-  </span>  Unser Ansatz!",
+    "para": "Unser Ziel ist es, Ihnen nicht nur Angebote zu präsentieren, sondern maßgeschneiderte Lösungen anzubieten, die genau auf Ihre individuellen Anforderungen zugeschnitten sind.",
+    "list": "<ul className='list-group'> <li className='list-group-item d-flex justify-content-between align-items-center'> <strong>- Datenschutz:</strong> Ihre Daten werden vertraulich behandelt und nicht willkürlich an Dritte weitergegeben. </li> <li className='list-group-item d-flex justify-content-between align-items-center'> <strong>- Erfahrung:</strong> Profitieren Sie von unserem langjährigen umfangreichen Branchenwissen. </li> <li className='list-group-item d-flex justify-content-between align-items-center'> <strong>- Persönlicher Service:</strong> Unsere Experten stehen Ihnen zur Beantwortung all Ihrer Fragen zur Verfügung und arbeiten mit Ihnen zusammen, um die bestmögliche Lösung zu entwickeln. </li> <li className='list-group-item d-flex justify-content-between align-items-center'> <strong>- Unabhängigkeit:</strong> Erlangen Sie Unabhängigkeit von steigenden Strompreisen und sichern Sie eine unabhängige Energieversorgung. </li> <li className='list-group-item d-flex justify-content-between align-items-center'> <strong>- Wertsteigerung:</strong> Eine Investition in Photovoltaik steigert nicht nur Ihre Unabhängigkeit. Wir garantieren, dass sich jede PV-Anlage mit Speicher als einzige haustechnische Anlage amortisieren wird.</li> </ul>",
+    "experties": "<strong> UNSERE EXPERTISE</strong> <p> Wir wissen, dass jedes Projekt einzigartig ist, und bieten daher persönliche Beratung durch unsere erfahrenen Experten. Nehmen Sie Kontakt mit uns auf! </p> <strong>Maßgeschneiderte Lösungen!</strong><br/> <p>IT-Beratung & Lösungen <br/> Webentwicklung<br/> Digitalisierung <br/>Zukunftsmanagement</p>"
+  },
+  "imprint": "<p> Impressum renevatec - eine Marke von: <br /> GTSports GmbH <br /> Eiswerderstr. 18, Geb&auml;ude 129 <br /> 13585 Berlin Deutschland <br /> Tel. 030 20 654716 <br /> <br /> E-Mail: info@grandtoursports.com <br /> Gesch&auml;ftsf&uuml;hrer: <br /> Thomas Richter <br /> Handelsregister: Amtsgericht Charlottenburg, HRB 204961 B <br /> Umsatzsteuer-Identifikationsnummer: DE 297945960 <br /> <br /> Verantwortlich gem&auml;&szlig; &sect; 55 RStV: <br /> Thomas Richter <br /> Eiswerderstr. 18, Geb&auml;ude 129 | 13585 Berlin <br /> Die Europ&auml;ische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit, die Sie hier finden https://ec.europa.eu/consumers/odr/. <br /> Wir sind bereit, an einem au&szlig;ergerichtlichen Schlichtungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen. <br /> Zust&auml;ndig ist die Universalschlichtungsstelle des Bundes am Zentrum Schlichtung e.V., <br /> Stra&szlig;burger Stra&szlig;e 8, 77694 Kehl am Rhein, www.universalschlichtungsstelle.de. </p>"
 }
