@@ -9,6 +9,7 @@ import {
   FaMapMarkerAlt,
   FaGlobeAsia,
   FaEnvelope,
+  FaInstagram,
 } from "react-icons/fa";
 
 export default function Footer() {
@@ -47,6 +48,15 @@ export default function Footer() {
                         rel="noreferrer"
                       >
                         <FaFacebook />
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://accountscenter.instagram.com/profiles/17841465975831071/"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <FaInstagram />
                       </a>
                     </li>
                     <li>
