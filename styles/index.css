@@ -696,3 +696,15 @@ h1 {
 .solar_about_back span {
   color: #ffffff;
 }
+.agb {
+  margin-top: 35px !important;
+}
+.agb h1 {
+  font-size: 18px !important;
+}
+.agb h2 {
+  font-size: 15px !important;
+}
+.agb p {
+  font-size: 12px !important;
+}

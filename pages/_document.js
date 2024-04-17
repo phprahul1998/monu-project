@@ -13,9 +13,58 @@ class MyDocument extends Document {
           />
           <meta
             name="keywords"
-            content="Renevatec, erneuerbare Energien, Solarenergie, Zugänglichkeit, Innovation, Kundenzufriedenheit, Integration, Berlin, Branchenkenntnisse, saubere Energie, grünerer Planet, mühelos, Alltagsleben, Pioniere, Standard, Technologie, Lösungen, Vision, Fortschritt, Nachhaltigkeit"
+            content="
+            Photovoltaikanlage Einfamilienhaus, 
+            Vorteile Photovoltaik Einfamilienhaus, 
+            Photovoltaik Vollversorgung Einfamilienhaus, 
+            Energiemanagement System - EMS, 
+            Lokal erzeugter Strom, 
+            Selbst erzeugter Strom, 
+            Nutzung erneuerbarer Energiequellen, 
+            Energie neu denken, 
+            Strombezug hauseigene Photovoltaikanlage, 
+            Intelligente Speicherlösung Photovoltaik, 
+            Dynamischer Stromtarif, 
+            Smarte Steuerung Speichersystem, 
+            Stabilisierung Stromnetz, 
+            Intelligente Stromspeicher, 
+            Kostenvorteil Mieter Vermieter Photovoltaik, 
+            Niedriger Strompreis Mieter, 
+            Langfristige Investition Photovoltaik, 
+            Rendite Photovoltaikanlage Immobilie, 
+            Amortisation Photovoltaikanlage, 
+            Überschussvergütung Strom Photovoltaik, 
+            Rendite durch Photovoltaikanlage, 
+            Finanzierung PV-Anlagen, 
+            Photovoltaik-Finanzierungsmodelle, 
+            Investition in Photovoltaik, 
+            Preis-Leistungsverhältnis Photovoltaik, 
+            Optimales Kosten-Nutzen-Verhältnis PV, 
+            Günstiger Nacht-Strom speichern, 
+            Intelligente Speicher Photovoltaikanlage, 
+            Qualität des Speichers PV, 
+            Einfache Bedienung Energiespeicher, 
+            Hohe Lade- und Entladezyklen Speicher, 
+            Garantiebedingungen Energiespeicher, 
+            Zusammenarbeit mit Fachfirmen Photovoltaik, 
+            Langfristige Garantien PV-Module, 
+            Speicher Garantiezeiten, 
+            Stromnetz entlasten, 
+            Reduktion Überkapazitäten Stromnetz, 
+            Ausbau erneuerbarer Energien, 
+            Erneuerbare Energien Anteil erhöhen, 
+            Reduktion klimaschädliche Emissionen, 
+            Erneuerbare Energieüberschüsse nutzen, 
+            Umstellung auf Sonnenstrom, 
+            Globale Energiewende Photovoltaik, 
+            Photovoltaikbranche, 
+            Markt für Photovoltaik konsolidiert, 
+            Staatliche Förderungen Photovoltaik, 
+            Schlüsselfertige Photovoltaik-Konzepte, 
+            Plug-and-Play Photovoltaikanlagen, 
+            Selbstinstallation PV-Anlage
+            "
           />
-
           <meta
             property="og:title"
             content="Renevatec: Bahnbrechende Solarenergielösungen für einen grüneren Planeten"
