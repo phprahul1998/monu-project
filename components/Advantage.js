@@ -48,9 +48,20 @@ export default function Advantage() {
                 <div className="col-md-6 col-sm-6 col-xs-12">
                   <div className="about-content">
                     <h4>{t(advantage.heading)}</h4>
-                    <p
+                    <div
+                      style={{ float: "left", marginBottom: "10px" }}
+                      className="quote-button"
+                    >
+                      <Link href={`${t(advantage.page_link)}`}>
+                        <span className="quote-btn">
+                          {t("heading.readMeMore")}
+                        </span>
+                      </Link>
+                    </div>
+
+                    {/* <p
                       dangerouslySetInnerHTML={{ __html: t(advantage.para) }}
-                    />
+                    /> */}
                   </div>
                 </div>
               </div>

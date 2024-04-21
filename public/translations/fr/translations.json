@@ -47,29 +47,57 @@
     "heading": "<span class='coloredtext'>Ihre Vorteile durch </span> ein  PV-System:",
     "box": [
       {
-        "heading": "Unabhängigkeit durch PV",
+        "heading": "Unabhängigkeit durch PV / Fotovoltaik",
         "image": "img/13_Unabhangigkeit.png",
         "thumbnail": "img/13_Unabhangigkeit.png",
         "videlink": "https://www.youtube.com/watch?v=O33uuBh6nXA",
+        "page_link": "unabhangigkeit_durch_pv_fotovoltaik",
         "para": "Das System macht <br/> Sie unabhängig von steigenden <br/> Stromkosten."
       },
       {
-        "heading": "Wertsteigerung",
+        "heading": "Wertsteigerung einer Immobilie durch PV-Anlage ",
         "image": "img/13_Werterhohung.png",
         "thumbnail": "img/13_Werterhohung.png",
         "videlink": "https://www.youtube.com/watch?v=O33uuBh6nXA",
+        "page_link": "wertsteigerung_einer_immobilie_durch_pv_anlage",
         "para": "Sie steigern den Wert <br/> Ihrer Immobilie erheblich mit <br/> einer PV-Anlage."
       },
       {
-        "heading": "Wirtschaftlichkeit",
+        "heading": "Wirtschaftlichkeit von PV-Anlagen und Energiemanagementsystemen",
         "image": "img/13_Wirtschaftlichkeit.png",
         "thumbnail": "img/13_Wirtschaftlichkeit.png",
         "videlink": "https://www.youtube.com/watch?v=O33uuBh6nXA",
+        "page_link": "wirtschaftlichkeit_von_pv_anlagen_und_energiemanagementsystemen",
         "para": "Mit einer PV-Anlage haben Sie <br/> die Kontrolle über Ihren Strom und können <br/> sogar Gewinne erwirtschaften."
       }
     ],
     "ourtip": "<span class='coloredtext'>Unser Tipp:</span>",
     "para": "Weiterer Tipp: Der Stromanbieter TIBBER bietet dynamische Stromtarife und ist daher ideal für PV-Betreiber mit Stromspeicher. Weitere Informationen unter: https://tibber.com/de"
+  },
+  "advantages_page": {
+    "first_page_image": {
+      "heading": "Unabhängigkeit durch PV / Fotovoltaik",
+      "image": "img/13_Unabhangigkeit.png",
+      "thumbnail": "img/13_Unabhangigkeit.png",
+      "videlink": "https://www.youtube.com/watch?v=O33uuBh6nXA",
+      "para": "Die Energiekosten steigen kontinuierlich, und immer mehr Haushalte suchen nach nachhaltigen Lösungen, um diese Kosten zu senken und gleichzeitig umweltfreundlich zu handeln. Eine effektive Lösung bietet die Installation einer Photovoltaik-Anlage mit Stromspeicher in Ein- und Mehrfamilienhäusern. Dieses System ermöglicht es, unabhängig von den schwankenden Strompreisen zu werden und selbst erzeugten, grünen Strom zu nutzen. <br/><br/> Volle Kontrolle über die Energieversorgung <br/><br/> Mit einer PV-Anlage wird Sonnenenergie direkt in elektrische Energie umgewandelt, die im eigenen Haushalt genutzt werden kann. Der integrierte Stromspeicher spielt dabei eine entscheidende Rolle, da er die tagsüber gewonnene Energie speichert und diese auch nachts oder an bewölkten Tagen verfügbar macht. Besonders in den Monaten von Februar bis Oktober, wenn die Sonneneinstrahlung am stärksten ist, können Haushalte den Großteil ihres Strombedarfs durch selbst erzeugten Strom decken. <br/><br/>  Wirtschaftlichkeit und Umweltvorteile <br/><br/>  Neben der Unabhängigkeit von externen Stromlieferanten und den steigenden Energiekosten bietet die PV-Anlage mit Stromspeicher auch finanzielle Anreize. Überschüssige Energie, die nicht sofort verbraucht wird, kann ins öffentliche Netz eingespeist werden. Dafür erhalten die Anlagenbesitzer eine Vergütung, die aktuell bei etwa acht Cent pro Kilowattstunde liegt.<br/> Zusätzlich verstärkt sich der wirtschaftliche Nutzen, wenn ein Hybrid- oder Elektroauto im Haushalt integriert wird. Diese Fahrzeuge können mit der überschüssigen Energie geladen werden, was den Eigenverbrauch des selbst produzierten Stroms maximiert und somit die Kosten weiter reduziert.<br/> Förderung der Nachhaltigkeit <br/>Die selbst erzeugte Energie aus einer PV-Anlage ist CO2-neutral und trägt erheblich zur Reduktion der eigenen ökologischen Fußabdruck bei. Durch die Nutzung erneuerbarer Energien unterstützt jeder Haushalt mit einer solchen Anlage aktiv die Energiewende und fördert eine nachhaltige Zukunft. <br/>Fazit<br/> Die Installation einer PV-Fotovoltaikanlage mit Stromspeicher ist nicht nur eine wirtschaftlich kluge Entscheidung, sondern auch ein bedeutender Schritt hin zu einer nachhaltigen Lebensweise. Es geht nicht nur um die Unabhängigkeit eines einzelnen Haushalts, sondern um die breitere Vision einer umweltfreundlichen und nachhaltigen Gesellschaft. <br/>Durch den Einsatz dieser Technologien können wir aktiv dazu beitragen, unsere Umwelt zu schützen und gleichzeitig die Kosten für unseren täglichen Energieverbrauch zu senken. Die Investition in eine PV-Anlage und ein elektrisches Fahrzeug ist daher nicht nur eine Investition in die eigene Zukunft, sondern auch in die unserer gesamten Gesellschaft."
+    },
+    "second_page_image": {
+      "heading": "Wertsteigerung einer Immobilie durch PV-Anlage ",
+      "image": "img/13_Werterhohung.png",
+      "thumbnail": "img/13_Werterhohung.png",
+      "videlink": "https://www.youtube.com/watch?v=O33uuBh6nXA",
+      "page_link": "wertsteigerung-einer-immobilie-durch-pv-anlage",
+      "para": "Die Integration erneuerbarer Energien in die Haustechnik von Immobilien wird in den kommenden Jahren von einem Trend zu einem Standard. Besonders die Installation einer Fotovoltaikanlage mit Stromspeicher stellt eine einfache und kosteneffiziente Möglichkeit dar, diese Entwicklung voranzutreiben. Doch welche Vorteile bietet diese Technologie speziell in Bezug auf die Wertsteigerung einer Immobilie?<br/> <br/> Langfristige Rentabilität und Unabhängigkeit<br/> Eine PV-Anlage mit Stromspeicher ist nicht nur eine umweltfreundliche Lösung, sondern auch eine finanziell kluge Investition. Die Anlage generiert über Jahre hinweg Strom, was die Abhängigkeit von externen Energieversorgern reduziert und gleichzeitig die Energiekosten senkt. Diese Unabhängigkeit von steigenden Strompreisen ist ein enormer finanzieller Vorteil, der die Attraktivität und den Wert der Immobilie steigert.<br/> <br/> Amortisation und Rendite<br/> Die Kosten für die Installation einer PV-Anlage können durch die Einsparungen bei den Energiekosten und mögliche staatliche Förderungen innerhalb weniger Jahre amortisiert werden. Nach der Amortisationszeit beginnt die Anlage, eine Rendite abzuwerfen. Diese Rendite zeigt sich nicht nur in den laufenden Einsparungen, sondern auch in einem höheren Verkaufswert der Immobilie, sollte der Eigentümer sich entscheiden, diese zu veräußern.<br/> <br/> Steigerung des Immobilienwerts<br/> Immobilien, die mit einer modernen und effizienten Fotovoltaikanlage ausgestattet sind, haben auf dem Markt einen klaren Vorteil. Zukünftige Käufer sind zunehmend an nachhaltigen und energieeffizienten Häusern interessiert, was die Nachfrage und damit auch den Preis der mit einer PV-Anlage ausgestatteten Immobilien steigert. Zudem werden solche Immobilien oft schneller verkauft als vergleichbare Objekte ohne entsprechende technologische Ausstattung.<br/> <br/> Nachhaltigkeit als Mehrwert<br/> Die gesellschaftliche Bewegung hin zu mehr Nachhaltigkeit verstärkt den Wert einer mit einer Fotovoltaikanlage ausgestatteten Immobilie zusätzlich. Potenzielle Käufer bewerten solche Immobilien nicht nur nach ihrer Lage oder Größe, sondern auch nach ihrem ökologischen Fußabdruck. Eine PV-Anlage trägt somit nicht nur zur Energiebilanz bei, sondern auch zum grünen Image der Immobilie, was wiederum den Verkaufswert erhöht.<br/> <br/> Fazit<br/> Die Installation einer Fotovoltaikanlage mit Stromspeicher ist eine zukunftssichere Investition, die nicht nur die laufenden Kosten für Energie deutlich reduziert, sondern auch den Wert der Immobilie signifikant steigert. Angesichts des Trends zur Nachhaltigkeit und der steigenden Energiepreise ist diese Technologie eine weise Entscheidung für Immobilienbesitzer, die ihren Besitz modernisieren und gleichzeitig eine langfristige Wertsteigerung ihrer Immobilie sichern möchten."
+    },
+    "third_page_image": {
+      "heading": "Wirtschaftlichkeit von PV-Anlagen und Energiemanagementsystemen",
+      "image": "img/13_Wirtschaftlichkeit.png",
+      "thumbnail": "img/13_Wirtschaftlichkeit.png",
+      "videlink": "https://www.youtube.com/watch?v=O33uuBh6nXA",
+      "page_link": "wirtschaftlichkeit_von_pv_anlagen_und_energiemanagementsystemen",
+      "para": "Die Installation einer Photovoltaikanlage bietet nicht nur die Möglichkeit, umweltfreundliche Energie zu erzeugen, sondern auch die Chance, aktiv die eigenen Stromkosten zu senken und sogar Gewinne zu erwirtschaften. Ein Schlüsselaspekt dabei ist der Einsatz eines Energiemanagementsystems (EMG), das Ihnen volle Kontrolle über Ihr Fotovoltaiksystem, den Energiespeicher und den Zukauf von Strom gibt.<br/><br/> Optimale Nutzung in den dunklen Monaten<br/> Besonders in den lichtarmen Monaten November, Dezember und Januar ist ein intelligentes Energiemanagement entscheidend für die Wirtschaftlichkeit Ihres PV-Systems. In diesen Monaten, in denen die Sonneneinstrahlung minimal ist, ermöglicht das Energiemanagementsystem eine optimierte Nutzung des gespeicherten Stroms. In den Nachtstunden, wenn der Stromverbrauch im Netz gering ist und die Strompreise sinken, kann der Speicher kostengünstig aufgeladen werden. Dieser Strom wird dann tagsüber genutzt, wenn die Strompreise höher sind, was zu signifikanten Kosteneinsparungen führt.<br/><br/> Intelligentes Laden und Verbrauchen<br/> Das Energiemanagementsystem ermöglicht es Ihnen, Ihren Verbrauch so zu steuern, dass Sie Strom dann kaufen, wenn er am günstigsten ist, oft sogar kostenlos oder gegen eine Gutschrift, wenn das Netz Überkapazitäten aufweist. Dies geschieht häufig im Sommer, an windigen und sonnigen Tagen. Solche Systeme können smart eingestellt werden, sodass sie automatisch entscheiden, wann Strom gekauft oder gespeichert wird, basierend auf den von Ihnen festgelegten Preisschwellen.<br/><br/> Direkte Umleitung des Stroms in den Haushalt und das Elektroauto<br/> Ein weiterer Vorteil des Energiemanagementsystems ist die Möglichkeit, den direkt erzeugten Strom bei voller Sonneneinstrahlung und geringem momentanen Strombedarf im Haushalt effizient zu nutzen. Das System kann beispielsweise überschüssigen Strom automatisch in Ihr Elektroauto umleiten, was den Eigenverbrauch maximiert und die Abhängigkeit vom Netz weiter reduziert.<br/><br/> Fazit<br/> Die Kombination aus einer PV-Anlage und einem Energiemanagementsystem bietet eine robuste Lösung zur Maximierung der Wirtschaftlichkeit Ihrer Energieinvestition. Durch die effiziente Steuerung und Nutzung des selbst erzeugten sowie zugekauften Stroms können erhebliche Einsparungen realisiert und sogar Gewinne erwirtschaftet werden. Diese Technologien tragen nicht nur zur Reduktion Ihrer Stromrechnung bei, sondern fördern auch eine nachhaltige Lebensweise durch den verstärkten Einsatz erneuerbarer Energien."
+    }
   },
   "inquery": {
     "heading": "Haben Sie Fragen?",

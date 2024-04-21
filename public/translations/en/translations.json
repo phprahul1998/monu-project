@@ -47,29 +47,57 @@
     "heading": "<span class='coloredtext'>Your advantages through</span> one Own PV system: ",
     "box": [
       {
-        "heading": "Independence A PV",
+        "heading": "Independence through PV / photovoltaics",
         "image": "img/13_Unabhangigkeit.png",
         "thumbnail": "img/13_Unabhangigkeit.png",
         "videlink": "https://www.youtube.com/watch?v=O33uuBh6nXA",
+        "page_link": "unabhangigkeit_durch_pv_fotovoltaik",
         "para": "System makes you <br/> independent of rising <br/> electricity costs."
       },
       {
-        "heading": "Increase in Value",
+        "heading": "Increase in the value of a property through PV system",
         "image": "img/13_Werterhohung.png",
         "thumbnail": "img/13_Werterhohung.png",
         "videlink": "https://www.youtube.com/watch?v=O33uuBh6nXA",
+        "page_link": "wertsteigerung_einer_immobilie_durch_pv_anlage",
         "para": "You increase the value <br/> with a PV system your property <br/> significantly."
       },
       {
-        "heading": "Economic efficiency",
+        "heading": "Economic efficiency of PV systems and energy management systems",
         "image": "img/13_Wirtschaftlichkeit.png",
         "thumbnail": "img/13_Wirtschaftlichkeit.png",
         "videlink": "https://www.youtube.com/watch?v=O33uuBh6nXA",
+        "page_link": "wirtschaftlichkeit_von_pv_anlagen_und_energiemanagementsystemen",
         "para": "With a PV system you <br/> have control over your electricity and can even <br/> generate profits."
       }
     ],
     "ourtip": "<span class='coloredtext'>Our tip:</span>",
     "para": "Another tip: The electricity provider TIBBER offers dynamic electricity tariffs and is therefore ideal for PV operators with electricity storage. More information at: https://tibber.com/de"
+  },
+  "advantages_page": {
+    "first_page_image": {
+      "heading": "Independence through PV / Photovoltaics",
+      "image": "img/13_Unabhangigkeit.png",
+      "thumbnail": "img/13_Unabhangigkeit.png",
+      "videlink": "https://www.youtube.com/watch?v=O33uuBh6nXA",
+      "para": "Energy costs are continuously rising, and more and more households are seeking sustainable solutions to reduce these costs while acting environmentally friendly. An effective solution is offered by installing a photovoltaic system with a power storage unit in single and multi-family homes. This system enables households to become independent of fluctuating electricity prices and to utilize self-generated, green electricity. <br/><br/> Full control over energy supply <br/><br/> With a PV system, solar energy is directly converted into electrical energy that can be used in one's own household. The integrated power storage unit plays a crucial role as it stores the energy generated during the day and makes it available even at night or on cloudy days. Especially in the months from February to October, when sunlight is strongest, households can cover the majority of their electricity needs with self-generated electricity. <br/><br/> Economic viability and environmental benefits <br/><br/> In addition to independence from external electricity suppliers and rising energy costs, the PV system with power storage also offers financial incentives. Excess energy that is not immediately consumed can be fed into the public grid. For this, the system owners receive compensation, currently at about eight cents per kilowatt-hour. <br/> Additionally, the economic benefit increases when a hybrid or electric vehicle is integrated into the household. These vehicles can be charged with the excess energy, maximizing the self-consumption of the self-produced electricity and thus further reducing costs. <br/> Promotion of sustainability <br/> The self-generated energy from a PV system is CO2-neutral and significantly contributes to reducing one's own ecological footprint. By using renewable energies, every household with such a system actively supports the energy transition and promotes a sustainable future. <br/> Conclusion <br/> The installation of a PV photovoltaic system with power storage is not only an economically wise decision but also a significant step towards a sustainable lifestyle. It is not only about the independence of an individual household but also about the broader vision of an environmentally friendly and sustainable society. <br/> By using these technologies, we can actively contribute to protecting our environment while also reducing the costs of our daily energy consumption. Therefore, investing in a PV system and an electric vehicle is not only an investment in our own future but also in that of our entire society."
+    },
+    "second_page_image": {
+      "heading": "Increase in the value of a property through PV system",
+      "image": "img/13_Werterhohung.png",
+      "thumbnail": "img/13_Werterhohung.png",
+      "videlink": "https://www.youtube.com/watch?v=O33uuBh6nXA",
+      "page_link": "wertsteigerung-einer-immobilie-durch-pv-anlage",
+      "para": "The integration of renewable energies into the building technology of properties is evolving from a trend to a standard in the coming years. Particularly, the installation of a photovoltaic system with a battery storage system provides a simple and cost-effective means to drive this development. But what specific advantages does this technology offer in terms of increasing the value of a property?<br/><br/> Long-term profitability and independence<br/> A PV system with a battery storage system is not only an environmentally friendly solution but also a financially wise investment. The system generates electricity over the years, reducing dependence on external energy suppliers and simultaneously lowering energy costs. This independence from rising electricity prices is a significant financial advantage that enhances the attractiveness and value of the property.<br/><br/> Amortization and return on investment<br/> The costs of installing a PV system can be amortized within a few years through savings on energy costs and potential government incentives. After the amortization period, the system begins to yield a return on investment. This return is evident not only in ongoing savings but also in a higher resale value of the property if the owner decides to sell it.<br/><br/> Increase in property value<br/> Properties equipped with a modern and efficient photovoltaic system have a clear advantage in the market. Future buyers are increasingly interested in sustainable and energy-efficient homes, which boosts the demand and thus the price of properties equipped with a PV system. Moreover, such properties are often sold more quickly than comparable ones without corresponding technological features.<br/><br/> Sustainability as added value<br/> The societal movement towards greater sustainability further enhances the value of a property equipped with a photovoltaic system. Potential buyers evaluate"
+    },
+    "third_page_image": {
+      "heading": "Economic efficiency of PV systems and energy management systems",
+      "image": "img/13_Wirtschaftlichkeit.png",
+      "thumbnail": "img/13_Wirtschaftlichkeit.png",
+      "videlink": "https://www.youtube.com/watch?v=O33uuBh6nXA",
+      "page_link": "wirtschaftlichkeit-von-pv-anlagen-und-energiemanagementsystemen",
+      "para": "The installation of a photovoltaic system not only offers the opportunity to generate environmentally friendly energy but also the chance to actively reduce your own electricity costs and even generate profits. A key aspect of this is the use of an Energy Management System (EMS), which gives you full control over your photovoltaic system, energy storage, and the purchase of electricity.<br/> Optimal use during the dark months<br/> Especially in the low-light months of November, December, and January, intelligent energy management is crucial for the profitability of your PV system. During these months, when sunlight is minimal, the energy management system enables optimized use of stored electricity. During the nighttime, when grid electricity demand is low and electricity prices decrease, the storage can be charged cost-effectively. This electricity is then used during the day when electricity prices are higher, leading to significant cost savings.<br/> Intelligent charging and consumption<br/> The energy management system allows you to control your consumption so that you buy electricity when it is cheapest, often even for free or with a credit when the grid has excess capacity. This often occurs in the summer, on windy and sunny days. Such systems can be set to be smart automatically deciding when to buy or store electricity based on price thresholds you set.<br/> Direct redirection of electricity to the household and electric car<br/> Another advantage of the energy management system is the ability to efficiently utilize directly generated electricity during full sunlight and low current household electricity demand. For example, the system can automatically redirect excess electricity to your electric car, maximizing self-consumption and further reducing dependence on the grid.<br/> Conclusion<br/> The combination of a PV system and an energy management system provides a robust solution for maximizing the profitability of your energy investment. By efficiently controlling and utilizing self-generated as well as purchased electricity, significant savings can be realized, and even profits can be generated. These technologies not only contribute to reducing your electricity bill but also promote a sustainable lifestyle through increased use of renewable energies."
+    }
   },
   "inquery": {
     "heading": "<span class='coloredtext'>Do you have</span> questions?",
