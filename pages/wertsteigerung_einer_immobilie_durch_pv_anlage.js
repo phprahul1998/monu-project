@@ -5,7 +5,7 @@ import { FaPlayCircle } from "react-icons/fa";
 import Footer from "../components/Footer";
 
 import { useTranslation } from "react-i18next";
-export default function wertsteigerung_einer_immobilie_durch_pv_anlage() {
+export default function Wertsteigerung_einer_immobilie_durch_pv_anlage() {
   const { t, i18n } = useTranslation("en", { useSuspense: false });
   return (
     <div className="about-area bg-color ">

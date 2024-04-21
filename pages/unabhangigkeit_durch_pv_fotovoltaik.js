@@ -5,7 +5,7 @@ import { FaPlayCircle } from "react-icons/fa";
 import Footer from "../components/Footer";
 
 import { useTranslation } from "react-i18next";
-export default function unabhangigkeit_durch_pv_fotovoltaik() {
+export default function Unabhangigkeit_durch_pv_fotovoltaik() {
   const { t, i18n } = useTranslation("en", { useSuspense: false });
   return (
     <div className="about-area bg-color ">

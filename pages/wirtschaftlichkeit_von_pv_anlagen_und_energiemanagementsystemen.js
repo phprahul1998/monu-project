@@ -5,7 +5,7 @@ import { FaPlayCircle } from "react-icons/fa";
 import Footer from "../components/Footer";
 
 import { useTranslation } from "react-i18next";
-export default function wirtschaftlichkeit_von_pv_anlagen_und_energiemanagementsystemen() {
+export default function Wirtschaftlichkeit_von_pv_anlagen_und_energiemanagementsystemen() {
   const { t, i18n } = useTranslation("en", { useSuspense: false });
   return (
     <div className="about-area bg-color ">
