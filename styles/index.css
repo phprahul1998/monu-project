@@ -99,6 +99,11 @@ p {
   .advantages_div {
     display: grid !important;
   }
+  .middle h5 {
+    font-size: 15px !important;
+    font-weight: 600 !important;
+    color: #000 !important;
+  }
   h1,
   h2 {
     font-weight: 800 !important;
@@ -122,12 +127,22 @@ p {
     flex: 1;
     widows: 20%;
   }
+  .middle h5 {
+    font-size: 15px !important;
+    font-weight: 600 !important;
+    color: #000 !important;
+  }
 }
 
 @media (max-width: 767px) {
   .box {
     flex: none;
     width: calc(50% - 10px);
+  }
+  .middle h5 {
+    font-size: 15px !important;
+    font-weight: 600 !important;
+    color: #000 !important;
   }
 }
 
@@ -335,7 +350,8 @@ p {
 
 .awesome-img img {
   transform: scale(1.1);
-  transition: 0.4s;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
 }
 
 .single-awesome-project:hover .awesome-img img {
@@ -353,6 +369,29 @@ p {
 }
 
 .single-awesome-project:hover .add-actions {
+  opacity: 1;
+}
+
+.middle {
+  transition: 0.5s ease;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.middle h5 {
+  font-size: 15px !important;
+  font-weight: 600 !important;
+  color: #000 !important;
+}
+
+.single-awesome-project .awesome-img img {
+  opacity: 0.7;
+}
+
+.single-awesome-project .middle {
   opacity: 1;
 }
 

@@ -19,43 +19,99 @@ export default function Rethinkenergy() {
             />
           </div>
           <div className="col-md-6 col-lg-6 col-xl-6 col-sm-6 col-xs-12">
-            <div className="single-awesome-project">
-              <div className="awesome-img">
-                <img src="img/12_Pic1.png" alt="" />
+            <Link href="/planning_a_pv_system">
+              <div className="single-awesome-project">
+                <div className="awesome-img">
+                  <img src="img/12_Pic1.png" alt="" />
+                  <div className="middle">
+                    <h5>
+                      {" "}
+                      {t("rethinkenergy.rethinkenergy_page.first_heading")}
+                    </h5>
+                    <div className="contactbtn w-100">
+                      <span>
+                        {" "}
+                        {t("rethinkenergy.rethinkenergy_page.click_here")}
+                      </span>
+                    </div>
+                  </div>
+                </div>
               </div>
-            </div>
+            </Link>
           </div>
 
           <div className="col-md-6 col-lg-6 col-xl-6 col-sm-6 col-xs-12">
-            <div className="single-awesome-project">
-              <div className="awesome-img">
-                <img src="img/12_Pic2.png" alt="" />
+            <Link href="/key_factor_for_success">
+              <div className="single-awesome-project">
+                <div className="awesome-img">
+                  <img src="img/12_Pic2.png" alt="" />
+                  <div className="middle">
+                    <h5>
+                      {" "}
+                      {t("rethinkenergy.rethinkenergy_page.fourth_heading")}
+                    </h5>
+                    <div className="contactbtn w-100">
+                      <span>
+                        {" "}
+                        {t("rethinkenergy.rethinkenergy_page.click_here")}
+                      </span>
+                    </div>
+                  </div>
+                </div>
               </div>
-            </div>
+            </Link>
           </div>
 
           <div className="col-md-6 col-lg-6 col-xl-6 col-sm-6 col-xs-12">
-            <div className="single-awesome-project">
-              <div className="awesome-img">
-                <img src="img/12_Pic3.png" alt="" />
+            <Link href="/sustainable_investments">
+              <div className="single-awesome-project">
+                <div className="awesome-img">
+                  <img src="img/12_Pic3.png" alt="" />
+                  <div className="middle">
+                    <h5>
+                      {" "}
+                      {t("rethinkenergy.rethinkenergy_page.second_heading")}
+                    </h5>
+                    <div className="contactbtn w-100">
+                      <span>
+                        {" "}
+                        {t("rethinkenergy.rethinkenergy_page.click_here")}
+                      </span>
+                    </div>
+                  </div>
+                </div>
               </div>
-            </div>
+            </Link>
           </div>
 
           <div className="col-md-6 col-lg-6 col-xl-6 col-sm-6 col-xs-12">
-            <div className="single-awesome-project">
-              <div className="awesome-img">
-                <img src="img/12_Pic4.png" alt="" />
+            <Link href="/own_electricity_for_hybrid">
+              <div className="single-awesome-project">
+                <div className="awesome-img">
+                  <img src="img/12_Pic4.png" alt="" />
+                  <div className="middle">
+                    <h5>
+                      {" "}
+                      {t("rethinkenergy.rethinkenergy_page.third_heading")}
+                    </h5>
+                    <div className="contactbtn w-100">
+                      <span>
+                        {" "}
+                        {t("rethinkenergy.rethinkenergy_page.click_here")}
+                      </span>
+                    </div>
+                  </div>
+                </div>
               </div>
-            </div>
+            </Link>
           </div>
         </div>
-        <div className="col-md-12 col-lg-12 col-xl-12 col-sm-12 col-xs-12">
+        {/* <div className="col-md-12 col-lg-12 col-xl-12 col-sm-12 col-xs-12">
           <p
             className="p-2"
             dangerouslySetInnerHTML={{ __html: t("rethinkenergy.para") }}
           />
-        </div>
+        </div> */}
       </div>
     </div>
   );
