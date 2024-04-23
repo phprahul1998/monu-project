@@ -76,7 +76,7 @@ class MyDocument extends Document {
 
           <meta
             property="og:image"
-            content="https://renevatec.de/_next/image?url=%2Fimg%2Flogo.png&w=640&q=75"
+            content="https://renevatec.de/_next/image?url=%2Fimg%2Fog_logo.png&w=640&q=75"
           />
 
           <link
