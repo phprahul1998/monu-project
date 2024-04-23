@@ -90,7 +90,9 @@ export default function Footer() {
                     </li>
                     <li>
                       <FaAngleDoubleRight />{" "}
-                      <Link href="#">{t("menu.data_protection")}</Link>
+                      <Link href="/data_protection">
+                        {t("menu.data_protection")}
+                      </Link>
                     </li>
                   </ul>
                 </div>
