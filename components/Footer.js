@@ -29,7 +29,9 @@ export default function Footer() {
                   />
                 </a>
 
-                <p className="">{t("footer.para1", "Default Heading")}</p>
+                <p className="text-white">
+                  {t("footer.para1", "Default Heading")}
+                </p>
                 <div className="top_solar_btn">
                   <ul>
                     <li>
@@ -78,7 +80,8 @@ export default function Footer() {
                 <div className="solar_links">
                   <ul>
                     <li>
-                      <FaAngleDoubleRight /> <a href="#">{t("menu.home")}</a>
+                      <FaAngleDoubleRight />{" "}
+                      <Link href="/">{t("menu.home")}</Link>
                     </li>
                     <li>
                       <FaAngleDoubleRight />{" "}

@@ -9,7 +9,11 @@ export default function Planning_a_pv_system() {
   const { t, i18n } = useTranslation("en", { useSuspense: false });
   return (
     <div className="about-area bg-color ">
-      <div className="container" style={{ marginBottom: "150px" }}>
+      <div
+        className="container"
+        style={{ marginBottom: "150px", overflow: "hidden" }}
+      >
+        {" "}
         <div className="row">
           <div className="col-md-12 col-sm-12 col-xs-12">
             <h2
