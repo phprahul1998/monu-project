@@ -22,13 +22,21 @@ export default function Footer() {
           <div className="row">
             <div className="col-lg-4 col-md-12">
               <div className="solar_footer_ab">
-                <a href="index.html">
+                {/* <a href="index.html">
                   <img
                     src="img/footer_logo.png"
                     alt="solar-installation-footer-logo"
                   />
-                </a>
-
+                </a> */}
+                <h1
+                  className="text-white "
+                  style={{ fontSize: "46px !important" }}
+                >
+                  Renevatec
+                </h1>
+                <span className="text-white ">
+                  Regenerative Energie-Technik
+                </span>
                 <p className="text-white">
                   {t("footer.para1", "Default Heading")}
                 </p>

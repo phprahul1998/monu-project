@@ -3,6 +3,8 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { useTranslation } from "react-i18next";
+import { TiTick } from "react-icons/ti";
+
 export default function Rethinkenergy() {
   const { t, i18n } = useTranslation("en", { useSuspense: false });
 
@@ -18,92 +20,99 @@ export default function Rethinkenergy() {
               }}
             />
           </div>
-          <div className="col-md-6 col-lg-6 col-xl-6 col-sm-6 col-xs-12">
-            <Link href="/planning_a_pv_system">
-              <div className="single-awesome-project">
-                <div className="awesome-img">
-                  <img src="img/12_Pic1.png" alt="" />
-                  <div className="middle">
-                    <h5>
+          <div className="col-md-3 col-lg-3 col-xl-3 col-sm-6 col-xs-12">
+            <div className="card card-01">
+              <img
+                className="card-img-top"
+                src="img/12_Pic1.png"
+                alt="rethink energy "
+              />
+              <div className="card-body middle">
+                <span className="badge-box">
+                  <TiTick />
+                </span>
+                <h5> {t("rethinkenergy.rethinkenergy_page.first_heading")}</h5>
+                <Link href="/planning_a_pv_system">
+                  <div className="readMorebtn w-100">
+                    <span>
                       {" "}
-                      {t("rethinkenergy.rethinkenergy_page.first_heading")}
-                    </h5>
-                    <div className="contactbtn w-100">
-                      <span>
-                        {" "}
-                        {t("rethinkenergy.rethinkenergy_page.click_here")}
-                      </span>
-                    </div>
+                      {t("rethinkenergy.rethinkenergy_page.readMeMore")}
+                    </span>
                   </div>
-                </div>
+                </Link>
               </div>
-            </Link>
+            </div>
           </div>
 
-          <div className="col-md-6 col-lg-6 col-xl-6 col-sm-6 col-xs-12">
-            <Link href="/key_factor_for_success">
-              <div className="single-awesome-project">
-                <div className="awesome-img">
-                  <img src="img/12_Pic2.png" alt="" />
-                  <div className="middle">
-                    <h5>
+          <div className="col-md-3 col-lg-3 col-xl-3 col-sm-6 col-xs-12">
+            <div className="card card-01">
+              <img
+                className="card-img-top"
+                src="img/12_Pic2.png"
+                alt="rethink energy "
+              />
+              <div className="card-body middle">
+                <span className="badge-box">
+                  <TiTick />
+                </span>
+                <h5> {t("rethinkenergy.rethinkenergy_page.fourth_heading")}</h5>
+                <Link href="/key_factor_for_success">
+                  <div className="readMorebtn w-100">
+                    <span>
                       {" "}
-                      {t("rethinkenergy.rethinkenergy_page.fourth_heading")}
-                    </h5>
-                    <div className="contactbtn w-100">
-                      <span>
-                        {" "}
-                        {t("rethinkenergy.rethinkenergy_page.click_here")}
-                      </span>
-                    </div>
+                      {t("rethinkenergy.rethinkenergy_page.readMeMore")}
+                    </span>
                   </div>
-                </div>
+                </Link>
               </div>
-            </Link>
+            </div>
           </div>
 
-          <div className="col-md-6 col-lg-6 col-xl-6 col-sm-6 col-xs-12">
-            <Link href="/sustainable_investments">
-              <div className="single-awesome-project">
-                <div className="awesome-img">
-                  <img src="img/12_Pic3.png" alt="" />
-                  <div className="middle">
-                    <h5>
+          <div className="col-md-3 col-lg-3 col-xl-3 col-sm-6 col-xs-12">
+            <div className="card card-01">
+              <img
+                className="card-img-top"
+                src="img/12_Pic3.png"
+                alt="rethink energy "
+              />
+              <div className="card-body middle">
+                <span className="badge-box">
+                  <TiTick />
+                </span>
+                <h5> {t("rethinkenergy.rethinkenergy_page.second_heading")}</h5>
+                <Link href="/sustainable_investments">
+                  <div className="readMorebtn w-100">
+                    <span>
                       {" "}
-                      {t("rethinkenergy.rethinkenergy_page.second_heading")}
-                    </h5>
-                    <div className="contactbtn w-100">
-                      <span>
-                        {" "}
-                        {t("rethinkenergy.rethinkenergy_page.click_here")}
-                      </span>
-                    </div>
+                      {t("rethinkenergy.rethinkenergy_page.readMeMore")}
+                    </span>
                   </div>
-                </div>
+                </Link>
               </div>
-            </Link>
+            </div>
           </div>
 
-          <div className="col-md-6 col-lg-6 col-xl-6 col-sm-6 col-xs-12">
-            <Link href="/own_electricity_for_hybrid">
-              <div className="single-awesome-project">
-                <div className="awesome-img">
-                  <img src="img/12_Pic4.png" alt="" />
-                  <div className="middle">
-                    <h5>
-                      {" "}
-                      {t("rethinkenergy.rethinkenergy_page.third_heading")}
-                    </h5>
-                    <div className="contactbtn w-100">
-                      <span>
-                        {" "}
-                        {t("rethinkenergy.rethinkenergy_page.click_here")}
-                      </span>
-                    </div>
+          <div className="col-md-3 col-lg-3 col-xl-3 col-sm-6 col-xs-12">
+            <div className="card card-01">
+              <img
+                className="card-img-top"
+                src="img/12_Pic4.png"
+                alt="rethink energy "
+              />
+              <div className="card-body middle">
+                <span className="badge-box">
+                  <TiTick />
+                </span>
+                <h5> {t("rethinkenergy.rethinkenergy_page.third_heading")}</h5>
+                <Link href="/own_electricity_for_hybrid">
+                  <div className="readMorebtn w-100">
+                    <span>
+                      {t("rethinkenergy.rethinkenergy_page.readMeMore")}
+                    </span>
                   </div>
-                </div>
+                </Link>
               </div>
-            </Link>
+            </div>
           </div>
         </div>
         {/* <div className="col-md-12 col-lg-12 col-xl-12 col-sm-12 col-xs-12">

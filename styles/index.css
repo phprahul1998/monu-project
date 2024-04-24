@@ -372,15 +372,6 @@ p {
   opacity: 1;
 }
 
-.middle {
-  transition: 0.5s ease;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: center;
-}
 .middle h5 {
   font-size: 15px !important;
   font-weight: 600 !important;
@@ -746,4 +737,70 @@ h1 {
 }
 .agb p {
   font-size: 12px !important;
+}
+.card-img,
+.card-img-top {
+  border-radius: 0px !important;
+}
+
+.card {
+  box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.3);
+  border: none;
+  margin-bottom: 30px;
+}
+.card:hover {
+  transform: scale(1.05);
+  transition: all 1s ease;
+  z-index: 999;
+}
+.card-01 .card-body {
+  position: relative;
+  padding-top: 40px;
+}
+.card-01 .card-body h5 {
+  font-size: 15px !important;
+}
+
+.card-01 .badge-box {
+  position: absolute;
+  top: -20px;
+  left: 38%;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+}
+.card-01 .badge-box svg {
+  background: linear-gradient(to right, #002a4c, #6abd45);
+  color: #fff;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  line-height: 50px;
+  text-align: center;
+  font-size: 15px;
+}
+.card-01 .height-fix {
+  height: 455px;
+  overflow: hidden;
+}
+
+.card-01 .height-fix .card-img-top {
+  width: auto !important;
+}
+.readMorebtn {
+  text-transform: uppercase;
+  font-size: 14px;
+  cursor: pointer;
+  font-weight: 800;
+  color: #fff;
+  background: linear-gradient(to right, #002a4c, #6abd45);
+  border-radius: 20px;
+  text-transform: capitalize;
+  display: inline-block;
+  border: 1px solid #41a634;
+  padding: 7px 10px;
+  margin-top: 10px;
+  transition: 0.4s;
+  text-decoration: none;
+  text-align: center;
 }

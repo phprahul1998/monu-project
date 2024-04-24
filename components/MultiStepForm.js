@@ -54,25 +54,25 @@ const MultiStepForm = () => {
 
   const handleNextButtonClick = (e) => {
     e.preventDefault();
-    if (step === 9 && !postal_code) {
+    if (step === 7 && !postal_code) {
       setError(
         `${t("validation_msg.error_msg")}  ${t(
           "stepform.formdata.step9.postal_code"
         )}`
       );
-    } else if (step === 9 && !localtion) {
+    } else if (step === 7 && !localtion) {
       setError(
         ` ${t("validation_msg.error_msg")} ${t(
           "stepform.formdata.step9.location"
         )}`
       );
-    } else if (step === 9 && !street) {
+    } else if (step === 7 && !street) {
       setError(
         ` ${t("validation_msg.error_msg")} ${t(
           "stepform.formdata.step9.street"
         )}`
       );
-    } else if (step === 9 && !streetno) {
+    } else if (step === 7 && !streetno) {
       setError(
         ` ${t("validation_msg.error_msg")} ${t("stepform.formdata.step9.no")}`
       );
@@ -89,25 +89,25 @@ const MultiStepForm = () => {
 
   const handleSendRequest = (e) => {
     e.preventDefault();
-    if (step === 10 && !salutation) {
+    if (step === 8 && !salutation) {
       setError(
         `${t("validation_msg.error_msg")} ${t(
           "stepform.formdata.step10.Salutation"
         )}`
       );
-    } else if (step === 10 && !first_name) {
+    } else if (step === 8 && !first_name) {
       setError(
         `${t("validation_msg.error_msg")} ${t(
           "stepform.formdata.step10.firstname"
         )}`
       );
-    } else if (step === 10 && !last_name) {
+    } else if (step === 8 && !last_name) {
       setError(
         `${t("validation_msg.error_msg")} ${t(
           "stepform.formdata.step10.lastname"
         )}`
       );
-    } else if (step === 10 && !telephone) {
+    } else if (step === 8 && !telephone) {
       setError(
         `${t("validation_msg.error_msg")} ${t(
           "stepform.formdata.step10.telephone"
@@ -115,7 +115,7 @@ const MultiStepForm = () => {
       );
     } else if (telephone.length < 11) {
       setError(`${t("person_details.telephone_error")}`);
-    } else if (step === 10 && !email) {
+    } else if (step === 8 && !email) {
       setError(
         `${t("validation_msg.error_msg")} ${t(
           "stepform.formdata.step10.email"
@@ -161,7 +161,7 @@ const MultiStepForm = () => {
 
       {/*<h2 >{t('stepform.main_heading1')}</h2>*/}
       <div className="dotted-line">
-        {Array.from({ length: 10 }, (_, index) => (
+        {Array.from({ length: 9 }, (_, index) => (
           <span
             key={index}
             className={`${index < step ? "completed" : ""} ${
@@ -639,113 +639,6 @@ const MultiStepForm = () => {
 
       {step === 6 && (
         <form>
-          <div>
-            <h2>
-              {step}. {t("stepform.formdata.step6.heading")}{" "}
-            </h2>{" "}
-            <button
-              className="commonbtn"
-              type="button"
-              onClick={() => handleButtonClick("Immediately")}
-              style={
-                formData[`step${step}`] === "Immediately"
-                  ? {
-                      backgroundColor: "#41A634",
-                      border: "3px solid #fff",
-                      color: "#fff",
-                    }
-                  : {}
-              }
-            >
-              <img
-                className=""
-                src="/img/6_Sofort.png"
-                alt=""
-                width={60}
-                height={60}
-              />
-              {t("stepform.formdata.step6.option1")}
-            </button>
-            <button
-              className="commonbtn"
-              type="button"
-              onClick={() => handleButtonClick("in 1 - 3 months")}
-              style={
-                formData[`step${step}`] === "in 1 - 3 months"
-                  ? {
-                      backgroundColor: "#41A634",
-                      border: "3px solid #fff",
-                      color: "#fff",
-                    }
-                  : {}
-              }
-            >
-              <img
-                className=""
-                src="/img/6_in_1-3_Monaten.png"
-                alt=""
-                width={60}
-                height={60}
-              />{" "}
-              {t("stepform.formdata.step6.option2")}
-            </button>
-            <button
-              className="commonbtn"
-              type="button"
-              onClick={() => handleButtonClick("in 3 - 6  months")}
-              style={
-                formData[`step${step}`] === "in 3 - 6  months"
-                  ? {
-                      backgroundColor: "#41A634",
-                      border: "3px solid #fff",
-                      color: "#fff",
-                    }
-                  : {}
-              }
-            >
-              <img
-                className=""
-                src="/img/6_in_3-6_Monaten.png"
-                alt=""
-                width={60}
-                height={60}
-              />{" "}
-              {t("stepform.formdata.step6.option3")}
-            </button>
-            <button
-              className="commonbtn"
-              type="button"
-              onClick={() => handleButtonClick("Indefinite")}
-              style={
-                formData[`step${step}`] === "Indefinite"
-                  ? {
-                      backgroundColor: "#41A634",
-                      border: "3px solid #fff",
-                      color: "#fff",
-                    }
-                  : {}
-              }
-            >
-              <img
-                className=""
-                src="/img/1_Sonstiges.png"
-                alt=""
-                width={60}
-                height={60}
-              />{" "}
-              {t("stepform.formdata.step6.option4")}
-            </button>
-          </div>
-          <div className="backbtn">
-            <button type="button" onClick={handleBackButtonClick}>
-              {t("button.btnBack")}
-            </button>
-          </div>
-        </form>
-      )}
-
-      {step === 7 && (
-        <form>
           <div className="setp7">
             <h2>
               {step}. {t("stepform.formdata.step7.heading")}
@@ -869,130 +762,7 @@ const MultiStepForm = () => {
         </form>
       )}
 
-      {step === 8 && (
-        <form>
-          <div>
-            <h2>
-              {step}. {t("stepform.formdata.step8.heading")}
-            </h2>{" "}
-            <button
-              className="commonbtn"
-              type="button"
-              onClick={() => handleButtonClick("Equity capital")}
-              style={
-                formData[`step${step}`] === "Equity capital"
-                  ? {
-                      backgroundColor: "#41A634",
-                      border: "3px solid #fff",
-                      color: "#fff",
-                    }
-                  : {}
-              }
-            >
-              <img
-                className=""
-                src="/img/8_Eigenkapital.png"
-                alt=""
-                width={60}
-                height={60}
-              />
-              <p
-                dangerouslySetInnerHTML={{
-                  __html: t("stepform.formdata.step8.option1"),
-                }}
-              />{" "}
-            </button>
-            <button
-              className="commonbtn"
-              type="button"
-              onClick={() => handleButtonClick("financing")}
-              style={
-                formData[`step${step}`] === "financing"
-                  ? {
-                      backgroundColor: "#41A634",
-                      border: "3px solid #fff",
-                      color: "#fff",
-                    }
-                  : {}
-              }
-            >
-              <img
-                className=""
-                src="/img/8_Finanzierung.png"
-                alt=""
-                width={60}
-                height={60}
-              />
-              <p
-                dangerouslySetInnerHTML={{
-                  __html: t("stepform.formdata.step8.option2"),
-                }}
-              />
-            </button>
-            <button
-              className="commonbtn"
-              type="button"
-              onClick={() => handleButtonClick("both")}
-              style={
-                formData[`step${step}`] === "both"
-                  ? {
-                      backgroundColor: "#41A634",
-                      border: "3px solid #fff",
-                      color: "#fff",
-                    }
-                  : {}
-              }
-            >
-              <img
-                className=""
-                src="/img/8_Beides.png"
-                alt=""
-                width={60}
-                height={60}
-              />
-              <p
-                dangerouslySetInnerHTML={{
-                  __html: t("stepform.formdata.step8.option3"),
-                }}
-              />
-            </button>
-            <button
-              className="commonbtn"
-              type="button"
-              onClick={() => handleButtonClick("Hire purchase")}
-              style={
-                formData[`step${step}`] === "Hire purchase"
-                  ? {
-                      backgroundColor: "#41A634",
-                      border: "3px solid #fff",
-                      color: "#fff",
-                    }
-                  : {}
-              }
-            >
-              <img
-                className=""
-                src="/img/8_Mietkauf.png"
-                alt=""
-                width={60}
-                height={60}
-              />
-              <p
-                dangerouslySetInnerHTML={{
-                  __html: t("stepform.formdata.step8.option4"),
-                }}
-              />
-            </button>
-          </div>
-          <div className="backbtn">
-            <button type="button" onClick={handleBackButtonClick}>
-              {t("button.btnBack")}
-            </button>
-          </div>
-        </form>
-      )}
-
-      {step === 9 && (
+      {step === 7 && (
         <form>
           <h2>
             {step}. {t("stepform.formdata.step9.heading")}
@@ -1066,7 +836,7 @@ const MultiStepForm = () => {
         </form>
       )}
 
-      {step === 10 && (
+      {step === 8 && (
         <form>
           <h2>
             {step}. {t("stepform.formdata.step10.heading")}
@@ -1211,7 +981,7 @@ const MultiStepForm = () => {
         </form>
       )}
 
-      {step === 11 && (
+      {step === 9 && (
         <div className="text-left ">
           <p
             className="text-white"

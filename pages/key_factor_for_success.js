@@ -34,7 +34,7 @@ export default function Key_factor_for_success() {
               <div className="about-content">
                 <p
                   dangerouslySetInnerHTML={{
-                    __html: t("rethinkenergy.rethinkenergy_page.fourth_page"),
+                    __html: t("rethinkenergy.rethinkenergy_page.second_page"),
                   }}
                 />
               </div>

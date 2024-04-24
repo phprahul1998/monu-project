@@ -34,7 +34,7 @@ export default function Sustainable_investments() {
               <div className="about-content">
                 <p
                   dangerouslySetInnerHTML={{
-                    __html: t("rethinkenergy.rethinkenergy_page.second_page"),
+                    __html: t("rethinkenergy.rethinkenergy_page.third_page"),
                   }}
                 />
               </div>

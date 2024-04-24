@@ -20,17 +20,10 @@ export default async function handler(req, res) {
           name: "direction_type",
           value: formData.step4,
         },
-        {
-          name: "time",
-          value: formData.step6,
-        },
+
         {
           name: "smart_energy_management ",
-          value: formData.step7,
-        },
-        {
-          name: "financing_type",
-          value: formData.step8,
+          value: formData.step6,
         },
         {
           name: "electricityUse",

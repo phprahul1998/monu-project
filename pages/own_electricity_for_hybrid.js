@@ -34,7 +34,7 @@ export default function Own_electricity_for_hybrid() {
               <div className="about-content">
                 <p
                   dangerouslySetInnerHTML={{
-                    __html: t("rethinkenergy.rethinkenergy_page.third_page"),
+                    __html: t("rethinkenergy.rethinkenergy_page.fourth_page"),
                   }}
                 />
               </div>
