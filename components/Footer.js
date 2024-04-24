@@ -127,7 +127,7 @@ export default function Footer() {
                   </ul>
                 </div>
                 <p>{t("menu.call_now")}</p>
-                <h1>+49 30 20654716</h1>
+                <h1>0800 00 444 33</h1>
               </div>
             </div>
           </div>

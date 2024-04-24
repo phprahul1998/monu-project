@@ -64,7 +64,7 @@ export default function Navbar() {
                   </li>
                   <li>
                     <a href="#">
-                      <FaPhone /> +49 30 20654716
+                      <FaPhone /> 0800 00 444 33
                     </a>
                   </li>
                 </ul>
