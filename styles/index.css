@@ -372,6 +372,15 @@ p {
   opacity: 1;
 }
 
+/* .middle {
+  transition: 0.5s ease;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+} */
 .middle h5 {
   font-size: 15px !important;
   font-weight: 600 !important;
@@ -764,7 +773,8 @@ h1 {
 .card-01 .badge-box {
   position: absolute;
   top: -20px;
-  left: 38%;
+  left: 50%;
+  transform: translate(-35%, 0%);
   width: 100px;
   height: 100px;
   text-align: center;
