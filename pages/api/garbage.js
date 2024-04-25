@@ -20,11 +20,6 @@ export default async function handler(req, res) {
           name: "direction_type",
           value: formData.step4,
         },
-
-        {
-          name: "smart_energy_management ",
-          value: formData.step6,
-        },
         {
           name: "electricityUse",
           value: formData.electricityUse,

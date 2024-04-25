@@ -12,6 +12,7 @@ const MultiStepForm = () => {
   const [street, setStreet] = useState("");
   const [lastStep, setlastStep] = useState("");
   const [streetno, setstreetno] = useState("");
+  const [state, setState] = useState("");
   const [salutation, setSalutation] = useState("");
   const [first_name, setFirstName] = useState("");
   const [last_name, setLastName] = useState("");
@@ -161,7 +162,7 @@ const MultiStepForm = () => {
 
       {/*<h2 >{t('stepform.main_heading1')}</h2>*/}
       <div className="dotted-line">
-        {Array.from({ length: 9 }, (_, index) => (
+        {Array.from({ length: 8 }, (_, index) => (
           <span
             key={index}
             className={`${index < step ? "completed" : ""} ${
@@ -636,131 +637,6 @@ const MultiStepForm = () => {
 
       {step === 6 && (
         <form>
-          <div className="setp7">
-            <h2>
-              {step}. {t("stepform.formdata.step7.heading")}
-            </h2>{" "}
-            <button
-              className="commonbtn"
-              type="button"
-              onClick={() => handleButtonClick("PV + Speicher")}
-              style={
-                formData[`step${step}`] === "PV + Speicher"
-                  ? {
-                      backgroundColor: "#41A634",
-                      border: "3px solid #fff",
-                      color: "#fff",
-                    }
-                  : {}
-              }
-            >
-              <img
-                className=""
-                src="/img/7_PV-Speicher.png"
-                alt=""
-                width={60}
-                height={60}
-              />
-              <p
-                dangerouslySetInnerHTML={{
-                  __html: t("stepform.formdata.step7.option1"),
-                }}
-              />{" "}
-            </button>
-            <button
-              className="commonbtn"
-              type="button"
-              onClick={() =>
-                handleButtonClick("PV + Speicher + Energiemanagement")
-              }
-              style={
-                formData[`step${step}`] === "PV + Speicher + Energiemanagement"
-                  ? {
-                      backgroundColor: "#41A634",
-                      border: "3px solid #fff",
-                      color: "#fff",
-                    }
-                  : {}
-              }
-            >
-              <img
-                className=""
-                src="/img/7_PV-Speicher-EMS.png"
-                alt=""
-                width={60}
-                height={60}
-              />
-              <p
-                dangerouslySetInnerHTML={{
-                  __html: t("stepform.formdata.step7.option2"),
-                }}
-              />
-            </button>
-            <button
-              className="commonbtn"
-              type="button"
-              onClick={() => handleButtonClick("PV-Erweiterung")}
-              style={
-                formData[`step${step}`] === "PV-Erweiterung"
-                  ? {
-                      backgroundColor: "#41A634",
-                      border: "3px solid #fff",
-                      color: "#fff",
-                    }
-                  : {}
-              }
-            >
-              <img
-                className=""
-                src="/img/7_PV-Erweiterung.png"
-                alt=""
-                width={60}
-                height={60}
-              />
-              <p
-                dangerouslySetInnerHTML={{
-                  __html: t("stepform.formdata.step7.option3"),
-                }}
-              />{" "}
-            </button>
-            <button
-              className="commonbtn"
-              type="button"
-              onClick={() => handleButtonClick("PV-Selbstaufbau")}
-              style={
-                formData[`step${step}`] === "PV-Selbstaufbau"
-                  ? {
-                      backgroundColor: "#41A634",
-                      border: "3px solid #fff",
-                      color: "#fff",
-                    }
-                  : {}
-              }
-            >
-              <img
-                className=""
-                src="/img/7_PV-Selbstaufbau.png"
-                alt=""
-                width={60}
-                height={60}
-              />
-              <p
-                dangerouslySetInnerHTML={{
-                  __html: t("stepform.formdata.step7.option4"),
-                }}
-              />{" "}
-            </button>
-          </div>
-          <div className="backbtn">
-            <button type="button" onClick={handleBackButtonClick}>
-              {t("button.btnBack")}
-            </button>
-          </div>{" "}
-        </form>
-      )}
-
-      {step === 7 && (
-        <form>
           <h2>
             {step}. {t("stepform.formdata.step9.heading")}
           </h2>{" "}
@@ -812,6 +688,18 @@ const MultiStepForm = () => {
                 }}
               />
             </div>
+
+            {/* <div className="col-md-12 col-sm-12 col-xl-12 col-lg-12 col-xs-12">
+              <input
+                className="w-full h-15 bg-gray-300 text-gray-900 mt-3 p-3 rounded-lg focus:outline-none focus:shadow-outline"
+                type="text"
+                value={state}
+                placeholder={t("stepform.formdata.step9.state")}
+                onChange={(e) => {
+                  setState(e.target.value), handleInputChange();
+                }}
+              />
+            </div> */}
             {error && (
               <div className="error_msg mt-3">
                 <p className="">{error}</p>
@@ -833,7 +721,7 @@ const MultiStepForm = () => {
         </form>
       )}
 
-      {step === 8 && (
+      {step === 7 && (
         <form>
           <h2>
             {step}. {t("stepform.formdata.step10.heading")}
@@ -977,7 +865,7 @@ const MultiStepForm = () => {
         </form>
       )}
 
-      {step === 9 && (
+      {step === 8 && (
         <div className="text-left ">
           <p
             className="text-white"

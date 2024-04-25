@@ -34,7 +34,7 @@
     }
   },
   "step1": {
-    "heading": "Your PV provider check in 9 steps -  ",
+    "heading": "Your PV provider check in 8 steps -  ",
     "subheading": "Where Should the photovoltaic system be installed ?"
   },
 
@@ -121,7 +121,7 @@
     "para": "© Copyright Renevatec All Rights Reserved."
   },
   "stepform": {
-    "main_heading1": "<span class='coloredtext'>Your PV provider</span> check in 9 steps:",
+    "main_heading1": "<span class='coloredtext'>Your PV provider</span> check in 8 steps:",
     "laststep": "<h2>Done !</h2><p>Thank you very much for your inquiry and your trust! We look forward to finding the right provider for you and willget back to you as soon as possible! <br/> <br/> Would you like to make further inquiries ? To do this, simply click on the“ Further inquiry” button. </p>",
     "laststep_error": "<h2> Oops! Something Went Wrong</h2><p>We're sorry, but it seems that there was an issue processing your request. Please try submitting the form again later. If the problem persists, feel free to contact our support team for further assistance.<br/><br/>Thank you for your patience.<br/><br/><hr/><br/><br/>Feel free to customize this message as needed for your specific context or platform.</p>",
     "formdata": {
@@ -182,7 +182,8 @@
         "postal_code": "PLZ",
         "location": "Location",
         "street": "Street",
-        "no": "No."
+        "no": "No.",
+        "state": "State"
       },
       "step10": {
         "heading": "Who can we address with this offer?",
