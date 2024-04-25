@@ -196,7 +196,7 @@ const MultiStepForm = () => {
               width={60}
               height={60}
             />
-            {t("stepform.formdata.step1.option1")}
+            <p> {t("stepform.formdata.step1.option1")}</p>
           </button>
           <button
             className="commonbtn"
@@ -220,7 +220,7 @@ const MultiStepForm = () => {
               width={60}
               height={60}
             />
-            {t("stepform.formdata.step1.option2")}
+            <p> {t("stepform.formdata.step1.option2")}</p>
           </button>
           <button
             className="commonbtn"
@@ -244,7 +244,7 @@ const MultiStepForm = () => {
               width={60}
               height={60}
             />
-            {t("stepform.formdata.step1.option3")}{" "}
+            <p> {t("stepform.formdata.step1.option3")} </p>
           </button>
           <button
             className="commonbtn"
@@ -268,7 +268,7 @@ const MultiStepForm = () => {
               width={60}
               height={60}
             />
-            {t("stepform.formdata.step1.option4")}
+            <p> {t("stepform.formdata.step1.option4")}</p>
           </button>
         </form>
       )}
@@ -300,7 +300,7 @@ const MultiStepForm = () => {
                 width={60}
                 height={60}
               />
-              {t("stepform.formdata.step2.option1")}
+              <p> {t("stepform.formdata.step2.option1")}</p>
             </button>
             <button
               className="commonbtn"
@@ -323,7 +323,7 @@ const MultiStepForm = () => {
                 width={60}
                 height={60}
               />
-              {t("stepform.formdata.step2.option2")}
+              <p> {t("stepform.formdata.step2.option2")}</p>
             </button>
             <button
               className="commonbtn"
@@ -346,7 +346,7 @@ const MultiStepForm = () => {
                 width={60}
                 height={60}
               />
-              {t("stepform.formdata.step2.option3")}
+              <p>{t("stepform.formdata.step2.option3")}</p>
             </button>
             <button
               className="commonbtn"
@@ -369,7 +369,7 @@ const MultiStepForm = () => {
                 width={60}
                 height={60}
               />
-              {t("stepform.formdata.step2.option4")}
+              <p>{t("stepform.formdata.step2.option4")}</p>
             </button>
           </div>
           <div className="backbtn">
@@ -407,7 +407,7 @@ const MultiStepForm = () => {
                 width={60}
                 height={60}
               />
-              {t("stepform.formdata.step3.option1")}
+              <p>{t("stepform.formdata.step3.option1")}</p>
             </button>
             <button
               className="commonbtn"
@@ -430,7 +430,7 @@ const MultiStepForm = () => {
                 width={60}
                 height={60}
               />
-              {t("stepform.formdata.step3.option2")}
+              <p> {t("stepform.formdata.step3.option2")}</p>
             </button>
             <button
               className="commonbtn"
@@ -454,7 +454,7 @@ const MultiStepForm = () => {
                 height={60}
               />
 
-              {t("stepform.formdata.step3.option3")}
+              <p> {t("stepform.formdata.step3.option3")}</p>
             </button>
             <button
               className="commonbtn"
@@ -477,7 +477,7 @@ const MultiStepForm = () => {
                 width={60}
                 height={60}
               />
-              {t("stepform.formdata.step3.option4")}
+              <p> {t("stepform.formdata.step3.option4")}</p>
             </button>
           </div>
           <div className="backbtn">
@@ -515,7 +515,7 @@ const MultiStepForm = () => {
                 width={60}
                 height={60}
               />
-              {t("stepform.formdata.step4.option1")}
+              <p> {t("stepform.formdata.step4.option1")}</p>
             </button>
             <button
               className="commonbtn"
@@ -538,8 +538,7 @@ const MultiStepForm = () => {
                 width={60}
                 height={60}
               />
-
-              {t("stepform.formdata.step4.option2")}
+              <p> {t("stepform.formdata.step4.option2")}</p>
             </button>
             <button
               className="commonbtn"
@@ -562,8 +561,7 @@ const MultiStepForm = () => {
                 width={60}
                 height={60}
               />
-
-              {t("stepform.formdata.step4.option3")}
+              <p> {t("stepform.formdata.step4.option3")}</p>
             </button>
             <button
               className="commonbtn"
@@ -586,8 +584,7 @@ const MultiStepForm = () => {
                 width={60}
                 height={60}
               />
-
-              {t("stepform.formdata.step4.option4")}
+              <p> {t("stepform.formdata.step4.option4")}</p>
             </button>
           </div>
           <div className="backbtn">
@@ -842,7 +839,7 @@ const MultiStepForm = () => {
             {step}. {t("stepform.formdata.step10.heading")}
           </h2>{" "}
           <div className="row">
-            <div className="col-md-6 col-sm-12 col-xl-6 col-lg-6 col-xs-12">
+            <div className="col-md-12 col-sm-12 col-xl-8 col-lg-8 col-xs-12">
               <div className="float-left step10form">
                 <input
                   className="salutation"
@@ -855,8 +852,8 @@ const MultiStepForm = () => {
                 />
                 <label htmlFor="mr">
                   &nbsp;&nbsp;{t("stepform.formdata.step10.mr")}
-                  &nbsp;&nbsp;&nbsp;
-                </label>
+                </label>{" "}
+                &nbsp; &nbsp;
                 <input
                   className="salutation"
                   type="radio"
@@ -869,9 +866,9 @@ const MultiStepForm = () => {
                   }}
                 />
                 <label htmlFor="Mrs.">
-                  &nbsp;{t("stepform.formdata.step10.mrs")}
-                </label>
-
+                  &nbsp; &nbsp;{t("stepform.formdata.step10.mrs")}
+                </label>{" "}
+                &nbsp; &nbsp;
                 <input
                   className="salutation"
                   type="radio"
@@ -882,10 +879,9 @@ const MultiStepForm = () => {
                   onChange={() => setSalutation("Firma.")}
                 />
                 <label htmlFor="firma">
-                  &nbsp;&nbsp;{t("stepform.formdata.step10.firma")}
-                  &nbsp;&nbsp;&nbsp;
+                  &nbsp; &nbsp;{t("stepform.formdata.step10.firma")}
                 </label>
-
+                &nbsp; &nbsp;
                 <input
                   className="salutation"
                   type="radio"
@@ -897,8 +893,8 @@ const MultiStepForm = () => {
                 />
                 <label htmlFor="organisation">
                   &nbsp;&nbsp;{t("stepform.formdata.step10.organisation")}
-                  &nbsp;&nbsp;&nbsp;
                 </label>
+                &nbsp; &nbsp;
               </div>
             </div>
             <div className="row">

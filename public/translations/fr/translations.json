@@ -120,7 +120,7 @@
     "para": "© Copyright Renevatec. Alle Rechte vorbehalten."
   },
   "stepform": {
-    "main_heading1": "<span class='coloredtext'>Ihr PV-Anbieter-Check </span>  in 8 Schritten:",
+    "main_heading1": "<span class='coloredtext'>Ihr PV-Anbieter-Check </span>  in 9 Schritten:",
     "laststep": "<h2 class='mt-2'>Fertig!</h2><p>Vielen Dank für Ihre Anfrage und Ihr Vertrauen! Wir freuen uns darauf, den richtigen Anbieter für Sie zu finden, und werden uns so schnell wie möglich bei Ihnen melden! <br/> <br/> Möchten Sie weitere Anfragen stellen? Klicken Sie einfach auf die Schaltfläche „Weitere Anfrage“. </p>",
     "laststep_error": "<h2 class='mt-2'> Ups! Etwas ist schiefgelaufen</h2><p>Es tut uns leid, aber es scheint, dass bei der Verarbeitung Ihrer Anfrage ein Problem aufgetreten ist. Bitte versuchen Sie es später erneut. Wenn das Problem weiterhin besteht, kontaktieren Sie gerne unser Support-Team für weitere Unterstützung.<br/><br/>Vielen Dank für Ihre Geduld.<br/><br/><hr/><br/><br/>Passen Sie diese Nachricht bei Bedarf gerne für Ihren spezifischen Kontext oder Ihre Plattform an.</p>",
     "formdata": {

@@ -46,25 +46,26 @@ export default function Navbar() {
             <div className="col-10">
               <div className="topbar-left">
                 <ul>
-                  <li className="hidden-mobile">
+                  {/* <li className="hidden-mobile">
                     <a href="#">
                       <FaLocationDot /> Eiswerderstr. 16-18 13585 Berlin
                       Deutschland
+                    </a>
+                  </li> */}
+
+                  <li className="hidden-mobile">
+                    <a href="mailto:info@renevatec.de">
+                      <FaEnvelope /> info@renevatec.de
+                    </a>
+                  </li>
+                  <li>
+                    <a href="tel:08000044433">
+                      <FaPhone /> 0800 00 444 33
                     </a>
                   </li>
                   <li className="hidden-mobile">
                     <a href="#">
                       <FaRegClock /> {t("heading.timing")}
-                    </a>
-                  </li>
-                  <li className="hidden-mobile">
-                    <a href="#">
-                      <FaEnvelope /> info@renevatec.de
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <FaPhone /> 0800 00 444 33
                     </a>
                   </li>
                 </ul>

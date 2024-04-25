@@ -122,12 +122,25 @@ export default function Footer() {
                       <FaGlobeAsia /> www.renevatec.de ,www.renevatec.com
                     </li>
                     <li>
-                      <FaEnvelope /> info@renevatec.de
+                      <FaEnvelope />
+                      <a
+                        style={{
+                          textDecoration: "none",
+                          color: "#fff",
+                        }}
+                        href="mailto:info@renevatec.de"
+                      >
+                        {" "}
+                        info@renevatec.de
+                      </a>
                     </li>
                   </ul>
                 </div>
                 <p>{t("menu.call_now")}</p>
-                <h1>0800 00 444 33</h1>
+                <a style={{ textDecoration: "none" }} href="tel:0800 00 444 33">
+                  {" "}
+                  <h1 className="text-white">0800 00 444 33</h1>
+                </a>
               </div>
             </div>
           </div>

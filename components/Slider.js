@@ -12,7 +12,7 @@ export default function Slider() {
     <div className="imageSlider">
       <div className="container-fluid overlay">
         <div className="row p-6">
-          <div className="col-md-4  col-sm-12 col-lg-5 col-xl-6">
+          <div className="col-md-3  col-sm-12 col-lg-4 col-xl-6">
             {/*<div data-aos="fade-up" className="homepage ">
                             <h1 className="">{t('home.main_heading', 'Default Heading')}</h1>
                             <p className="">
@@ -20,7 +20,7 @@ export default function Slider() {
                             </p>
                         </div>*/}
           </div>
-          <div className="col-md-8 col-sm-12 col-lg-7 col-xl-6 MultiStepForm">
+          <div className="col-md-9 col-sm-12 col-lg-8 col-xl-6 MultiStepForm">
             <MultiStepForm />
           </div>
         </div>
