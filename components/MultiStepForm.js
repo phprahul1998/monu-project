@@ -881,10 +881,12 @@ const MultiStepForm = () => {
                 className="w-full h-15 bg-gray-300 text-gray-900 mt-3 p-3 rounded-lg focus:outline-none focus:shadow-outline"
                 value={state}
                 onChange={(e) => {
-                  setState(e.target.value), handleInputChange();
+                  const selectedValue = e.target.value;
+                  setState(selectedValue);
+                  handleInputChange();
                 }}
               >
-                <option value="">Select State</option>
+                <option value="">{t("stepform.formdata.step9.state")}</option>
                 <option value="Baden-Württemberg">Baden-Württemberg</option>
                 <option value="Bavaria">Bavaria</option>
                 <option value="Berlin">Berlin</option>

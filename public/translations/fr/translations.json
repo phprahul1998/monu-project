@@ -182,7 +182,7 @@
         "location": "Adresse",
         "street": "Straße",
         "no": "Nr.",
-        "state": "Wählen Bundesland"
+        "state": "Bundesland auswählen"
       },
       "step10": {
         "heading": "Wen können wir mit diesem Angebot ansprechen?",
