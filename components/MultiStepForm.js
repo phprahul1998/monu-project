@@ -1,9 +1,12 @@
-import { useState } from "react";
+import { useState, useRef, useEffect } from "react";
 import { AiOutlineExclamationCircle } from "react-icons/ai";
 import { useTranslation } from "react-i18next";
+import Autocomplete from "react-google-autocomplete";
 import Image from "next/image";
 import axios from "axios";
 const MultiStepForm = () => {
+  const inputRef = useRef(null);
+  const [country, setCountry] = useState("DE");
   const [step, setStep] = useState(1);
   const [formData, setFormData] = useState([]);
   const [postal_code, setPostalcode] = useState("");
@@ -52,34 +55,51 @@ const MultiStepForm = () => {
   const handleSliderChange = (event) => {
     setSliderValue(event.target.value);
   };
+  const handleAddressChange = (e) => {
+    setLocation(e.target.value);
+    handleInputChange();
+  };
+  const handlePlaceSelected = (place) => {
+    setLocation(place.formatted_address);
+  };
 
   const handleNextButtonClick = (e) => {
     e.preventDefault();
-    if (step === 7 && !postal_code) {
-      setError(
-        `${t("validation_msg.error_msg")}  ${t(
-          "stepform.formdata.step9.postal_code"
-        )}`
-      );
-    } else if (step === 7 && !localtion) {
+    console.log(localtion);
+    if (step === 6 && !localtion) {
       setError(
         ` ${t("validation_msg.error_msg")} ${t(
           "stepform.formdata.step9.location"
         )}`
       );
-    } else if (step === 7 && !street) {
+    } else if (step === 6 && !postal_code) {
+      setError(
+        `${t("validation_msg.error_msg")}  ${t(
+          "stepform.formdata.step9.postal_code"
+        )}`
+      );
+    } else if (step === 6 && !street) {
       setError(
         ` ${t("validation_msg.error_msg")} ${t(
           "stepform.formdata.step9.street"
         )}`
       );
-    } else if (step === 7 && !streetno) {
+    } else if (step === 6 && !state) {
       setError(
-        ` ${t("validation_msg.error_msg")} ${t("stepform.formdata.step9.no")}`
+        ` ${t("validation_msg.error_msg")} ${t(
+          "stepform.formdata.step9.state"
+        )}`
       );
     } else {
       setError("");
-      setFormData({ ...formData, electricityUse, localtion, street, streetno });
+      setFormData({
+        ...formData,
+        electricityUse,
+        localtion,
+        street,
+        state,
+        postal_code,
+      });
       setStep(step + 1);
     }
   };
@@ -90,25 +110,25 @@ const MultiStepForm = () => {
 
   const handleSendRequest = (e) => {
     e.preventDefault();
-    if (step === 8 && !salutation) {
+    if (step === 7 && !salutation) {
       setError(
         `${t("validation_msg.error_msg")} ${t(
           "stepform.formdata.step10.Salutation"
         )}`
       );
-    } else if (step === 8 && !first_name) {
+    } else if (step === 7 && !first_name) {
       setError(
         `${t("validation_msg.error_msg")} ${t(
           "stepform.formdata.step10.firstname"
         )}`
       );
-    } else if (step === 8 && !last_name) {
+    } else if (step === 7 && !last_name) {
       setError(
         `${t("validation_msg.error_msg")} ${t(
           "stepform.formdata.step10.lastname"
         )}`
       );
-    } else if (step === 8 && !telephone) {
+    } else if (step === 7 && !telephone) {
       setError(
         `${t("validation_msg.error_msg")} ${t(
           "stepform.formdata.step10.telephone"
@@ -116,7 +136,7 @@ const MultiStepForm = () => {
       );
     } else if (telephone.length < 11) {
       setError(`${t("person_details.telephone_error")}`);
-    } else if (step === 8 && !email) {
+    } else if (step === 7 && !email) {
       setError(
         `${t("validation_msg.error_msg")} ${t(
           "stepform.formdata.step10.email"
@@ -641,7 +661,77 @@ const MultiStepForm = () => {
             {step}. {t("stepform.formdata.step9.heading")}
           </h2>{" "}
           <div className="row">
-            <div className="col-md-3 col-sm-12 col-xl-3 col-lg-3 col-xs-12">
+            <div className="col-md-12 col-sm-12 col-xl-12 col-lg-12 col-xs-12">
+              <Autocomplete
+                className="w-full h-15 bg-gray-300 text-gray-900 mt-3 p-3 rounded-lg focus:outline-none focus:shadow-outline"
+                value={localtion}
+                placeholder={t("stepform.formdata.step9.location")}
+                onChange={handleAddressChange}
+                onPlaceSelected={handlePlaceSelected}
+                ref={inputRef}
+                apiKey={process.env.GOOGLE_MAP_API_KEY}
+                onPlaceSelected={(place, a, c) => {
+                  var address = place.formatted_address;
+                  var latitude = place.geometry.location.lat();
+                  var longitude = place.geometry.location.lng();
+                  var latlng = new google.maps.LatLng(latitude, longitude);
+                  var geocoder = (geocoder = new google.maps.Geocoder());
+                  geocoder.geocode(
+                    { latLng: latlng },
+                    function (results, status) {
+                      if (status == google.maps.GeocoderStatus.OK) {
+                        if (results[0]) {
+                          var streetNumber, state, streetName;
+                          results[0].address_components.forEach((component) => {
+                            if (component.types.includes("street_number")) {
+                              streetNumber = component.long_name;
+                            }
+                            if (component.types.includes("route")) {
+                              streetName = component.long_name;
+                            }
+                            if (
+                              component.types.includes(
+                                "administrative_area_level_1"
+                              )
+                            ) {
+                              state = component.long_name;
+                            }
+                          });
+                          var pin =
+                            results[0].address_components[
+                              results[0].address_components.length - 1
+                            ].long_name;
+
+                          setLocation(inputRef.current.value);
+                          setPostalcode(pin ? pin : "");
+                          setStreet(
+                            (streetName ? streetName : "") +
+                              (streetNumber ? ", " + streetNumber : "")
+                          );
+                          setState(state ? state : "");
+                        }
+                      }
+                    }
+                  );
+                }}
+                options={{
+                  types: ["address"],
+                  componentRestrictions: { country },
+                }}
+              />
+            </div>
+
+            {/* <input
+              className="w-full h-15 bg-gray-300 text-gray-900 mt-3 p-3 rounded-lg focus:outline-none focus:shadow-outline"
+              type="text"
+              value={localtion}
+              placeholder={t("stepform.formdata.step9.location")}
+              onChange={(e) => {
+                setLocation(e.target.value), handleInputChange();
+              }}
+            /> */}
+
+            <div className="col-md-6 col-sm-12 col-xl-6 col-lg-6 col-xs-12">
               <input
                 className="w-full h-15 bg-gray-300 text-gray-900 mt-3 p-3 rounded-lg focus:outline-none focus:shadow-outline"
                 type="text"
@@ -653,19 +743,7 @@ const MultiStepForm = () => {
               />
             </div>
 
-            <div className="col-md-9 col-sm-12 col-xl-9 col-lg-9 col-xs-12">
-              <input
-                className="w-full h-15 bg-gray-300 text-gray-900 mt-3 p-3 rounded-lg focus:outline-none focus:shadow-outline"
-                type="text"
-                value={localtion}
-                placeholder={t("stepform.formdata.step9.location")}
-                onChange={(e) => {
-                  setLocation(e.target.value), handleInputChange();
-                }}
-              />
-            </div>
-
-            <div className="col-md-9 col-sm-12 col-xl-9 col-lg-9 col-xs-12">
+            <div className="col-md-6 col-sm-12 col-xl-6 col-lg-6 col-xs-12">
               <input
                 className="w-full h-15 bg-gray-300 text-gray-900 mt-3 p-3 rounded-lg focus:outline-none focus:shadow-outline"
                 type="text"
@@ -677,19 +755,7 @@ const MultiStepForm = () => {
               />
             </div>
 
-            <div className="col-md-3 col-sm-12 col-xl-3 col-lg-3 col-xs-12">
-              <input
-                className="w-full h-15 bg-gray-300 text-gray-900 mt-3 p-3 rounded-lg focus:outline-none focus:shadow-outline"
-                type="text"
-                value={streetno}
-                placeholder={t("stepform.formdata.step9.no")}
-                onChange={(e) => {
-                  setstreetno(e.target.value), handleInputChange();
-                }}
-              />
-            </div>
-
-            {/* <div className="col-md-12 col-sm-12 col-xl-12 col-lg-12 col-xs-12">
+            <div className="col-md-12 col-sm-12 col-xl-12 col-lg-12 col-xs-12">
               <input
                 className="w-full h-15 bg-gray-300 text-gray-900 mt-3 p-3 rounded-lg focus:outline-none focus:shadow-outline"
                 type="text"
@@ -699,6 +765,40 @@ const MultiStepForm = () => {
                   setState(e.target.value), handleInputChange();
                 }}
               />
+            </div>
+
+            {/* <div className="col-md-12 col-sm-12 col-xl-12 col-lg-12 col-xs-12">
+              <select
+                className="w-full h-15 bg-gray-300 text-gray-900 mt-3 p-3 rounded-lg focus:outline-none focus:shadow-outline"
+                value={state}
+                onChange={(e) => {
+                  setState(e.target.value), handleInputChange();
+                }}
+              >
+                <option value="">Select State</option>
+                <option value="Baden-Württemberg">Baden-Württemberg</option>
+                <option value="Bavaria">Bavaria</option>
+                <option value="Berlin">Berlin</option>
+                <option value="Brandenburg">Brandenburg</option>
+                <option value="Bremen">Bremen</option>
+                <option value="Hamburg">Hamburg</option>
+                <option value="Hesse">Hesse</option>
+                <option value="Mecklenburg-Western Pomerania">
+                  Mecklenburg-Western Pomerania
+                </option>
+                <option value="Lower Saxony">Lower Saxony</option>
+                <option value="North Rhine-Westphalia">
+                  North Rhine-Westphalia
+                </option>
+                <option value="Rhineland-Palatinate">
+                  Rhineland-Palatinate
+                </option>
+                <option value="Saarland">Saarland</option>
+                <option value="Saxony">Saxony</option>
+                <option value="Saxony-Anhalt">Saxony-Anhalt</option>
+                <option value="Schleswig-Holstein">Schleswig-Holstein</option>
+                <option value="Thuringia">Thuringia</option>
+              </select>
             </div> */}
             {error && (
               <div className="error_msg mt-3">

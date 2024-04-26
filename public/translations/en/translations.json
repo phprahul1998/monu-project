@@ -183,7 +183,7 @@
         "location": "Location",
         "street": "Street",
         "no": "No.",
-        "state": "State"
+        "state": "Federal State"
       },
       "step10": {
         "heading": "Who can we address with this offer?",

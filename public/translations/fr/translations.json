@@ -181,7 +181,8 @@
         "postal_code": "PLZ",
         "location": "Ort",
         "street": "Straße",
-        "no": "Nr."
+        "no": "Nr.",
+        "state": "Bundesland"
       },
       "step10": {
         "heading": "Wen können wir mit diesem Angebot ansprechen?",
