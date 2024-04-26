@@ -704,12 +704,11 @@ const MultiStepForm = () => {
                 placeholder={t("stepform.formdata.step9.location")}
                 onChange={handleAddressChange}
                 ref={inputRef}
-                // apiKey={process.env.GOOGLE_MAP_API_KEY}
-                apiKey={"AIzaSyCx6RWWyDZNAT6--6cf4sdPQUTlGZvw7Qo"}
+                apiKey={process.env.GOOGLE_MAP_API_KEY}
                 onPlaceSelected={(place) => handlePlaceSelected(place)}
                 value={localtion}
                 options={{
-                  types: ["geocode"],
+                  types: ["address"],
                   componentRestrictions: { country },
                 }}
               />
