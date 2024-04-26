@@ -95,7 +95,6 @@ const MultiStepForm = () => {
         }
       }
     });
-    console.log(newLocation);
     setLocation(newLocation);
   };
 

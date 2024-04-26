@@ -282,3 +282,6 @@
   font-size: 12px;
   margin-left: 2px;
 }
+.gm-style .gm-style-cc {
+  display: none !important;
+}
