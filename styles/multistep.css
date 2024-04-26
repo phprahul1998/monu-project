@@ -45,6 +45,7 @@
   text-align: center;
   border-radius: 20px;
   transition: background-color 0.3s, border 0.3s;
+  white-space: nowrap;
 }
 
 .commonbtn:hover {
@@ -59,6 +60,8 @@
 .commonbtn p {
   color: #000 !important;
   font-size: 11px !important;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 
 .commonbtn img {

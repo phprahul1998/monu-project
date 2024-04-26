@@ -37,9 +37,12 @@ export default function Footer() {
                 <span className="text-white ">
                   Regenerative Energie-Technik
                 </span>
-                <p className="text-white">
-                  {t("footer.para1", "Default Heading")}
-                </p>
+                <p
+                  style={{ fontSize: "14px !important" }}
+                  className="text-white"
+                  dangerouslySetInnerHTML={{ __html: t("footer.para1") }}
+                />
+
                 <div className="top_solar_btn">
                   <ul>
                     <li>
@@ -119,7 +122,8 @@ export default function Footer() {
                       Deutschland
                     </li>
                     <li>
-                      <FaGlobeAsia /> www.renevatec.de ,www.renevatec.com
+                      <FaGlobeAsia /> www.renevatec.de &npsp;&npsp;
+                      www.renevatec.com
                     </li>
                     <li>
                       <FaEnvelope />

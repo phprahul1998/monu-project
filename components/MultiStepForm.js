@@ -98,29 +98,29 @@ const MultiStepForm = () => {
 
   const handleNextButtonClick = (e) => {
     e.preventDefault();
-    if (step === 6 && !localtion) {
+    if (step === 7 && !localtion) {
       setError(
         ` ${t("validation_msg.error_msg")} ${t(
           "stepform.formdata.step9.location"
         )}`
       );
-    } else if (step === 6 && !postal_code) {
+    } else if (step === 7 && !postal_code) {
       setError(
         `${t("validation_msg.error_msg")}  ${t(
           "stepform.formdata.step9.postal_code"
         )}`
       );
-    } else if (step === 6 && !streetno) {
+    } else if (step === 7 && !streetno) {
       setError(
         ` ${t("validation_msg.error_msg")} ${t("stepform.formdata.step9.no")}`
       );
-    } else if (step === 6 && !street) {
+    } else if (step === 7 && !street) {
       setError(
         ` ${t("validation_msg.error_msg")} ${t(
           "stepform.formdata.step9.street"
         )}`
       );
-    } else if (step === 6 && !state) {
+    } else if (step === 7 && !state) {
       setError(
         ` ${t("validation_msg.error_msg")} ${t(
           "stepform.formdata.step9.state"
