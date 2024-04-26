@@ -148,7 +148,7 @@ class MyDocument extends Document {
             sizes="16x16"
             href="/favicon-16x16.png"
           />
-          {/* <script
+          <script
             dangerouslySetInnerHTML={{
               __html: `
                 <!-- Google Tag Manager -->
@@ -160,7 +160,7 @@ class MyDocument extends Document {
                 <!-- End Google Tag Manager -->
               `,
             }}
-          /> */}
+          />
 
           <link rel="manifest" href="/manifest.json" />
           <meta name="msapplication-TileColor" content="#ffffff" />
@@ -168,14 +168,14 @@ class MyDocument extends Document {
           <meta name="theme-color" content="#ffffff"></meta>
         </Head>
         <body>
-          {/* <noscript>
+          <noscript>
             <iframe
               src="https://www.googletagmanager.com/ns.html?id=GTM-PX4RF9N5"
               height="0"
               width="0"
               style={{ display: "none", visibility: "hidden" }}
             ></iframe>
-          </noscript> */}
+          </noscript>
           <Main />
           <NextScript />
         </body>
