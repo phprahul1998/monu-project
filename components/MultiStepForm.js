@@ -60,12 +60,47 @@ const MultiStepForm = () => {
     handleInputChange();
   };
   const handlePlaceSelected = (place) => {
-    setLocation(place.formatted_address);
+    var newLocation = place.formatted_address;
+    var latitude = place.geometry.location.lat();
+    var longitude = place.geometry.location.lng();
+    var latlng = new google.maps.LatLng(latitude, longitude);
+    var geocoder = (geocoder = new google.maps.Geocoder());
+    geocoder.geocode({ latLng: latlng }, function (results, status) {
+      if (status == google.maps.GeocoderStatus.OK) {
+        if (results[0]) {
+          var streetNumber, state, streetName;
+          results[0].address_components.forEach((component) => {
+            if (component.types.includes("street_number")) {
+              streetNumber = component.long_name;
+            }
+            if (component.types.includes("route")) {
+              streetName = component.long_name;
+            }
+            if (component.types.includes("administrative_area_level_1")) {
+              state = component.long_name;
+            }
+          });
+          var pin =
+            results[0].address_components[
+              results[0].address_components.length - 1
+            ].long_name;
+
+          setLocation(inputRef.current.value);
+          setPostalcode(pin ? pin : "");
+          setStreet(
+            (streetName ? streetName : "") +
+              (streetNumber ? ", " + streetNumber : "")
+          );
+          setState(state ? state : "");
+        }
+      }
+    });
+    console.log(newLocation);
+    setLocation(newLocation);
   };
 
   const handleNextButtonClick = (e) => {
     e.preventDefault();
-    console.log(localtion);
     if (step === 6 && !localtion) {
       setError(
         ` ${t("validation_msg.error_msg")} ${t(
@@ -664,55 +699,12 @@ const MultiStepForm = () => {
             <div className="col-md-12 col-sm-12 col-xl-12 col-lg-12 col-xs-12">
               <Autocomplete
                 className="w-full h-15 bg-gray-300 text-gray-900 mt-3 p-3 rounded-lg focus:outline-none focus:shadow-outline"
-                value={localtion}
                 placeholder={t("stepform.formdata.step9.location")}
                 onChange={handleAddressChange}
                 ref={inputRef}
                 apiKey={process.env.GOOGLE_MAP_API_KEY}
-                onPlaceSelected={(place, a, c) => {
-                  var address = place.formatted_address;
-                  var latitude = place.geometry.location.lat();
-                  var longitude = place.geometry.location.lng();
-                  var latlng = new google.maps.LatLng(latitude, longitude);
-                  var geocoder = (geocoder = new google.maps.Geocoder());
-                  geocoder.geocode(
-                    { latLng: latlng },
-                    function (results, status) {
-                      if (status == google.maps.GeocoderStatus.OK) {
-                        if (results[0]) {
-                          var streetNumber, state, streetName;
-                          results[0].address_components.forEach((component) => {
-                            if (component.types.includes("street_number")) {
-                              streetNumber = component.long_name;
-                            }
-                            if (component.types.includes("route")) {
-                              streetName = component.long_name;
-                            }
-                            if (
-                              component.types.includes(
-                                "administrative_area_level_1"
-                              )
-                            ) {
-                              state = component.long_name;
-                            }
-                          });
-                          var pin =
-                            results[0].address_components[
-                              results[0].address_components.length - 1
-                            ].long_name;
-
-                          setLocation(inputRef.current.value);
-                          setPostalcode(pin ? pin : "");
-                          setStreet(
-                            (streetName ? streetName : "") +
-                              (streetNumber ? ", " + streetNumber : "")
-                          );
-                          setState(state ? state : "");
-                        }
-                      }
-                    }
-                  );
-                }}
+                onPlaceSelected={(place) => handlePlaceSelected(place)}
+                value={localtion}
                 options={{
                   types: ["address"],
                   componentRestrictions: { country },
