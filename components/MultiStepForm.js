@@ -87,10 +87,8 @@ const MultiStepForm = () => {
 
           setLocation(inputRef.current.value);
           setPostalcode(pin ? pin : "");
-          setStreet(
-            (streetName ? streetName : "") +
-              (streetNumber ? ", " + streetNumber : "")
-          );
+          setStreet(streetName ? streetName : "");
+          setstreetno(streetNumber ? streetNumber : "");
           setState(state ? state : "");
         }
       }
@@ -111,6 +109,10 @@ const MultiStepForm = () => {
         `${t("validation_msg.error_msg")}  ${t(
           "stepform.formdata.step9.postal_code"
         )}`
+      );
+    } else if (step === 6 && !streetno) {
+      setError(
+        ` ${t("validation_msg.error_msg")} ${t("stepform.formdata.step9.no")}`
       );
     } else if (step === 6 && !street) {
       setError(
@@ -133,6 +135,7 @@ const MultiStepForm = () => {
         street,
         state,
         postal_code,
+        streetno,
       });
       setStep(step + 1);
     }
@@ -701,11 +704,12 @@ const MultiStepForm = () => {
                 placeholder={t("stepform.formdata.step9.location")}
                 onChange={handleAddressChange}
                 ref={inputRef}
-                apiKey={process.env.GOOGLE_MAP_API_KEY}
+                // apiKey={process.env.GOOGLE_MAP_API_KEY}
+                apiKey={"AIzaSyCx6RWWyDZNAT6--6cf4sdPQUTlGZvw7Qo"}
                 onPlaceSelected={(place) => handlePlaceSelected(place)}
                 value={localtion}
                 options={{
-                  types: ["address"],
+                  types: ["geocode"],
                   componentRestrictions: { country },
                 }}
               />
@@ -721,7 +725,7 @@ const MultiStepForm = () => {
               }}
             /> */}
 
-            <div className="col-md-6 col-sm-12 col-xl-6 col-lg-6 col-xs-12">
+            <div className="col-md-3 col-sm-12 col-xl-3 col-lg-3 col-xs-12">
               <input
                 className="w-full h-15 bg-gray-300 text-gray-900 mt-3 p-3 rounded-lg focus:outline-none focus:shadow-outline"
                 type="text"
@@ -733,7 +737,7 @@ const MultiStepForm = () => {
               />
             </div>
 
-            <div className="col-md-6 col-sm-12 col-xl-6 col-lg-6 col-xs-12">
+            <div className="col-md-7 col-sm-12 col-xl-7 col-lg-7 col-xs-12">
               <input
                 className="w-full h-15 bg-gray-300 text-gray-900 mt-3 p-3 rounded-lg focus:outline-none focus:shadow-outline"
                 type="text"
@@ -741,6 +745,17 @@ const MultiStepForm = () => {
                 placeholder={t("stepform.formdata.step9.street")}
                 onChange={(e) => {
                   setStreet(e.target.value), handleInputChange();
+                }}
+              />
+            </div>
+            <div className="col-md-2 col-sm-12 col-xl-2 col-lg-2 col-xs-12">
+              <input
+                className="w-full h-15 bg-gray-300 text-gray-900 mt-3 p-3 rounded-lg focus:outline-none focus:shadow-outline"
+                type="text"
+                value={streetno}
+                placeholder={t("stepform.formdata.step9.no")}
+                onChange={(e) => {
+                  setstreetno(e.target.value), handleInputChange();
                 }}
               />
             </div>

@@ -29,8 +29,10 @@ export default async function handler(req, res) {
           value:
             "Address:-" +
             formData.localtion +
-            " ,street Name and no : -" +
+            " ,street Name" +
             formData.street +
+            " ,street Name" +
+            formData.streetno +
             " ,State:- " +
             formData.state +
             " ,Postal code:- " +
