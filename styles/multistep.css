@@ -65,8 +65,8 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50px !important;
-  height: 40px !important;
+  width: 60px !important;
+  height: 60px !important;
   object-fit: scale-down;
 }
 
@@ -111,6 +111,10 @@
   .salutation[type="radio"] {
     width: 1.3em;
     height: 1.3em;
+  }
+  .commonbtn img {
+    width: 50px !important;
+    height: 50px !important;
   }
 }
 

@@ -179,10 +179,10 @@
       "step9": {
         "heading": "Wo befindet sich das Objekt?",
         "postal_code": "PLZ",
-        "location": "Ort",
+        "location": "Adresse",
         "street": "Straße",
         "no": "Nr.",
-        "state": "Bundesland"
+        "state": "Wählen Bundesland"
       },
       "step10": {
         "heading": "Wen können wir mit diesem Angebot ansprechen?",

@@ -89,7 +89,7 @@ const MultiStepForm = () => {
           setPostalcode(pin ? pin : "");
           setStreet(streetName ? streetName : "");
           setstreetno(streetNumber ? streetNumber : "");
-          setState(state ? state : "");
+          // setState(state ? state : "");
         }
       }
     });
@@ -691,8 +691,135 @@ const MultiStepForm = () => {
           </div>
         </form>
       )}
-
       {step === 6 && (
+        <form>
+          <div className="setp7">
+            <h2>
+              {step}. {t("stepform.formdata.step7.heading")}
+            </h2>{" "}
+            <span>
+              <AiOutlineExclamationCircle />
+            </span>
+            <button
+              className="commonbtn"
+              type="button"
+              onClick={() => handleButtonClick("PV + Speicher")}
+              style={
+                formData[`step${step}`] === "PV + Speicher"
+                  ? {
+                      backgroundColor: "#41A634",
+                      border: "3px solid #fff",
+                      color: "#fff",
+                    }
+                  : {}
+              }
+            >
+              <img
+                className=""
+                src="/img/7_PV-Speicher.png"
+                alt=""
+                width={60}
+                height={60}
+              />
+              <p
+                dangerouslySetInnerHTML={{
+                  __html: t("stepform.formdata.step7.option1"),
+                }}
+              />{" "}
+            </button>
+            <button
+              className="commonbtn"
+              type="button"
+              onClick={() =>
+                handleButtonClick("PV + Speicher + Energiemanagement")
+              }
+              style={
+                formData[`step${step}`] === "PV + Speicher + Energiemanagement"
+                  ? {
+                      backgroundColor: "#41A634",
+                      border: "3px solid #fff",
+                      color: "#fff",
+                    }
+                  : {}
+              }
+            >
+              <img
+                className=""
+                src="/img/7_PV-Speicher-EMS.png"
+                alt=""
+                width={60}
+                height={60}
+              />
+              <p
+                dangerouslySetInnerHTML={{
+                  __html: t("stepform.formdata.step7.option2"),
+                }}
+              />
+            </button>
+            <button
+              className="commonbtn"
+              type="button"
+              onClick={() => handleButtonClick("PV-Erweiterung")}
+              style={
+                formData[`step${step}`] === " PV-Erweiterung"
+                  ? {
+                      backgroundColor: "#41A634",
+                      border: "3px solid #fff",
+                      color: "#fff",
+                    }
+                  : {}
+              }
+            >
+              <img
+                className=""
+                src="/img/7_PV-Erweiterung.png"
+                alt=""
+                width={60}
+                height={60}
+              />
+              <p
+                dangerouslySetInnerHTML={{
+                  __html: t("stepform.formdata.step7.option3"),
+                }}
+              />{" "}
+            </button>
+            <button
+              className="commonbtn"
+              type="button"
+              onClick={() => handleButtonClick("PV-Selbstaufbau")}
+              style={
+                formData[`step${step}`] === "PV-Selbstaufbau"
+                  ? {
+                      backgroundColor: "#41A634",
+                      border: "3px solid #fff",
+                      color: "#fff",
+                    }
+                  : {}
+              }
+            >
+              <img
+                className=""
+                src="/img/7_PV-Selbstaufbau.png"
+                alt=""
+                width={60}
+                height={60}
+              />
+              <p
+                dangerouslySetInnerHTML={{
+                  __html: t("stepform.formdata.step7.option4"),
+                }}
+              />{" "}
+            </button>
+          </div>
+          <div className="backbtn">
+            <button type="button" onClick={handleBackButtonClick}>
+              {t("button.btnBack")}
+            </button>
+          </div>{" "}
+        </form>
+      )}
+
+      {step === 7 && (
         <form>
           <h2>
             {step}. {t("stepform.formdata.step9.heading")}
@@ -713,16 +840,6 @@ const MultiStepForm = () => {
                 }}
               />
             </div>
-
-            {/* <input
-              className="w-full h-15 bg-gray-300 text-gray-900 mt-3 p-3 rounded-lg focus:outline-none focus:shadow-outline"
-              type="text"
-              value={localtion}
-              placeholder={t("stepform.formdata.step9.location")}
-              onChange={(e) => {
-                setLocation(e.target.value), handleInputChange();
-              }}
-            /> */}
 
             <div className="col-md-3 col-sm-12 col-xl-3 col-lg-3 col-xs-12">
               <input
@@ -760,15 +877,37 @@ const MultiStepForm = () => {
             </div>
 
             <div className="col-md-12 col-sm-12 col-xl-12 col-lg-12 col-xs-12">
-              <input
+              <select
                 className="w-full h-15 bg-gray-300 text-gray-900 mt-3 p-3 rounded-lg focus:outline-none focus:shadow-outline"
-                type="text"
                 value={state}
-                placeholder={t("stepform.formdata.step9.state")}
                 onChange={(e) => {
                   setState(e.target.value), handleInputChange();
                 }}
-              />
+              >
+                <option value="">Select State</option>
+                <option value="Baden-Württemberg">Baden-Württemberg</option>
+                <option value="Bavaria">Bavaria</option>
+                <option value="Berlin">Berlin</option>
+                <option value="Brandenburg">Brandenburg</option>
+                <option value="Bremen">Bremen</option>
+                <option value="Hamburg">Hamburg</option>
+                <option value="Hesse">Hesse</option>
+                <option value="Mecklenburg-Western Pomerania">
+                  Mecklenburg-Western Pomerania
+                </option>
+                <option value="Lower Saxony">Lower Saxony</option>
+                <option value="North Rhine-Westphalia">
+                  North Rhine-Westphalia
+                </option>
+                <option value="Rhineland-Palatinate">
+                  Rhineland-Palatinate
+                </option>
+                <option value="Saarland">Saarland</option>
+                <option value="Saxony">Saxony</option>
+                <option value="Saxony-Anhalt">Saxony-Anhalt</option>
+                <option value="Schleswig-Holstein">Schleswig-Holstein</option>
+                <option value="Thuringia">Thuringia</option>
+              </select>
             </div>
 
             {/* <div className="col-md-12 col-sm-12 col-xl-12 col-lg-12 col-xs-12">
@@ -825,7 +964,7 @@ const MultiStepForm = () => {
         </form>
       )}
 
-      {step === 7 && (
+      {step === 8 && (
         <form>
           <h2>
             {step}. {t("stepform.formdata.step10.heading")}
@@ -969,7 +1108,7 @@ const MultiStepForm = () => {
         </form>
       )}
 
-      {step === 8 && (
+      {step === 9 && (
         <div className="text-left ">
           <p
             className="text-white"

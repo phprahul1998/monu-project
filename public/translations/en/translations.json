@@ -165,10 +165,10 @@
       },
       "step7": {
         "heading": "Which photovoltaic system are you interested in?",
-        "option1": "PV system <br/> Power storage  <br/> including installation ",
-        "option2": " PV system  <br/>  Electricity storage <br/> Self - assembly ",
-        "option3": " inclusive .  <br/>Smart Energy  Management",
-        "option4": "Expansion of  <br/>  existing ones  <br/>  PV system "
+        "option1": "PV + storage",
+        "option2": " PV + storage + Energy management ",
+        "option3": " PV expansion",
+        "option4": "PV self-assembly"
       },
       "step8": {
         "heading": "How would you like to finance the project?",
@@ -180,10 +180,10 @@
       "step9": {
         "heading": "Where is the object located ?",
         "postal_code": "PLZ",
-        "location": "Location",
+        "location": "Address",
         "street": "Street",
         "no": "No.",
-        "state": "Federal State"
+        "state": "Select Federal State"
       },
       "step10": {
         "heading": "Who can we address with this offer?",
