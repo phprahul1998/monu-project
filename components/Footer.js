@@ -122,8 +122,10 @@ export default function Footer() {
                       Deutschland
                     </li>
                     <li>
-                      <FaGlobeAsia /> www.renevatec.de &npsp;&npsp;
-                      www.renevatec.com
+                      <FaGlobeAsia /> www.renevatec.de
+                    </li>
+                    <li>
+                      <FaGlobeAsia /> www.renevatec.com
                     </li>
                     <li>
                       <FaEnvelope />
