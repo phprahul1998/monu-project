@@ -667,10 +667,9 @@ const MultiStepForm = () => {
                 value={localtion}
                 placeholder={t("stepform.formdata.step9.location")}
                 onChange={handleAddressChange}
-                onPlaceSelected={handlePlaceSelected}
                 ref={inputRef}
                 apiKey={process.env.GOOGLE_MAP_API_KEY}
-                onPlaceSelected={(place, a, c) => {
+                onPlaceSelected={(handlePlaceSelected, place, a, c) => {
                   var address = place.formatted_address;
                   var latitude = place.geometry.location.lat();
                   var longitude = place.geometry.location.lng();
