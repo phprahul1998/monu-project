@@ -29,7 +29,7 @@ const MultiStepForm = () => {
     setFormData({ ...formData, [`step${step}`]: value });
     setTimeout(() => {
       setStep(step + 1);
-    }, 900);
+    }, 300);
   };
 
   const gotofirst = () => {
