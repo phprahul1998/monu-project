@@ -888,63 +888,26 @@ const MultiStepForm = () => {
               >
                 <option value="">{t("stepform.formdata.step9.state")}</option>
                 <option value="Baden-Württemberg">Baden-Württemberg</option>
-                <option value="Bavaria">Bavaria</option>
+                <option value="Bayern">Bayern</option>
                 <option value="Berlin">Berlin</option>
                 <option value="Brandenburg">Brandenburg</option>
                 <option value="Bremen">Bremen</option>
                 <option value="Hamburg">Hamburg</option>
-                <option value="Hesse">Hesse</option>
-                <option value="Mecklenburg-Western Pomerania">
-                  Mecklenburg-Western Pomerania
+                <option value="Hessen">Hessen</option>
+                <option value="Mecklenburg-Vorpommern">
+                  Mecklenburg-Vorpommern
                 </option>
                 <option value="Lower Saxony">Lower Saxony</option>
-                <option value="North Rhine-Westphalia">
-                  North Rhine-Westphalia
-                </option>
-                <option value="Rhineland-Palatinate">
-                  Rhineland-Palatinate
-                </option>
+                <option value="Nordrhein-Westfalen">Nordrhein-Westfalen</option>
+                <option value="Rheinland-Pfalz">Rheinland-Pfalz</option>
                 <option value="Saarland">Saarland</option>
-                <option value="Saxony">Saxony</option>
-                <option value="Saxony-Anhalt">Saxony-Anhalt</option>
+                <option value="Sachsen">Sachsen</option>
+                <option value="Sachsen-Anhalt">Sachsen-Anhalt</option>
                 <option value="Schleswig-Holstein">Schleswig-Holstein</option>
-                <option value="Thuringia">Thuringia</option>
+                <option value="Thüringen">Thüringen</option>
               </select>
             </div>
 
-            {/* <div className="col-md-12 col-sm-12 col-xl-12 col-lg-12 col-xs-12">
-              <select
-                className="w-full h-15 bg-gray-300 text-gray-900 mt-3 p-3 rounded-lg focus:outline-none focus:shadow-outline"
-                value={state}
-                onChange={(e) => {
-                  setState(e.target.value), handleInputChange();
-                }}
-              >
-                <option value="">Select State</option>
-                <option value="Baden-Württemberg">Baden-Württemberg</option>
-                <option value="Bavaria">Bavaria</option>
-                <option value="Berlin">Berlin</option>
-                <option value="Brandenburg">Brandenburg</option>
-                <option value="Bremen">Bremen</option>
-                <option value="Hamburg">Hamburg</option>
-                <option value="Hesse">Hesse</option>
-                <option value="Mecklenburg-Western Pomerania">
-                  Mecklenburg-Western Pomerania
-                </option>
-                <option value="Lower Saxony">Lower Saxony</option>
-                <option value="North Rhine-Westphalia">
-                  North Rhine-Westphalia
-                </option>
-                <option value="Rhineland-Palatinate">
-                  Rhineland-Palatinate
-                </option>
-                <option value="Saarland">Saarland</option>
-                <option value="Saxony">Saxony</option>
-                <option value="Saxony-Anhalt">Saxony-Anhalt</option>
-                <option value="Schleswig-Holstein">Schleswig-Holstein</option>
-                <option value="Thuringia">Thuringia</option>
-              </select>
-            </div> */}
             {error && (
               <div className="error_msg mt-3">
                 <p className="">{error}</p>
