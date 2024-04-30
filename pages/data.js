@@ -1,6 +1,6 @@
-import React, { useEffect } from "react";
+"use client";
+import React, { useEffect, useState } from "react";
 import axios from "axios";
-
 export default function data({ translations }) {
   const [translationsData, setTranslationsData] = React.useState(translations);
   useEffect(() => {
