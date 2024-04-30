@@ -18,7 +18,6 @@ export default function data({ translations }) {
       console.error("Error saving translations:", error);
     }
   };
-
   const getjsonData = async () => {
     try {
       const response = await axios.post("api/get_translations");
