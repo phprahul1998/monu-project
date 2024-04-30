@@ -12,7 +12,7 @@ export default function Data({ translations }) {
   const handleSave = async () => {
     try {
       const newData = {
-        newdata: "rahul!",
+        demo123: "rahul!",
       };
       const response = await axios.post("api/save_translations", newData);
       setTranslationsData(response.data);
