@@ -1,11 +1,14 @@
 "use client";
 import { useEffect, useState } from "react";
 import axios from "axios";
-export default function data({ translations }) {
+
+export default function Data({ translations }) {
   const [translationsData, setTranslationsData] = useState(translations);
+
   useEffect(() => {
-    getjsonData();
+    getJsonData();
   }, []);
+
   const handleSave = async () => {
     try {
       const newData = {
@@ -18,7 +21,8 @@ export default function data({ translations }) {
       console.error("Error saving translations:", error);
     }
   };
-  const getjsonData = async () => {
+
+  const getJsonData = async () => {
     try {
       const response = await axios.post("api/get_translations");
       const translations = response.data;
