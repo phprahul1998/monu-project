@@ -203,7 +203,7 @@ p {
 }
 
 .imageSlider {
-  background-image: url("/img/bg.jpeg");
+  background-image: url("/img/bg.webp");
   max-height: 700px;
   min-height: 650px;
   background-size: cover;

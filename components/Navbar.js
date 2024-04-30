@@ -89,7 +89,7 @@ export default function Navbar() {
             <div className=" nav-logo">
               <Image
                 className=""
-                src="/img/logo.png"
+                src="/img/logo.webp"
                 alt=""
                 width={200}
                 height={40}
