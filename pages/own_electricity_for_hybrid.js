@@ -27,7 +27,7 @@ export default function Own_electricity_for_hybrid() {
           <div className="row">
             <div className="col-md-6 col-sm-6 col-xs-12">
               <div className="about-image">
-                <img src="img/12_Pic4.png" alt="" />
+                <img src="img/12_Pic4.webp" alt="" />
               </div>
             </div>
             <div className="col-md-6 col-sm-6 col-xs-12">

@@ -13,7 +13,7 @@ export default function Services() {
           <div className="col-md-6">
             <div className="single-awesome-project">
               <div className="awesome-img">
-                <img src="img/12_Pic2.png" alt="" />
+                <img src="img/12_Pic2.webp" alt="" />
               </div>
             </div>
           </div>

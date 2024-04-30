@@ -24,7 +24,7 @@ export default function Footer() {
               <div className="solar_footer_ab">
                 {/* <a href="index.html">
                   <img
-                    src="img/footer_logo.png"
+                    src="img/footer_logo.webp"
                     alt="solar-installation-footer-logo"
                   />
                 </a> */}

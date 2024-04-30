@@ -249,7 +249,7 @@ const MultiStepForm = () => {
           >
             <img
               className=""
-              src="/img/1_Einfamilienhaus.png"
+              src="/img/1_Einfamilienhaus.webp"
               alt=""
               width={60}
               height={60}
@@ -273,7 +273,7 @@ const MultiStepForm = () => {
             {" "}
             <img
               className=""
-              src="/img/1_Mehrfamilienhaus.png"
+              src="/img/1_Mehrfamilienhaus.webp"
               alt=""
               width={60}
               height={60}
@@ -297,7 +297,7 @@ const MultiStepForm = () => {
             {" "}
             <img
               className=""
-              src="/img/1_Gewerbegebaude.png"
+              src="/img/1_Gewerbegebaude.webp"
               alt=""
               width={60}
               height={60}
@@ -321,7 +321,7 @@ const MultiStepForm = () => {
             {" "}
             <img
               className=""
-              src="/img/1_Sonstiges.png"
+              src="/img/1_Sonstiges.webp"
               alt=""
               width={60}
               height={60}
@@ -353,7 +353,7 @@ const MultiStepForm = () => {
             >
               <img
                 className=""
-                src="/img/2_bis_25m2.png"
+                src="/img/2_bis_25m2.webp"
                 alt=""
                 width={60}
                 height={60}
@@ -376,7 +376,7 @@ const MultiStepForm = () => {
             >
               <img
                 className=""
-                src="/img/2_25-40m2.png"
+                src="/img/2_25-40m2.webp"
                 alt=""
                 width={60}
                 height={60}
@@ -399,7 +399,7 @@ const MultiStepForm = () => {
             >
               <img
                 className=""
-                src="/img/2_40-100m2.png"
+                src="/img/2_40-100m2.webp"
                 alt=""
                 width={60}
                 height={60}
@@ -422,7 +422,7 @@ const MultiStepForm = () => {
             >
               <img
                 className=""
-                src="/img/1_Sonstiges.png"
+                src="/img/1_Sonstiges.webp"
                 alt=""
                 width={60}
                 height={60}
@@ -460,7 +460,7 @@ const MultiStepForm = () => {
             >
               <img
                 className=""
-                src="/img/3_Flachdach.png"
+                src="/img/3_Flachdach.webp"
                 alt=""
                 width={60}
                 height={60}
@@ -483,7 +483,7 @@ const MultiStepForm = () => {
             >
               <img
                 className=""
-                src="/img/3_Satteldach.png"
+                src="/img/3_Satteldach.webp"
                 alt=""
                 width={60}
                 height={60}
@@ -506,7 +506,7 @@ const MultiStepForm = () => {
             >
               <img
                 className=""
-                src="/img/3_Walmdach.png"
+                src="/img/3_Walmdach.webp"
                 alt=""
                 width={60}
                 height={60}
@@ -530,7 +530,7 @@ const MultiStepForm = () => {
             >
               <img
                 className=""
-                src="/img/1_Sonstiges.png"
+                src="/img/1_Sonstiges.webp"
                 alt=""
                 width={60}
                 height={60}
@@ -568,7 +568,7 @@ const MultiStepForm = () => {
             >
               <img
                 className=""
-                src="/img/4_Suden.png"
+                src="/img/4_Suden.webp"
                 alt=""
                 width={60}
                 height={60}
@@ -591,7 +591,7 @@ const MultiStepForm = () => {
             >
               <img
                 className=""
-                src="/img/4_Osten.png"
+                src="/img/4_Osten.webp"
                 alt=""
                 width={60}
                 height={60}
@@ -614,7 +614,7 @@ const MultiStepForm = () => {
             >
               <img
                 className=""
-                src="/img/4_Westen.png"
+                src="/img/4_Westen.webp"
                 alt=""
                 width={60}
                 height={60}
@@ -637,7 +637,7 @@ const MultiStepForm = () => {
             >
               <img
                 className=""
-                src="/img/4_Sudwest-Sudost.png"
+                src="/img/4_Sudwest-Sudost.webp"
                 alt=""
                 width={60}
                 height={60}
@@ -716,7 +716,7 @@ const MultiStepForm = () => {
             >
               <img
                 className=""
-                src="/img/7_PV-Speicher.png"
+                src="/img/7_PV-Speicher.webp"
                 alt=""
                 width={60}
                 height={60}
@@ -745,7 +745,7 @@ const MultiStepForm = () => {
             >
               <img
                 className=""
-                src="/img/7_PV-Speicher-EMS.png"
+                src="/img/7_PV-Speicher-EMS.webp"
                 alt=""
                 width={60}
                 height={60}
@@ -772,7 +772,7 @@ const MultiStepForm = () => {
             >
               <img
                 className=""
-                src="/img/7_PV-Erweiterung.png"
+                src="/img/7_PV-Erweiterung.webp"
                 alt=""
                 width={60}
                 height={60}
@@ -799,7 +799,7 @@ const MultiStepForm = () => {
             >
               <img
                 className=""
-                src="/img/7_PV-Selbstaufbau.png"
+                src="/img/7_PV-Selbstaufbau.webp"
                 alt=""
                 width={60}
                 height={60}

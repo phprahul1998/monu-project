@@ -34,7 +34,7 @@ export default function About() {
             >
               <div className="solar_about_img">
                 <img
-                  src="img/solar_about01.png"
+                  src="img/solar_about01.webp"
                   alt="solar-installation-the-energy"
                 />
               </div>

@@ -147,7 +147,7 @@ p {
 }
 
 .rethink {
-  background-image: url("/img/rethink.png");
+  background-image: url("/img/rethink.webp");
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 60dvh;
@@ -481,7 +481,7 @@ p {
 }
 
 .video-inner {
-  background: url("/img/13_Unabhangigkeit.png");
+  background: url("/img/13_Unabhangigkeit.webp");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;

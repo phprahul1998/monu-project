@@ -17,7 +17,7 @@ export default function About() {
           <div className="col-md-6">
             <div className="single-awesome-project">
               <div className="awesome-img">
-                <img src="img/12_Pic1.png" alt="" />
+                <img src="img/12_Pic1.webp" alt="" />
               </div>
             </div>
           </div>

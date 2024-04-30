@@ -24,7 +24,7 @@ export default function Rethinkenergy() {
             <div className="card card-01">
               <img
                 className="card-img-top"
-                src="img/12_Pic1.png"
+                src="img/12_Pic1.webp"
                 alt="rethink energy "
               />
               <div className="card-body middle">
@@ -48,7 +48,7 @@ export default function Rethinkenergy() {
             <div className="card card-01">
               <img
                 className="card-img-top"
-                src="img/12_Pic2.png"
+                src="img/12_Pic2.webp"
                 alt="rethink energy "
               />
               <div className="card-body middle">
@@ -72,7 +72,7 @@ export default function Rethinkenergy() {
             <div className="card card-01">
               <img
                 className="card-img-top"
-                src="img/12_Pic3.png"
+                src="img/12_Pic3.webp"
                 alt="rethink energy "
               />
               <div className="card-body middle">
@@ -96,7 +96,7 @@ export default function Rethinkenergy() {
             <div className="card card-01">
               <img
                 className="card-img-top"
-                src="img/12_Pic4.png"
+                src="img/12_Pic4.webp"
                 alt="rethink energy "
               />
               <div className="card-body middle">
