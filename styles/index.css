@@ -810,3 +810,41 @@ h1 {
   text-decoration: none;
   text-align: center;
 }
+.vc{
+  position: relative;
+  margin-bottom: 40px
+}
+.vc .playbtn {
+  position: absolute;
+    right: 20px;
+    top: 20px;
+    padding: 10px 16px;
+    height: auto;
+    font-size: 14px;
+    z-index: 2;
+
+}
+@media (max-width: 991px) {
+  .vc .playbtn {
+      padding: 4px 11px !important;
+      right: 0px;
+      top: 5px;
+      font-size: 12px;
+  }
+}
+.vc button svg {
+  margin-right: 5px;
+}
+
+@media (min-width: 768px) {
+  .box {
+    flex: 1;
+    widows: 20%;
+  }
+  .middle h5 {
+    font-size: 15px !important;
+    font-weight: 600 !important;
+    color: #000 !important;
+  }
+ 
+}
