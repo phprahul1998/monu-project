@@ -10,6 +10,7 @@ import {
   FaGlobeAsia,
   FaEnvelope,
   FaInstagram,
+  FaYoutube,
 } from "react-icons/fa";
 
 export default function Footer() {
@@ -79,6 +80,15 @@ export default function Footer() {
                         rel="noreferrer"
                       >
                         <FaWhatsapp />
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://www.youtube.com/@renevatec"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <FaYoutube />
                       </a>
                     </li>
                   </ul>
