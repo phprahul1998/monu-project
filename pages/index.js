@@ -10,6 +10,8 @@ import Slider from "../components/Slider";
 import About from "../components/About";
 // import Calculator from "../components/Calculator";
 import Ourservice from "../components/Ourservice";
+import Video from "../components/Video";
+
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -24,6 +26,8 @@ export default function Home() {
     <div className="sectionData">
       <Slider />
       <About />
+          <Video/>
+
       <Rethinkenergy />
       <Advantage />
       <Inquery />
